@@ -1,3 +1,3 @@
 # Saurav.Hello.World
 
-A personal portfolio web app
+A personal portfolio website developed using react js.
