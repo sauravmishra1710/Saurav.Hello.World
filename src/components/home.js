@@ -1,10 +1,12 @@
 import React, { useContext } from "react";
-import "../css/about.css";
-import { TypeAnimation } from "react-type-animation";
+// import "../css/about.css";
 import ThemeContext from "../utility/themeContext";
+import Typewriter from "typewriter-effect";
+
 
 const Home = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
+  var app = document.getElementById('app');
 
   return (
     <>
@@ -14,33 +16,28 @@ const Home = () => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            alignItems: "center",
-            backgroundColor: theme ? "black" : "white",
-            color: theme ? "white" : "black"
           }}
         >
           <div className="parallax">
-            <div className="circle1"></div>
-            <div className="circle2"></div>
-            <div className="hithere">
+            <h1 className="hithere">
             Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span></div>
-            <div className="parallax-text">
-              <TypeAnimation
-                sequence={[
-                    "I'm Saurav", 1500,
-                    "Welcome to Saurav.Hello.World", 1500,
-                    "Learn & Code Everyday", 1500,
-                    "AI, Computer Vision for Medicine & Healthcare", 1500,
-                    "Enthusiast Photographer", 1500,
-                    "Manchester United", 1500
-                ]}
-                wrapper="span"
-                speed={50}
-                repeat={Infinity}
-              />
+                <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
+                <br/>I'm Saurav</h1>
+                <div className="parallax-text">
+                <Typewriter
+                options={{
+                    strings: [
+                    "Welcome to My Space - Saurav.Hello.World",
+                    "Learn & Code Everyday",
+                    "AI, Computer Vision for Medicine & Healthcare",
+                    "Enthusiast Photographer",
+                    "Manchester United",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 50,
+                }}
+                />
             </div>
           </div>
         </div>
