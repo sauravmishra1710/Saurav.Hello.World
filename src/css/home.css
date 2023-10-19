@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+
+.parallax {
+  margin-top: 4rem;
+  height: 80vh;
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: 5;
+  width: 100vw;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.parallax-text {
+  color: purple;
+  font-family: "Times New Roman", cursive;
+  font-size: 2.5rem;
+  padding: 10px;
+  z-index: 10;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.hithere {
+  color: purple;
+  font-family: "Black Ops One", cursive;
+  font-size: 2.5rem;
+  padding: 10px;
+  right: 0px;
+  text-align: left;
+  padding-top: 10px;
+  z-index: 10;
+}
+
+.home {
+  display: flex;
+  background: url(../img/main_bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}

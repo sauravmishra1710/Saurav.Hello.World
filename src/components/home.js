@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-// import "../css/about.css";
+import "../css/home.css";
 import ThemeContext from "../utility/themeContext";
 import Typewriter from "typewriter-effect";
 
@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="about-parent">
+      <div className="home">
         <div
           style={{
             display: "flex",
