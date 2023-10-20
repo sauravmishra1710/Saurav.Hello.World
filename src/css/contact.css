@@ -6,7 +6,7 @@
   align-items: center;
 }
 #contact-section {
-  background: url(../img/main_bg.jpg);
+  /* background: url(../img/postcard-contact.png); */
   padding: 20px;
   justify-content: center;
   align-items: center;
@@ -20,6 +20,7 @@
   width: auto;
 }
 .contact-heading {
+  margin-top: 50px;
   width: 100%;
 }
 .heading {

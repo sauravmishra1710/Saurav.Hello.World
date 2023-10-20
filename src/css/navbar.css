@@ -1,5 +1,5 @@
  .navbar {
-    background-color: transparent;
+    background-color: red;
     position: fixed !important;
     transition: all 0.3s ease-out 0s !important;
     padding: 0.3rem 2rem !important;
