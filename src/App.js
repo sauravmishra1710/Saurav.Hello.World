@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./components/home.js";
 import About from "./components/About_new";
 import Skills from "./components/Skills_new";
-import Contact from "./components/Contact_new.js";
+import Contact from "./components/Contact.js";
 import Socials from "./components/socials/Socials.js";
 import ThemeProvider from "./utility/themeContextProvider.js";
 import React, { useState, useEffect } from "react";
