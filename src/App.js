@@ -5,6 +5,7 @@ import Home from "./components/home.js";
 import About from "./components/About_new";
 import Skills from "./components/Skills_new";
 import Contact from "./components/Contact_new.js";
+import Socials from "./components/socials/Socials.js";
 import ThemeProvider from "./utility/themeContextProvider.js";
 import React, { useState, useEffect } from "react";
 import Projects from "./components/projects.js";
@@ -40,6 +41,7 @@ return (
         <Route path="/aboutSection" element={<About />} />
         <Route path="/project" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/socials" element={<Socials />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Footer />} />
       </Routes>
