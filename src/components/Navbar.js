@@ -115,7 +115,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/"
+                to="/socials"
                 onClick={() => updateExpanded(false)}
               >
                 <IoShareSocialSharp style={{ marginBottom: "2px" }} /> Socials
