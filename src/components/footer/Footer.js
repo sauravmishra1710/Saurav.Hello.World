@@ -54,13 +54,11 @@ function Footer() {
             </Col>
           </Row>
         </Col> */}
-        
         <Col className="copyright" lg={8} sm={6} xs={12}>
-          
-        <h5>
+        <h6>
           <TbCopyrightOff style={{ marginBottom: "2px" }} />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No Copyright issues | Feel free to fork | Let's Learn Together
-          </h5>
+          </h6>
         </Col>
       </Row>
     </Container>

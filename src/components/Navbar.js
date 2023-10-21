@@ -22,7 +22,7 @@ import {
     IoShareSocialSharp
 } from "react-icons/io5"; 
 
-import { BsJournalRichtext } from "react-icons/bs";
+import { BsJournalBookmarkFill } from "react-icons/bs";
 
 import "../css/navbar.css";
 
@@ -98,7 +98,7 @@ function NavBar() {
                 to="/skills"
                 onClick={() => updateExpanded(false)}
               >
-                <BsJournalRichtext style={{ marginBottom: "2px" }} /> Skills
+                <GiSkills style={{ marginBottom: "2px" }} /> Skills
               </Nav.Link>
             </Nav.Item>
 
@@ -108,7 +108,7 @@ function NavBar() {
                 to="/"
                 onClick={() => updateExpanded(false)}
               >
-                <GiSkills style={{ marginBottom: "2px" }} /> Journal Publications
+                <BsJournalBookmarkFill style={{ marginBottom: "2px" }} /> Journal Publications
               </Nav.Link>
             </Nav.Item>
 

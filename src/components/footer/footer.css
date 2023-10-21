@@ -10,13 +10,6 @@
   bottom: 0;
   left: 0;
   height: 5vh;
-  /* background-color: green; */
-    /* border-top: 2px solid white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    color: white;
-    font-size: 25px; */
 }
 
 .footer-row {
@@ -29,8 +22,7 @@
 }
 
 .made-by {
-  font-size: 16px;
-  font-family: "Audiowide", cursive;
+  font-family: "Special Elite", cursive;
 }
 
 .social-media-icons {
