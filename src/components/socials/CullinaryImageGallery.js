@@ -7,28 +7,22 @@ const images = [
   {
     original: img1,
     thumbnail: img1,
-    description: "test1",
-    thumbnailLabel: "1",
   },
   {
     original: img1,
     thumbnail: img1,
-    description: "test2",
-    thumbnailLabel: "2",
   },
   {
     original: img1,
     thumbnail: img1,
-    description: "test3",
-    thumbnailLabel: "3",
   },
 ];
 
-function ImageGallery1() {
+function CullinaryImageGallery() {
     return <ImageGallery
     items={images}
     showPlayButton={true}
     showFullscreenButton={false}/>;
   }
 
-export default ImageGallery1;
+export default CullinaryImageGallery;
