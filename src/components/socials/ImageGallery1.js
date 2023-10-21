@@ -1,20 +1,20 @@
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-import allImages from "../../img/stars.jpg";
+import img1 from "../../img/stars.jpg";
 import img_thumb from "../../img/stars_copy.png";
 
 const images = [
   {
-    original: allImages,
-    thumbnail: img_thumb,
+    original: img1,
+    thumbnail: img1,
   },
   {
-    original: allImages,
-    thumbnail: img_thumb,
+    original: img1,
+    thumbnail: img1,
   },
   {
-    original: allImages,
-    thumbnail: img_thumb,
+    original: img1,
+    thumbnail: img1,
   },
 ];
 
