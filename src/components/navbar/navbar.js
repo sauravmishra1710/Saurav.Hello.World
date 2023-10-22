@@ -24,7 +24,7 @@ import {
 
 import { BsJournalBookmarkFill } from "react-icons/bs";
 
-import "../css/navbar.css";
+import "./navbar.css";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);

@@ -1,7 +1,9 @@
  .navbar {
-    background-color: red;
+    background-color: rgb(174, 240, 172);
     position: fixed !important;
     transition: all 0.3s ease-out 0s !important;
     padding: 0.3rem 2rem !important;
     font-size: 1.2rem !important;
   }
+
+  
