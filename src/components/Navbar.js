@@ -137,7 +137,7 @@ function NavBar() {
                 href="https://github.com/sauravmishra1710/Saurav.Hello.World"
                 target="_blank"
                 className="fork-btn-inner"
-              >
+                style= {{ marginTop: "3px", height: "35px", background: "transparent", color:"#243123", border: "none"}}> 
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
