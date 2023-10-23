@@ -1,14 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header.js";
-import Footer from "./components/Footer";
-import Home from "./components/home.js";
-import About from "./components/About_new";
-import Skills from "./components/Skills_new";
+import Footer from "./components/footer/Footer";
+import Home from "./components/home/home.js";
+import About from "./components/About";
+import Skills from "./components/skills/Skills_new";
 import Contact from "./components/Contact.js";
 import Socials from "./components/socials/Socials.js";
 import ThemeProvider from "./utility/themeContextProvider.js";
 import React, { useState, useEffect } from "react";
-import Projects from "./components/projects.js";
+import Projects from "./components/projects/projects.js";
 import {
   BrowserRouter as Router,
   Route,
@@ -16,7 +16,7 @@ import {
   Navigate
 } from "react-router-dom";
 import Preloader from "../src/components/Pre";
-import Navbar from "./components/navbar.js";
+import Navbar from "./components/navbar/navbar.js";
 
 function App() {
 const [load, upadateLoad] = useState(true);
@@ -35,7 +35,6 @@ return (
     <Preloader load={load} />
     <div className="App" id={load ? "no-scroll" : "scroll"}>
       <Navbar />
-      {/* <ScrollToTop /> */}
       <Routes>
       <Route path="/" element={<Home />} />
         <Route path="/aboutSection" element={<About />} />
