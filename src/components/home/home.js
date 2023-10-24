@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import "./home.css";
+import "../../App.css"
 import ThemeContext from "../../utility/themeContext";
 import Typewriter from "typewriter-effect";
 

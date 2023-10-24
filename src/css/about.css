@@ -4,7 +4,7 @@
 
 .about-parent {
   display: flex;
-  background: url(../img/main_bg.jpg);
+  /* background: url(../img/main_bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
