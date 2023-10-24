@@ -83,10 +83,10 @@ function Contact() {
     <div
       id="contact-section"
       style={{
-        background: theme
-          ? "linear-gradient(to right,#232526,#414345)"
-          : "white",
-        color: theme ? "white" : "black"
+        // background: theme
+        //   ? "linear-gradient(to right,#232526,#414345)"
+        //   : "white",
+        // color: theme ? "white" : "black"
       }}
     >
       <div className="contact-heading">
