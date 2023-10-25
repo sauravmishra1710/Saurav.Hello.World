@@ -105,7 +105,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/"
+                to="/publications"
                 onClick={() => updateExpanded(false)}
               >
                 <BsJournalBookmarkFill style={{ marginBottom: "2px" }} /> Journal Publications
