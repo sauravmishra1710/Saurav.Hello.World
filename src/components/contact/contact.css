@@ -6,9 +6,9 @@
   align-items: center;
 }
 #contact-section {
-  /* background: url(../img/postcard-contact.png); */
+  height: 100vh;
+  justify-content: flex-start;
   padding: 20px;
-  justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;

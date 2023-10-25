@@ -1,11 +1,11 @@
 import React, { useState, useContext } from "react";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
-import "../css/contact.css";
+import "./contact.css";
 import emailjs from "@emailjs/browser";
 import LoadingButton from "@mui/lab/LoadingButton";
 import SendIcon from "@mui/icons-material/Send";
-import ThemeContext from "../utility/themeContext";
+import ThemeContext from "../../utility/themeContext";
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
