@@ -1,8 +1,10 @@
 .App {
-  /* text-align: center; */
-  background: url(../src/img/main_bg1.jpg);
+  text-align: left;
+  /* background: url(../src/img/main_bg1.jpg);
   background-size:cover;
-  height: 100vh;
+  height: 100vh; */
+  background: url(../src/img/main_bg1.jpg) no-repeat fixed;
+  background-size: 100%;
 }
 
 .App-logo {
@@ -32,3 +34,9 @@
 .small {
   font-size: 0.75rem;
 }
+
+.object-fit_fill { object-fit: fill }
+.object-fit_contain { object-fit: contain }
+.object-fit_cover { object-fit: cover }
+.object-fit_none { object-fit: none }
+.object-fit_scale-down { object-fit: scale-down }
