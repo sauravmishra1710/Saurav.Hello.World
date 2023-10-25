@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+
+.publications {
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items:normal;
+    margin-top: 100px;
+}
