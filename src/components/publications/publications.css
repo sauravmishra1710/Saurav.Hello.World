@@ -2,10 +2,21 @@
 
 .publications {
     height: 100vh;
-    padding: 15px;
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     justify-content:flex-start;
     flex-direction: column;
     align-items:normal;
-    margin-top: 100px;
+}
+
+.modal-90w {
+    
+    width: 90% !important;
+}
+.modal-body {
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
 }
