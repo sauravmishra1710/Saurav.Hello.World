@@ -87,6 +87,7 @@ const Publications = () => {
     <>
     <div className='publications'>
         <h2> Peer Reviewed Publications </h2>
+        <p style={{fontSize:'10px', color:'red', fontWeight: '800'}}><sup>*</sup>Click anywhere in the row to view the abstract.</p>
         <MaterialReactTable 
         columns={columns} 
         data={journals} 
