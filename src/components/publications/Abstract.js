@@ -8,8 +8,12 @@ const Abstract = (props) => {
     handleClose,
     handleShow,
     title,
-    abstract} = props
+    abstract,
+    fullPaperLink} = props
 
+    const readFullPaper = () => {
+      alert("test");
+    }
 
   return (
     <>
@@ -29,6 +33,7 @@ const Abstract = (props) => {
           {props.abstract}
         </Modal.Body>
         <Modal.Footer>
+          <Button variant="primary" href={props.fullPaperLink} target="_blank">Read Full Paper</Button>
           <Button variant="secondary" onClick={handleClose}>Close</Button>
         </Modal.Footer>
       </Modal>
