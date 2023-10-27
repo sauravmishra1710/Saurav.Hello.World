@@ -80,8 +80,10 @@ const Publications = () => {
   const handleShow = () => setShow(true);
   const [abstract, setAbstract] = useState("");
   const [title, setTitle] = useState("");
+  const [fullPaperLink, setfullPaperLink] = useState("");
   let articleAbstract;
   let articleTitle;
+  let pdfLink;
 
   return (
     <>
@@ -103,8 +105,10 @@ const Publications = () => {
                 if (event.target.tagName.toLowerCase() !== 'a') {
                     articleAbstract = journals[Number(event.target.parentNode.childNodes[0].innerText) - 1].abstract;
                     articleTitle = journals[Number(event.target.parentNode.childNodes[0].innerText) - 1].title;
+                    pdfLink = journals[(event.target.parentNode.childNodes[0].innerText) - 1].linkToPdf.props.href;
                     setAbstract(articleAbstract);
                     setTitle(articleTitle);
+                    setfullPaperLink(pdfLink);
                     handleShow();
                 }
             }
@@ -117,6 +121,7 @@ const Publications = () => {
     handleShow={handleShow} 
     abstract={abstract}
     title={title}
+    fullPaperLink={fullPaperLink}
     />
     </>
   );
