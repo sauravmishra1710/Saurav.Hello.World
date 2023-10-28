@@ -42,6 +42,7 @@
   "devDependencies": {
     "material-react-table": "^1.15.1",
     "react-image-gallery": "^1.3.0",
+    "react-responsive-carousel": "^3.2.23",
     "typewriter-effect": "^2.21.0"
   }
 }

@@ -12,9 +12,9 @@ const Socials = () => {
     <div>
       <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
-            md={5}
+            md={7}
             style={{
-              justifyContent: "center",
+              justifyContent: "left",
               paddingTop: "30px",
             //   paddingRight: "50px",
             }}
@@ -26,21 +26,6 @@ const Socials = () => {
                 <ImageGallery1 />
                 </div>
           </Col>
-          
-          {/* <Col
-            md={5}
-            style={{
-              justifyContent: "left",
-              paddingTop: "30px",
-            //   paddingLeft: "50px",
-            }}
-          >
-            <div>
-                <h1 style={{ fontSize: "2.1em", paddingTop: "50px" }}>
-                Image Gallery 2</h1>
-                <ImageGallery1 />
-            </div>
-          </Col> */}
         </Row>
 
         <Row style={{ justifyContent: "center", padding: "10px" }}>
