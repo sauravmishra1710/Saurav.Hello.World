@@ -6,4 +6,11 @@
     font-size: 1.2rem !important;
   }
 
+  .logo {
+    height: 3em !important;
+    width: 4em !important;
+    background: transparent !important;
+  }
+  
+
   
