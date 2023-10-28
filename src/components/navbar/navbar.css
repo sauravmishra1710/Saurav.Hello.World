@@ -4,12 +4,12 @@
     transition: all 0.3s ease-out 0s !important;
     padding: 0.3rem 2rem !important;
     font-size: 1.2rem !important;
+    height:50px !important;
   }
 
   .logo {
     height: 3em !important;
     width: 4em !important;
-    background: transparent !important;
   }
   
 
