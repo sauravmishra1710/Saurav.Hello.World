@@ -12,7 +12,7 @@ const Socials = () => {
     <div>
       <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
-            md={7}
+            md={6}
             style={{
               justifyContent: "left",
               paddingTop: "30px",
@@ -30,7 +30,7 @@ const Socials = () => {
 
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
-            md={7}
+            md={6}
             style={{
               justifyContent: "left",
               paddingTop: "30px",
@@ -46,7 +46,7 @@ const Socials = () => {
 
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
-            md={7}
+            md={6}
             style={{
               justifyContent: "left",
               paddingTop: "30px",
