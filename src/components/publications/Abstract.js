@@ -11,10 +11,6 @@ const Abstract = (props) => {
     abstract,
     fullPaperLink} = props
 
-    const readFullPaper = () => {
-      alert("test");
-    }
-
   return (
     <>
       <Modal

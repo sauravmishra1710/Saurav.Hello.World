@@ -6,6 +6,7 @@ import emailjs from "@emailjs/browser";
 import LoadingButton from "@mui/lab/LoadingButton";
 import SendIcon from "@mui/icons-material/Send";
 import ThemeContext from "../../utility/themeContext";
+import { Icon } from '@iconify/react';
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
@@ -88,15 +89,33 @@ function Contact() {
         //   : "white",
         // color: theme ? "white" : "black"
       }}
+
     >
       <div className="contact-heading">
-        <h1 className="heading">Let's Connect</h1>
-        <h6>
-          Thank you for visiting my space. Feel free to reach out, and
-          let's embark on this journey of knowledge, innovation, delicious
-          food, cullinary skills, cricket, football, and photography discoveries together.
-        </h6>
-      </div>
+        <h1 className="heading">Reach out to me...</h1>
+        <div className="connect-with-me-text">
+          <p>Thank you for visiting my space. Feel free to reach out, and let's embark on this journey of knowledge sharing, innovation, 
+          cullinary skills, lipsmacking food discoveries, cricket, football, and photography discoveries together. Always up to work on 
+          stuffs related to AI and Computer Vision in the healthcare domains. I am avalible in almost every social platform.
+          My Inbox is always open for all.</p>
+        </div>
+        <div>
+        <li className="social-icons">
+                <a
+                  href="https://github.com/soumyajit4419"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                ><Icon icon="logos:github-icon" style={{fontSize: '20px'}}/>
+                </a>
+              </li>
+          {/* <ul class="ico">
+            <li class="icon"><a href="https://github.com/AjitVerma15" target="_blank"></a><span class="iconify github" data-icon="ant-design:github-filled" data-inline="false"  data-width="50" data-height="50"></span></li>
+            <li class="icon"><a href="https://www.instagram.com/ajit.verma_/" target="_blank"></a><span class="iconify instagram" data-icon="entypo-social:instagram-with-circle" data-inline="false" data-width="50" data-height="50"></span></li>
+            <li class="icon"><a href="https://www.linkedin.com/in/ajit-verma-70b9b0196/" target="_blank"></a><span class="iconify linkedin" data-icon="entypo-social:linkedin-with-circle" data-inline="false"  data-width="50" data-height="50"></span></li>
+            <li class="icon"><a href="mailto:ajitverma1503@gmail.com" target="_blank"></a><span class="iconify google" data-icon="ant-design:google-plus-circle-filled" data-inline="false" data-width="50" data-height="50"></span></li>
+          </ul> */}
+        </div>
       <div className="contact-row">
         <div className="contact">
           <div className="contact-card">
@@ -139,7 +158,7 @@ function Contact() {
                 value={msg}
                 onChange={handleChange}
                 name="message"
-                placeholder="What do you want to say..."
+                placeholder="Have something to say..."
                 autoComplete="off"
                 className="contact-field"
                 id="form-message"
@@ -180,6 +199,7 @@ function Contact() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
