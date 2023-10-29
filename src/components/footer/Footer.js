@@ -1,12 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import {
-  BsLinkedin,
-  BsGithub,
-  BsFillEnvelopeFill,
-  BsFillHeartFill
-} from "react-icons/bs";
-
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import  { SiGooglescholar } from "react-icons/si"
 import {
   TbCopyrightOff
 } from "react-icons/tb"; 
@@ -22,39 +22,59 @@ function Footer() {
             Designed & Developed By Saurav Mishra
           </h6>
         </Col>
-        {/* <Col className="social-media-icons" lg={4} sm={12} xs={12}>
-          <Row>
-            <Col lg={4} xs={4}>
-              {" "}
-              <a
-                href="https://www.linkedin.com/in/saurav-mishra1710/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <BsLinkedin color="#0e76a8" />
-              </a>
-            </Col>
-            <Col lg={4} xs={4}>
+        <Col className="footer-body" lg={4} sm={6} xs={12}>
+          <div className='social-media-icons'>
               <a
                 href="https://github.com/sauravmishra1710"
-                target="_blank"
-                rel="noreferrer"
+                style={{ color: '#253222', marginRight:'10px' }}
+                target="_blank" 
+                rel="noopener noreferrer"
               >
-                <BsGithub color="#8a3ab9" />
+                <AiFillGithub />
               </a>
-            </Col>
-            <Col lg={4} xs={4}>
               <a
-                href="mailto:saurav.mishra@live.com"
-                target="_blank"
-                rel="noreferrer"
+                href="https://www.linkedin.com/in/saurav-mishra1710/"
+                style={{ color: '#253222', marginRight:'10px'}}
+                target="_blank" 
+                rel="noopener noreferrer"
               >
-                <BsFillEnvelopeFill color="#BB001B" />
+                <FaLinkedinIn />
               </a>
-            </Col>
-          </Row>
-        </Col> */}
-        <Col className="copyright" lg={8} sm={6} xs={12}>
+              <a
+                href="https://scholar.google.com/citations?hl=en&user=t1GX3O8AAAAJ"
+                style={{ color: '#253222', marginRight:'10px' }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiGooglescholar />
+              </a>
+              <a
+                href="https://twitter.com/forevrManUtd"
+                style={{ color: '#253222', marginRight:'10px' }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
+              </a>
+              <a
+                href="https://www.instagram.com/saurav.mishra1710/"
+                style={{ color: '#253222', marginRight:'10px' }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillInstagram />
+              </a>
+              <a
+                href="https://www.instagram.com/flashyfilters.saurav1710/"
+                style={{ color: '#253222', marginRight:'10px' }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillInstagram />
+              </a>
+          </div>
+        </Col>
+        <Col className="copyright" lg={4} sm={6} xs={12}>
         <h6>
           <TbCopyrightOff style={{ marginBottom: "2px" }} />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No Copyright issues | Feel free to fork | Let's Learn Together
