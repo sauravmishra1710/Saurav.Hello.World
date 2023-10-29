@@ -102,19 +102,22 @@ function Contact() {
         <div>
         <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/sauravmishra1710"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-                ><Icon icon="logos:github-icon" style={{fontSize: '20px'}}/>
+                >
+                  <Icon icon="logos:github-icon" style={{fontSize: '40px', marginRight: '20px'}}/>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/saurav-mishra1710/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <Icon icon="logos:linkedin-icon" style={{fontSize: '40px'}}/>
                 </a>
               </li>
-          {/* <ul class="ico">
-            <li class="icon"><a href="https://github.com/AjitVerma15" target="_blank"></a><span class="iconify github" data-icon="ant-design:github-filled" data-inline="false"  data-width="50" data-height="50"></span></li>
-            <li class="icon"><a href="https://www.instagram.com/ajit.verma_/" target="_blank"></a><span class="iconify instagram" data-icon="entypo-social:instagram-with-circle" data-inline="false" data-width="50" data-height="50"></span></li>
-            <li class="icon"><a href="https://www.linkedin.com/in/ajit-verma-70b9b0196/" target="_blank"></a><span class="iconify linkedin" data-icon="entypo-social:linkedin-with-circle" data-inline="false"  data-width="50" data-height="50"></span></li>
-            <li class="icon"><a href="mailto:ajitverma1503@gmail.com" target="_blank"></a><span class="iconify google" data-icon="ant-design:google-plus-circle-filled" data-inline="false" data-width="50" data-height="50"></span></li>
-          </ul> */}
         </div>
       <div className="contact-row">
         <div className="contact">
