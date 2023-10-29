@@ -23,6 +23,12 @@
   margin-top: 50px;
   width: 100%;
 }
+.connect-with-me-text {
+  font-family: "Bellefair", serif;
+}
+.connect-with-me-text p {
+  font-size: 20px;
+}
 .heading {
   font-family: "Jockey One", sans-serif;
   text-align: left;

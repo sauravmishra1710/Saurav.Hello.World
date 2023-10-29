@@ -1,6 +1,7 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import {FaMapLocationDot} from "react-icons/fa6";
 
 import img1 from "../../img/image_gallery_1/1.jpg";
 import img2 from "../../img/image_gallery_1/2.jpg";
@@ -34,7 +35,7 @@ const ImageGallery1 = () => {
             centerSlidePercentage={85}>
                 <div>
                     <img src={img1} />
-                    <p className="legend">Legend 1</p>
+                    <p className="legend"><FaMapLocationDot style={{ fontSize: "1.2em", color: 'white'}} /> sfdsfds fdsfsdfsdfsd sdfsd<br/>fsdfsdf dsfsdfsdf Legend 1</p>
                 </div>
                 <div>
                     <img src={img2} />
