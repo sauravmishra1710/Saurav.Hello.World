@@ -28,6 +28,8 @@
 }
 .connect-with-me-text p {
   font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .heading {
   font-family: "Jockey One", sans-serif;
@@ -42,7 +44,7 @@
   flex-direction: column;
 }
 .contact-form:hover {
-  background-color: #f1f1ee;
+  background-color: #ffffe1;
 }
 .contact-field {
   flex: 1;
@@ -51,6 +53,10 @@
   margin-top: 15px;
   padding: 15px;
   font-size: 18px;
+}
+.connection {
+  padding-top: 50px;
+  padding-left: 50px;
 }
 #form-name {
   width: 100%;
