@@ -17,6 +17,7 @@ const Home = () => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
+            height: "100%"
           }}
         >
           <div className="parallax">
@@ -29,10 +30,12 @@ const Home = () => {
                 options={{
                     strings: [
                     "Welcome to My Space - Saurav.Hello.World",
+                    "Software Developer",
                     "Learn & Code Everyday",
                     "AI, Computer Vision for Medicine & Healthcare",
                     "Enthusiast Photographer",
-                    "Manchester United",
+                    "Chef @ Home",
+                    "Manchester United Fan Boy",
                     ],
                     autoStart: true,
                     loop: true,
