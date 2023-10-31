@@ -8,14 +8,14 @@ import heartAnalysisImg from "../../img/heartAnalysis.jpg";
 const Projects = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
   return (
-    <div
+    <><div
       style={{
         padding: "10px",
         display: "flex",
         justifyContent: "center",
         flexDirection: "column",
         alignItems: "center",
-        color: theme ? "white" : "black"
+        // color: theme ? "white" : "black"
       }}
       id="projectSection"
     >
@@ -38,8 +38,7 @@ const Projects = () => {
             "Key Technologies Used: ReactJS, TensorflowJS, and hosted on github pages."
           ]}
           miscDescription="Demo"
-          image={imgClassification}
-        />
+          image={imgClassification} />
         <Card
           title="Heart Failure Condition And Survival Analysis"
           srcLink="https://github.com/sauravmishra1710/Heart-Failure-Condition-And-Survival-Analysis"
@@ -49,11 +48,43 @@ const Projects = () => {
             "Key technology: Python 3.8.8, Numpy, Pandas, Matplotlib, Plotly, Kaplan-Meier estimates, Cox regression models XGBoost, and LightGBM "
           ]}
           miscDescription="View Paper"
-          image={heartAnalysisImg}
-        />
-        
+          image={heartAnalysisImg} />
       </div>
-    </div>
+    </div><div
+      style={{
+        padding: "10px",
+        display: "flex",
+        justifyContent: "center",
+        flexDirection: "column",
+        alignItems: "center",
+        // color: theme ? "white" : "black"
+      }}
+      id="projectSection"
+    >
+        <h2 id="projectHeading">Paper Reviews</h2>
+        <div
+          style={{
+            width: "80vw",
+            padding: "10px",
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-evenly",
+          }}
+        >
+          
+          <Card
+            title="Inception - Going Deeper with Convolutions"
+            srcLink="https://github.com/sauravmishra1710/Inception---Going-Deeper-with-Convolutions"
+            miscLink="https://jeeemi.org/index.php/jeeemi/article/view/225"
+            description={[
+              "A review and implementation of the Inception v1, v2, and v3 papers.",
+              "Key technology: Python 3.8.8"
+            ]}
+            miscDescription="View Paper"
+            image={heartAnalysisImg} />
+
+        </div>
+      </div></>
   );
 };
 
