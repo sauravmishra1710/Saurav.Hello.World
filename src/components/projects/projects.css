@@ -6,10 +6,10 @@
   margin-top: 50px;
   width: 90%;
 }
-#projectSection {
+/* #projectSection {
   background: url(../../img/main_bg1.jpg) no-repeat fixed;
-  background-size: contain;
-}
+  background-size: 100%;
+} */
 
 .projectCardBtn {
   margin-left: auto;
