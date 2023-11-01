@@ -25,7 +25,7 @@ const [load, upadateLoad] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
-    }, 1200);
+    }, 2500);
 
     return () => clearTimeout(timer);
   }, []);
