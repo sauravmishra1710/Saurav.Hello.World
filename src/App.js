@@ -20,11 +20,11 @@ import Preloader from "../src/components/Pre";
 import Navbar from "./components/navbar/navbar.js";
 
 function App() {
-const [load, upadateLoad] = useState(true);
+const [screenLoading, setScreenLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      setScreenLoading(false);
     }, 2500);
 
     return () => clearTimeout(timer);
@@ -33,8 +33,8 @@ const [load, upadateLoad] = useState(true);
 return (
   <Router>
     <ThemeProvider>
-    <Preloader load={load} />
-    <div className="App" id={load ? "no-scroll" : "scroll"}>
+    <Preloader load={screenLoading}/>
+    <div className="App" id={screenLoading ? "no-scroll" : "scroll"}>
       <Navbar />
       <Routes>
       <Route path="/" element={<Home />} />
