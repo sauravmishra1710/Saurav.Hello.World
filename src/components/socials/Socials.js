@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ImageGallery1 from "./ImageGallery1";
 import ImageGallery2 from "./ImageGallery2";
 import CullinaryImageGallery from "./CullinaryImageGallery";
-
-
+import "./socials.css"
 
 const Socials = () => {
   return (
