@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./components/Header.js";
+// import Header from "./components/Header.js";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/home.js";
 import About from "./components/about/About";
@@ -16,7 +16,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
-import Preloader from "../src/components/Pre";
+import Preloader from "./components/preloader/preloader";
 import Navbar from "./components/navbar/navbar.js";
 
 function App() {
@@ -25,7 +25,7 @@ const [screenLoading, setScreenLoading] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
       setScreenLoading(false);
-    }, 2500);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
