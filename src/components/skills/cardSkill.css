@@ -1,21 +1,36 @@
 .cardSkill-container {
+  font-family: monospace;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 10px;
   padding: 5px;
-  height: 170px;
-  width: 170px;
-  background: #fff;
+  height: 200px;
+  width: 200px;
+  background: transparent;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 5px;
+  border: 1.7px solid rgba(200, 137, 230, 0.637);
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
   box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
     0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.cardSkill-container:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
 
 .cardSkill-img {
   height: 75%;
   width: 80%;
+}
+
+.skillIcons{
+  /* margin-bottom: 20px; */
 }
