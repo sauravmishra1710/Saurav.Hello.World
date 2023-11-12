@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
 import "./contact.css";
@@ -105,30 +105,38 @@ function Contact() {
                 My Inbox is always open for all.</p>
               </div>
               <div>
-              <li className="social-icons">
-                      <a
-                        href="https://github.com/sauravmishra1710"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="icon-colour  home-social-icons"
-                      >
-                        <Icon icon="logos:github-icon" style={{fontSize: '40px', marginRight: '20px'}}/>
-                      </a>
-                      <a
-                        href="https://www.linkedin.com/in/saurav-mishra1710/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="icon-colour  home-social-icons"
-                      >
-                        <Icon icon="logos:linkedin-icon" style={{fontSize: '40px'}}/>
-                      </a>
-                    </li>
+                <li className="social-icons">
+                  <a
+                    href="https://github.com/sauravmishra1710"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Icon icon="logos:github-icon" className= "social_icons"/>
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/in/saurav-mishra1710/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Icon icon="logos:linkedin-icon" className= "social_icons"/>
+                  </a>
+
+                  <a
+                    href="https://twitter.com/forevrManUtd"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Icon icon="devicon:twitter" className= "social_icons"/>
+                  </a>
+                </li>
               </div>
-              </div>
+            </div>
           </Col>
+
           <Col md={5}>
           <div class="col-lg-6 connect-image">
-            <img  class= "connection" src={contactLogo} alt="" height={800} width={800} />
+            <img  class= "images" src={contactLogo} alt="" height={800} width={800} />
         </div>
           </Col>
           </Row>

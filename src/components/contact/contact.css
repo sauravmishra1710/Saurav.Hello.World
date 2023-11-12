@@ -54,13 +54,14 @@
   padding: 15px;
   font-size: 18px;
 }
-.connection {
+.images {
   padding-top: 50px;
   padding-left: 50px;
 }
 #form-name {
   width: 100%;
 }
+
 #form-email {
   width: 100%;
 }
@@ -90,4 +91,13 @@
   #form-message {
     width: 100%;
   }
+}
+
+li {
+  list-style-type: none;
+}
+
+.social_icons {
+  font-size: 40px;
+  margin-right: 20px;
 }
