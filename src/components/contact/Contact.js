@@ -288,19 +288,20 @@ function Contact() {
           </Row>
 
           <Row>
-            <h3 style={{ marginLeft: "500px" }}>
+            <h2 style={{ marginLeft: "500px" }}>
               {" "}
               Have something to talk about...?
-            </h3>
+            </h2>
             <div style={{alignItems: "center", justifyContent: "center", display: "flex", flexDirection: "row"}}>
-              <div className="col-lg-3" style={{marginRight: "100px"}}>
-                <img
+              <div className="col-lg-3">
+                {/* <img
                   className="images"
                   src={envelope}
                   alt=""
                   height={400}
                   width={400}
-                />
+                /> */}
+                <Icon icon="icon-park:send-email" style={{fontSize: "350px", color: "red"}}/>
               </div>
               <div className="contact-row">
                 <div className="contact">
