@@ -9,7 +9,7 @@ function Skills() {
   const { theme, toggleTheme } = useContext(ThemeContext);
   return (
     <>
-    <div style={{backgroundColor: "#EDF9FE"}}>
+    <div>
       <Row>
         <Col md={6}>
         <div class="col-lg-6" style={{marginTop: "60px", marginLeft: "50px"}}>
