@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
 
 .publications {
+    /* background-color: #EDF9FE; */
     height: 100vh;
     padding-top: 100px;
     padding-left: 15px;
@@ -12,7 +13,6 @@
 }
 
 .modal-90w {
-    
     width: 90% !important;
 }
 .modal-body {
