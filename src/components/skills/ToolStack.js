@@ -2,14 +2,6 @@ import React, { useContext } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./skills.css";
 import CardSkill from "./cardSkill";
-// import {
-//     DiChrome
-// } from "react-icons/di";
-
-// import {
-//     AiOutlineFileWord
-// } from "react-icons/ai";
-
 import { Icon } from "@iconify/react";
 
 function Toolstack() {
@@ -53,7 +45,13 @@ function Toolstack() {
               }
             />
           </div>
-
+          <div className="skills-card">
+            <CardSkill
+              icon={
+                <Icon icon="file-icons:tortoisesvn" width="112" height="112" />
+              }
+            />
+          </div>
           <div className="skills-card">
             <CardSkill
               icon={

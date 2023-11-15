@@ -4,21 +4,6 @@ import "./skills.css";
 import CardSkill from "./cardSkill";
 import { Icon } from "@iconify/react";
 
-import { DiJavascript1, DiReact, DiNodejs, DiPython } from "react-icons/di";
-
-import { IoLogoCss3 } from "react-icons/io";
-
-import {
-  SiDotnet,
-  SiTensorflow,
-  SiNumpy,
-  SiPandas,
-  SiPlotly,
-  SiOpencv,
-} from "react-icons/si";
-
-import { TbBrandCSharp } from "react-icons/tb";
-
 function Techstack() {
   return (
     <Row>
