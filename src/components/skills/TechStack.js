@@ -3,12 +3,13 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./skills.css";
 import CardSkill from "./cardSkill";
 import { Icon } from "@iconify/react";
+import pysimplegui from "../../img/pysimplegui.png"
 
 function Techstack() {
   return (
     <Row>
       <div className="skills-parent" id="skillsSection">
-        <h2 id="skillHeading">Languages & Frameworks...</h2>
+        <h2 id="skillHeading" className="purple">Languages & Frameworks...</h2>
         <div className="all-skills-container">
           <div className="skills-card">
             <CardSkill
@@ -26,6 +27,11 @@ function Techstack() {
                 <Icon icon="devicon:python-wordmark" width="112" height="112" />
               }
             />
+          </div>
+          <div className="skills-card">
+            <div className="cardSkill-container">
+              <img src={pysimplegui} alt="" height={190} width={190} />
+            </div>
           </div>
           <div className="skills-card">
             <CardSkill
