@@ -4,7 +4,7 @@
 
 .parallax {
   margin-top: 4rem;
-  height: 83vh;
+  height: 100vh;
   padding: 10px;
   overflow: hidden;
   position: relative;
@@ -19,7 +19,6 @@
   color: purple;
   font-family: "Times New Roman", cursive;
   font-size: 2.5rem;
-  padding: 10px;
   z-index: 10;
 }
 
@@ -59,22 +58,25 @@
 }
 
 .hithere {
-  color: purple;
   font-family: "Black Ops One", cursive;
   font-size: 2.5rem;
-  padding: 10px;
   right: 0px;
   text-align: left;
-  padding-top: 10px;
   z-index: 10;
+}
+
+.homeimages {
+  padding-top: 60px;
+  padding-left: 50px;
 }
 
 .home {
   display: flex;
-  /* background: url(../../img/main_bg.jpg); */
-  /* background-position: top center;
-  background-repeat: no-repeat; */
-  /* background-size: cover; */
+  flex-direction: column;
   padding-bottom: 30px;
   padding-top: 30px;
+}
+
+.purple {
+  color: #c770f0 !important;
 }
