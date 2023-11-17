@@ -9,8 +9,7 @@ import SendIcon from "@mui/icons-material/Send";
 import ThemeContext from "../../utility/themeContext";
 import { Icon } from "@iconify/react";
 import img1 from "../../img/page_logos/connecting_people.jpg";
-import img2 from "../../img/page_logos/connection.svg";
-import envelope from "../../img/page_logos/envelope.png";
+import img2 from "../../img/page_logos/connection.png";
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
@@ -101,18 +100,35 @@ function Contact() {
           <Row>
             <Col md={6}>
               <div className="contact-heading">
-                <h1 className="heading">Reach out to me...</h1>
+                <h1 className="heading purple">Reach out to me...</h1>
                 <div className="connect-with-me-text">
-                  <p>Thank you for visiting my space Saurav.Hello.World.</p>
+                  <p>
+                    Thank you for visiting my space{" "}
+                    <span className="purple">
+                      <b>Saurav.Hello.World</b>
+                    </span>
+                    .
+                  </p>
                   <p>
                     Feel free to reach out, and let's embark on this journey of
-                    knowledge sharing, innovation, cullinary skills, lipsmacking
-                    food, cricket, football, and photography discoveries
-                    together. Always up to work on stuffs related to AI and
-                    Computer Vision in the healthcare domains. I am available in
-                    almost every social platform. My Inbox is always open for
-                    all.
+                    <span className="purple">
+                      <b>
+                        {" "}
+                        knowledge sharing, innovation, cullinary skills, lip
+                        smacking food, cricket, football, & photography
+                        discoveries{" "}
+                      </b>
+                    </span>
+                    together. Always up to work on stuffs related to{" "}
+                    <span className="purple">
+                      <b>
+                        deep learning & computer vision in the healthcare domain
+                      </b>
+                    </span>
+                    . I am available in almost every social platform.
                   </p>
+                  <p></p>
+                  <p>My Inbox is always open for all...</p>
                 </div>
                 <div>
                   <Row>
@@ -288,11 +304,18 @@ function Contact() {
           </Row>
 
           <Row>
-            <h2 style={{ marginLeft: "500px" }}>
+            <h1 className="heading purple" style={{ marginLeft: "500px" }}>
               {" "}
               Have something to talk about...?
-            </h2>
-            <div style={{alignItems: "center", justifyContent: "center", display: "flex", flexDirection: "row"}}>
+            </h1>
+            <div
+              style={{
+                alignItems: "center",
+                justifyContent: "center",
+                display: "flex",
+                flexDirection: "row",
+              }}
+            >
               <div className="col-lg-3">
                 {/* <img
                   className="images"
@@ -301,7 +324,10 @@ function Contact() {
                   height={400}
                   width={400}
                 /> */}
-                <Icon icon="icon-park:send-email" style={{fontSize: "350px", color: "red"}}/>
+                <Icon
+                  icon="icon-park:send-email"
+                  style={{ fontSize: "350px", color: "red" }}
+                />
               </div>
               <div className="contact-row">
                 <div className="contact">
@@ -396,7 +422,7 @@ function Contact() {
           </Row>
           <Row>
             <div>
-              <img src={img2} alt="" height={800} width={800} />
+              <img src={img2} alt="" height={800} width={850} />
             </div>
           </Row>
         </div>
