@@ -32,10 +32,19 @@ const Projects = () => {
               class="col-lg-8"
               style={{ marginTop: "80px", marginLeft: "50px" }}
             >
-              <h1 id="skillHeading" className="purple">Projects</h1>
+              <h1 id="skillHeading" className="purple">
+                Projects
+              </h1>
               <div className="project-text">
                 <p>
-                Actual learning experience comes by actively engaging in putting the theoretical knowledge gained into practical implementation to design and build solutions. It helps gain conceptual insights as well as practical expertise. I always try to put{" "}
+                  Actual learning experience comes by actively engaging in
+                  putting the theoretical knowledge gained into practical
+                  implementation to design and build solutions. It helps gain
+                  conceptual insights as well as practical expertise.
+                </p>
+                <p></p>
+                <p>
+                  I always try to put{" "}
                   <span className="purple">
                     <b>
                       {" "}
