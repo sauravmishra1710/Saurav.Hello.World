@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Techstack from "./TechStack.js";
 import Toolstack from "./ToolStack.js";
 import ThemeContext from "../../utility/themeContext";
-import skillsLogo from "../../img/page_logos/projects.jpg";
+import skillsLogo from "../../img/page_logos/programmers_02.jpg";
 
 function Skills() {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -89,7 +89,7 @@ function Skills() {
             <Col md={6}>
               <div class="col-lg-6 connect-image">
                 <img
-                  class="images"
+                  className="images"
                   src={skillsLogo}
                   alt=""
                   height={600}
