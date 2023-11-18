@@ -125,10 +125,10 @@ function Contact() {
                         deep learning & computer vision in the healthcare domain
                       </b>
                     </span>
-                    . I am available in almost every social platform.
+                    .
                   </p>
                   <p></p>
-                  <p>My Inbox is always open for all...</p>
+                  <p>I am available in almost every social platform and my Inbox is always open for all...</p>
                 </div>
                 <div>
                   <Row>
