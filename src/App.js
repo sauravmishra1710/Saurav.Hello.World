@@ -25,7 +25,7 @@ const [screenLoading, setScreenLoading] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
       setScreenLoading(false);
-    }, 2000);
+    }, 2500);
 
     return () => clearTimeout(timer);
   }, []);
