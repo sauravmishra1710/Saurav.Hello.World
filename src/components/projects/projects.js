@@ -32,7 +32,7 @@ const Projects = () => {
               class="col-lg-8"
               style={{ marginTop: "80px", marginLeft: "50px" }}
             >
-              <h1 id="skillHeading" className="purple">
+              <h1 id="heading" className="purple">
                 Projects
               </h1>
               <div className="project-text">
