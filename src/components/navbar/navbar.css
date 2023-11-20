@@ -13,7 +13,6 @@
   }
   
   .navbar-nav .nav-item a::after {
-    content: "";
     position: relative;
     display: block;
     height: 5px;
