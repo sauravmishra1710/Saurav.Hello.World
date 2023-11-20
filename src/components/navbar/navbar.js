@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import logo from "../../img/logo.png";
+import logo from "../../img/Sm_logo.svg";
 
 import {
   AiFillStar,
@@ -50,7 +50,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={logo} className="img-fluid logo" alt="brand"/>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -106,7 +106,7 @@ function NavBar() {
                 to="/publications"
                 onClick={() => updateExpanded(false)}
               >
-                <BsJournalBookmarkFill style={{ marginBottom: "2px" }} /> Journal Publications
+                <BsJournalBookmarkFill style={{ marginBottom: "2px" }} /> Publications & Certifications
               </Nav.Link>
             </Nav.Item>
 
