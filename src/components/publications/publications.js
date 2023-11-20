@@ -1,7 +1,9 @@
 import "./publications.css";
+import { Col, Container, Row } from "react-bootstrap";
 import { useState, useMemo } from "react";
 import { MaterialReactTable } from "material-react-table";
 import Abstract from "./Abstract";
+import publication from "../../img/page_logos/publications.jpg";
 
 const journals = [
   {
@@ -147,53 +149,117 @@ const Publications = () => {
 
   return (
     <>
-      <div className="publications">
-        <h2> Peer Reviewed Publications </h2>
-        <p style={{ fontSize: "10px", color: "red", fontWeight: "800" }}>
-          <sup>*</sup>Click anywhere in the row to view the abstract.
-        </p>
-        <MaterialReactTable
-          columns={columns}
-          data={journals}
-          enableSorting={false}
-          enableFilters={false}
-          enableDensityToggle={false}
-          enableFullScreenToggle={false}
-          enableColumnResizing={false}
-          // muiTableContainerProps={{ sx: { maxWidth: '100%', maxHeight: '50%' }, }}
-          muiTableBodyRowProps={{
-            onClick: (event) => {
-              // disable the row click when clicked on a genuine href link
-              if (event.target.tagName.toLowerCase() !== "a") {
-                articleAbstract =
-                  journals[
-                    Number(event.target.parentNode.childNodes[0].innerText) - 1
-                  ].abstract;
-                articleTitle =
-                  journals[
-                    Number(event.target.parentNode.childNodes[0].innerText) - 1
-                  ].title;
-                pdfLink =
-                  journals[event.target.parentNode.childNodes[0].innerText - 1]
-                    .linkToPdf.props.href;
-                setAbstract(articleAbstract);
-                setTitle(articleTitle);
-                setfullPaperLink(pdfLink);
-                handleShow();
-              }
-            },
-          }}
-        />
-      </div>
-      <div className="certifications"></div>
-      <Abstract
-        show={show}
-        handleClose={handleClose}
-        handleShow={handleShow}
-        abstract={abstract}
-        title={title}
-        fullPaperLink={fullPaperLink}
-      />
+      <Container fluid>
+        <Row>
+          <Col md={6}>
+            <div class="col-lg-10" style={{ marginTop: "80px" }}>
+              <h2 id="heading" className="purple">
+                Peer Reviewed Publications
+              </h2>
+              <div class="publications-text">
+                <p>
+                  The inspiration to write peer reviewed papers arose during the
+                  days of my masters in AI & ML where I had to do my
+                  dissertation for the end project. The process of writing long
+                  thesis was something{" "}
+                  <span className="purple">
+                    <b> completely new to me, the learnings involved</b>
+                  </span>{" "}
+                  inspired me to continue the process so that knowledge sharing
+                  is available to every one. It is also a way to make my work
+                  available to the{" "}
+                  <span className="purple">
+                    <b>
+                      larger tech community and access to new learning is
+                      seamlessly available across domains
+                    </b>
+                  </span>
+                  .
+                </p>{" "}
+                <p>
+                  Also,{" "}
+                  <span className="purple">
+                    <b>
+                      the fact that my work could help others in some ways also
+                      motivates to keep continue this work
+                    </b>
+                  </span>
+                  .
+                </p>{" "}
+                <p>All of my recently published papers are listed below.</p>
+              </div>
+            </div>
+          </Col>
+          <Col md={6}>
+            <img
+              className="image"
+              src={publication}
+              alt=""
+              height={600}
+              width={800}
+            />
+          </Col>
+        </Row>
+        <Row>
+          <div className="publications">
+            <h2 id="heading" className="purple">
+              {" "}
+              Recent Publications{" "}
+            </h2>
+            <p style={{ fontSize: "10px", color: "red", fontWeight: "800" }}>
+              <sup>*</sup>Click anywhere in the row to view the abstract.
+            </p>
+            <MaterialReactTable
+              columns={columns}
+              data={journals}
+              enableSorting={false}
+              enableFilters={false}
+              enableDensityToggle={false}
+              enableFullScreenToggle={false}
+              enableColumnResizing={false}
+              // muiTableContainerProps={{ sx: { maxWidth: '100%', maxHeight: '50%' }, }}
+              muiTableBodyRowProps={{
+                onClick: (event) => {
+                  // disable the row click when clicked on a genuine href link
+                  if (event.target.tagName.toLowerCase() !== "a") {
+                    articleAbstract =
+                      journals[
+                        Number(
+                          event.target.parentNode.childNodes[0].innerText
+                        ) - 1
+                      ].abstract;
+                    articleTitle =
+                      journals[
+                        Number(
+                          event.target.parentNode.childNodes[0].innerText
+                        ) - 1
+                      ].title;
+                    pdfLink =
+                      journals[
+                        event.target.parentNode.childNodes[0].innerText - 1
+                      ].linkToPdf.props.href;
+                    setAbstract(articleAbstract);
+                    setTitle(articleTitle);
+                    setfullPaperLink(pdfLink);
+                    handleShow();
+                  }
+                },
+              }}
+            />
+          </div>
+        </Row>
+        <Row>
+          <div className="certifications"></div>
+          <Abstract
+            show={show}
+            handleClose={handleClose}
+            handleShow={handleShow}
+            abstract={abstract}
+            title={title}
+            fullPaperLink={fullPaperLink}
+          />
+        </Row>
+      </Container>
     </>
   );
 };

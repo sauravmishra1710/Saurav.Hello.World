@@ -12,6 +12,16 @@
     align-items:normal;
 }
 
+.publications-text p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+.image {
+    padding-top: 50px;
+  }
+  
+
 .modal-90w {
     width: 90% !important;
 }
