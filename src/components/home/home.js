@@ -10,6 +10,10 @@ import me from "../../img/page_logos/me_light_mode_cartoonized.png";
 const Home = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
   var app = document.getElementById("app");
+  var typewriter = new Typewriter(app, {
+    loop: true,
+    delay: 75,
+  });
 
   return (
     <>
@@ -26,14 +30,14 @@ const Home = () => {
                 }}
               >
                 <div className="col-lg-6">
-              <img
-                className="images"
-                src={me}
-                alt=""
-                height={300}
-                width={300}
-              />
-            </div>
+                  <img
+                    className="images"
+                    src={me}
+                    alt=""
+                    height={300}
+                    width={300}
+                  />
+                </div>
                 <div className="parallax purple">
                   <h1 className="hithere">
                     Hi There!{" "}
@@ -45,19 +49,50 @@ const Home = () => {
                   </h1>
                   <div className="parallax-text purple">
                     <Typewriter
-                      options={{
-                        strings: [
-                          "Welcome to My Space - Saurav.Hello.World",
-                          "Software Developer",
-                          "Learn & Code Everyday",
-                          "AI, Computer Vision for Medicine & Healthcare",
-                          "Enthusiast Photographer",
-                          "Chef @ Home",
-                          "Manchester United Fan Boy",
-                        ],
-                        autoStart: true,
-                        loop: true,
-                        deleteSpeed: 50,
+                      options={
+                        {
+                          autoStart: true,
+                          loop: true,
+                          deleteSpeed: 50,
+                        }
+                      }
+                      onInit={(typewriter) => {
+                        typewriter
+                          .typeString(
+                            '<span style="font-size:18.0pt">Welcome to My Space - Saurav.Hello.World!<br></span>'
+                          )
+                          .pauseFor(200);
+                        typewriter
+                          .typeString(
+                            '<span style="font-size:18.0pt">Software/Frontend Developer<br></span>'
+                          )
+                          .pauseFor(200);
+                        typewriter
+                          .typeString(
+                            '<span style="font-size:18.0pt">Learn & Code Everyday<br></span>'
+                          )
+                          .pauseFor(200);
+                        typewriter
+                          .typeString(
+                            '<span style="font-size:18.0pt">AI, Computer Vision for Medicine & Healthcare<br></span>'
+                          )
+                          .pauseFor(200);
+                        typewriter
+                          .typeString(
+                            '<span style="font-size:18.0pt">Enthusiast Photographer<br></span>'
+                          )
+                          .pauseFor(200);
+                        typewriter
+                          .typeString(
+                            '<span style="font-size:18.0pt">Chef @ Home <br></span>'
+                          )
+                          .pauseFor(200)
+                          .typeString(
+                            '<span style="color: red; font-size:18.0pt;">Manchester United</span><span style=font-size:18.0pt;"> Fan Boy</span></strong>'
+                          )
+                          .pauseFor(1000)
+                          .deleteAll()
+                          .start();
                       }}
                     />
                   </div>
