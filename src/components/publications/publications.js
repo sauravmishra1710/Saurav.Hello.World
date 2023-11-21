@@ -181,7 +181,7 @@ const Publications = () => {
                   <span className="purple">
                     <b>
                       the fact that my work could help others in some ways also
-                      motivates to keep continue this work
+                      motivates to continue writing, publishing, and sharing
                     </b>
                   </span>
                   .

@@ -18,7 +18,7 @@
 .parallax-text {
   color: purple;
   font-family: "Times New Roman", cursive;
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
   z-index: 10;
 }
 
