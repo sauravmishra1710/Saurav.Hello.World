@@ -9,7 +9,7 @@
     background-image: url(../../img/page_logos/loading.svg), url(../../img/page_logos/developer_pre_loader.svg);
     /* background-image: url(../../img/preloader.png); */
     background-repeat: no-repeat, no-repeat;
-    background-position: center, right bottom;
+    background-position: left top, right bottom;
     background-size: 50vh, 100vh;
   }
   
