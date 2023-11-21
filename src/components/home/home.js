@@ -59,36 +59,36 @@ const Home = () => {
                       onInit={(typewriter) => {
                         typewriter
                           .typeString(
-                            '<span style="font-size:18.0pt">Welcome to My Space - Saurav.Hello.World!<br></span>'
+                            '<span style="font-size:20.0pt">Welcome to My Space - Saurav.Hello.World!<br></span>'
                           )
                           .pauseFor(200);
                         typewriter
                           .typeString(
-                            '<span style="font-size:18.0pt">Software/Frontend Developer<br></span>'
+                            '<span style="font-size:20.0pt">Software/Frontend Developer<br></span>'
                           )
                           .pauseFor(200);
                         typewriter
                           .typeString(
-                            '<span style="font-size:18.0pt">Learn & Code Everyday<br></span>'
+                            '<span style="font-size:20.0pt">Learn & Code Everyday<br></span>'
                           )
                           .pauseFor(200);
                         typewriter
                           .typeString(
-                            '<span style="font-size:18.0pt">AI, Computer Vision for Medicine & Healthcare<br></span>'
+                            '<span style="font-size:20.0pt">AI, Computer Vision for Medicine & Healthcare<br></span>'
                           )
                           .pauseFor(200);
                         typewriter
                           .typeString(
-                            '<span style="font-size:18.0pt">Enthusiast Photographer<br></span>'
+                            '<span style="font-size:20.0pt">Enthusiast Photographer<br></span>'
                           )
                           .pauseFor(200);
                         typewriter
                           .typeString(
-                            '<span style="font-size:18.0pt">Chef @ Home <br></span>'
+                            '<span style="font-size:20.0pt">Chef @ Home <br></span>'
                           )
                           .pauseFor(200)
                           .typeString(
-                            '<span style="color: red; font-size:18.0pt;">Manchester United</span><span style=font-size:18.0pt;"> Fan Boy</span></strong>'
+                            '<span style="color: red; font-size:20.0pt;">Manchester United</span><span style=font-size:20.0pt;"> Fan Boy</span></strong>'
                           )
                           .pauseFor(1000)
                           .deleteAll()
