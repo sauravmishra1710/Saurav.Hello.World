@@ -29,7 +29,7 @@ const Projects = () => {
         <Row>
           <Col md={5}>
             <div
-              class="col-lg-8"
+              className="col-lg-8"
               style={{ marginTop: "80px", marginLeft: "50px" }}
             >
               <h1 id="heading" className="purple">

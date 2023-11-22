@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React from "react";
+import { Row } from "react-bootstrap";
 import "./skills.css";
 import CardSkill from "./cardSkill";
 import { Icon } from "@iconify/react";
