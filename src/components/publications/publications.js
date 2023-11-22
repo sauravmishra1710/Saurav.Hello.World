@@ -152,11 +152,11 @@ const Publications = () => {
       <Container fluid>
         <Row>
           <Col md={6}>
-            <div class="col-lg-10" style={{ marginTop: "80px" }}>
+            <div className="col-lg-10" style={{ marginTop: "80px" }}>
               <h2 id="heading" className="purple">
                 Peer Reviewed Publications
               </h2>
-              <div class="publications-text">
+              <div className="publications-text">
                 <p>
                   The inspiration to write peer reviewed papers arose during the
                   days of my masters in AI & ML where I had to do my

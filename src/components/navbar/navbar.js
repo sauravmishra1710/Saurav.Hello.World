@@ -96,7 +96,7 @@ function NavBar() {
                 to="/skills"
                 onClick={() => updateExpanded(false)}
               >
-                <GiSkills style={{ marginBottom: "2px" }} /> Skills
+                <GiSkills style={{ marginBottom: "2px" }} /> Skills & Certifications
               </Nav.Link>
             </Nav.Item>
 
@@ -106,7 +106,7 @@ function NavBar() {
                 to="/publications"
                 onClick={() => updateExpanded(false)}
               >
-                <BsJournalBookmarkFill style={{ marginBottom: "2px" }} /> Publications & Certifications
+                <BsJournalBookmarkFill style={{ marginBottom: "2px" }} /> Books & Publications
               </Nav.Link>
             </Nav.Item>
 
