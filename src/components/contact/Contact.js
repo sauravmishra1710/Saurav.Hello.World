@@ -8,6 +8,9 @@ import LoadingButton from "@mui/lab/LoadingButton";
 import SendIcon from "@mui/icons-material/Send";
 import ThemeContext from "../../utility/themeContext";
 import { Icon } from "@iconify/react";
+import Bounce from "react-reveal";
+import Zoom from "react-reveal";
+import Fade from "react-reveal"
 import img1 from "../../img/page_logos/connecting_people.jpg";
 import img2 from "../../img/page_logos/connection.png";
 
@@ -100,7 +103,9 @@ function Contact() {
           <Row>
             <Col md={6}>
               <div className="contact-heading">
+              <Fade top duration={2000} distance="100px">
                 <h1 className="heading purple">Reach out to me...</h1>
+                </Fade>
                 <div className="connect-with-me-text">
                   <p>
                     Thank you for visiting my space{" "}
@@ -109,6 +114,7 @@ function Contact() {
                     </span>
                     .
                   </p>
+                  <Zoom right>
                   <p>
                     Feel free to reach out, and let's embark on this journey of
                     <span className="purple">
@@ -127,13 +133,18 @@ function Contact() {
                     </span>
                     .
                   </p>
+                  </Zoom>
                   <p></p>
+                  <Zoom left>
                   <p>I am available in almost every social platform and my Inbox is always open for all...</p>
+                  </Zoom>
                 </div>
                 <div>
                   <Row>
                     <Col>
+                    <Bounce right>
                       <li>
+                      
                         <div className="social-icons-container">
                           <a
                             href="https://github.com/sauravmishra1710"
@@ -154,7 +165,7 @@ function Contact() {
                             sauravmishra1710
                           </a>
                         </div>
-
+                        
                         <div className="social-icons-container">
                           <a
                             href="https://scholar.google.com/citations?hl=en&user=t1GX3O8AAAAJ"
@@ -218,9 +229,11 @@ function Contact() {
                           </a>
                         </div>
                       </li>
+                      </Bounce>
                     </Col>
 
                     <Col>
+                    <Bounce left>
                       <li>
                         <div className="social-icons-container">
                           <a
@@ -285,6 +298,7 @@ function Contact() {
                           </a>
                         </div>
                       </li>
+                      </Bounce>
                     </Col>
                   </Row>
                 </div>
@@ -304,7 +318,7 @@ function Contact() {
           </Row>
 
           <Row>
-            <h1 className="heading purple" style={{ marginLeft: "500px" }}>
+            <h1 className="heading purple">
               {" "}
               Have something to talk about...?
             </h1>
