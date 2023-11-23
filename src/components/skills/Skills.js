@@ -1,12 +1,11 @@
 import React, { useContext } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Bounce from "react-reveal/Bounce";
-import Fade from "react-reveal"
+import {Bounce, Fade} from "react-reveal";
 import Techstack from "./TechStack.js";
 import Toolstack from "./ToolStack.js";
 import CertificationStack from "./CertificationStack.js";
 import ThemeContext from "../../utility/themeContext";
-import skillsLogo from "../../img/page_logos/programmers_02.jpg";
+import skillsLogo from "../../img/page_logos/programmers_02.png";
 
 function Skills() {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -20,13 +19,13 @@ function Skills() {
                 className="col-lg-10"
                 style={{ marginTop: "60px", marginLeft: "50px" }}
               >
-                <Fade bottom duration={2000} distance="100px">
+                <Fade bottom duration={1000} distance="100px">
                   <h2 id="heading" className="purple">
                     Technical Skillset
                   </h2>
                 </Fade>
                 <div className="skills-text">
-                  <Bounce right>
+                  <Bounce right duration={1000}>
                     <p>
                       Professionally, I have been lucky to get the chance for
                       working on both sides of the front-end application
@@ -62,7 +61,7 @@ function Skills() {
                     </p>
                   </Bounce>
                   <p></p>
-                  <Bounce left>
+                  <Bounce left duration={1000}>
                     <p>
                       On the personal front, the curiosity to expand my
                       skillset, I have been doing a few light-weight python
@@ -89,7 +88,7 @@ function Skills() {
                     </p>
                   </Bounce>
                   <p></p>
-                  <Bounce right>
+                  <Bounce right duration={1000}>
                     <p>
                       A glimpse of my work with AI and python stuffs is listed
                       in the Projects page.
@@ -99,6 +98,7 @@ function Skills() {
               </div>
             </Col>
             <Col md={6}>
+            <Fade bottom duration={1000} distance="500px">
               <div className="col-lg-6 connect-image">
                 <img
                   className="images"
@@ -108,6 +108,7 @@ function Skills() {
                   width={800}
                 />
               </div>
+              </Fade>
             </Col>
           </Row>
 
