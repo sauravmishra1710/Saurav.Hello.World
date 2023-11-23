@@ -19,6 +19,7 @@ function Toolstack() {
                   height="112"
                 />
               }
+              animationType="top"
             />
           </div>
           <div className="skills-card">
@@ -37,6 +38,7 @@ function Toolstack() {
                   height="112"
                 />
               }
+              animationType="bottom"
             />
           </div>
           <div className="skills-card">
@@ -48,6 +50,7 @@ function Toolstack() {
                   height="112"
                 />
               }
+              animationType="top"
             />
           </div>
           <div className="skills-card">
@@ -55,6 +58,7 @@ function Toolstack() {
               icon={
                 <Icon icon="devicon:github-wordmark" width="112" height="112" />
               }
+              animationType="bottom"
             />
           </div>
           <div className="skills-card">
@@ -62,16 +66,19 @@ function Toolstack() {
               icon={
                 <Icon icon="file-icons:tortoisesvn" width="112" height="112" />
               }
+              animationType="top"
             />
           </div>
           <div className="skills-card">
             <CardSkill
               icon={<Icon icon="logos:jenkins" width="112" height="112" />}
+              animationType="bottom"
             />
           </div>
           <div className="skills-card">
             <CardSkill
               icon={<Icon icon="logos:new-relic" width="112" height="112" />}
+              animationType="top"
             />
           </div>
           <div className="skills-card">
@@ -79,6 +86,7 @@ function Toolstack() {
               icon={
                 <Icon icon="devicon:splunk-wordmark" width="112" height="112" />
               }
+              animationType="bottom"
             />
           </div>
           <div className="skills-card">
@@ -86,6 +94,7 @@ function Toolstack() {
               icon={
                 <Icon icon="devicon:jira-wordmark" width="112" height="112" />
               }
+              animationType="top"
             />
           </div>
           <div className="skills-card">
@@ -97,6 +106,7 @@ function Toolstack() {
                   height="112"
                 />
               }
+              animationType="bottom"
             />
           </div>
           <div className="skills-card">
@@ -104,6 +114,7 @@ function Toolstack() {
               icon={
                 <Icon icon="devicon:chrome-wordmark" width="112" height="112" />
               }
+              animationType="top"
             />
           </div>
           <div className="skills-card">
@@ -115,6 +126,7 @@ function Toolstack() {
                   height="112"
                 />
               }
+              animationType="bottom"
             />
           </div>
         </div>
