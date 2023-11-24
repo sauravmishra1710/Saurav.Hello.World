@@ -1,6 +1,7 @@
 import React from "react";
 import "./card.css";
 import Button from "react-bootstrap/Button";
+import { Fade } from "react-reveal";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
@@ -13,6 +14,7 @@ const Card = ({ title, srcLink, miscLink, description, miscDescription, image })
     backgroundSize: "contain"
   };
   return (
+    <Fade bottom duration={2000} distance="20px">
     <div className="outer-div">
       <div className="inner-div">
         <div className="front">
@@ -44,6 +46,7 @@ const Card = ({ title, srcLink, miscLink, description, miscDescription, image })
         </div>
       </div>
     </div>
+    </Fade>
   );
 };
 

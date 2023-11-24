@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./projects.css";
 import Card from "./card";
 import ThemeContext from "../../utility/themeContext";
+import { Bounce, Fade } from "react-reveal";
 
 import working from "../../img/page_logos/working.jpg";
 import imgClassification from "../../img/projects/imgClassification.png";
@@ -32,43 +33,54 @@ const Projects = () => {
               className="col-lg-8"
               style={{ marginTop: "80px", marginLeft: "50px" }}
             >
-              <h1 id="heading" className="purple">
-                Projects
-              </h1>
+              <Fade top duration={1000}>
+                <h1 id="heading" className="purple">
+                  Projects
+                </h1>
+              </Fade>
+
               <div className="project-text">
-                <p>
-                  Actual learning experience comes by actively engaging in
-                  putting the theoretical knowledge gained into practical
-                  implementation to design and build solutions. It helps gain
-                  conceptual insights as well as practical expertise.
-                </p>
+                <Bounce right duration={1000}>
+                  <p>
+                    Actual learning experience comes by actively engaging in
+                    putting the theoretical knowledge gained into practical
+                    implementation to design and build solutions. It helps gain
+                    conceptual insights as well as practical expertise.
+                  </p>
+                </Bounce>
                 <p></p>
-                <p>
-                  I always try to put{" "}
-                  <span className="purple">
-                    <b>
-                      {" "}
-                      my learnings into practical solutions to gain much needed
-                      hands-on experience
-                    </b>
-                  </span>
-                  .
-                </p>
+                <Bounce left duration={1000}>
+                  <p>
+                    I always try to put{" "}
+                    <span className="purple">
+                      <b>
+                        {" "}
+                        my learnings into practical solutions to gain much
+                        needed hands-on experience
+                      </b>
+                    </span>
+                    .
+                  </p>
+                </Bounce>
                 <p></p>
-                <p>Here are a few projects I have worked on...</p>
+                <Bounce left duration={1000}>
+                  <p>Here are a few projects I have worked on...</p>
+                </Bounce>
               </div>
             </div>
           </Col>
           <Col md={7}>
-            <div className="col-lg-6">
-              <img
-                className="images"
-                src={working}
-                alt=""
-                height={600}
-                width={1000}
-              />
-            </div>
+            <Bounce bottom duration={1000}>
+              <div className="col-lg-6">
+                <img
+                  className="images"
+                  src={working}
+                  alt=""
+                  height={600}
+                  width={1000}
+                />
+              </div>
+            </Bounce>
           </Col>
         </Row>
         <Row>
@@ -83,9 +95,11 @@ const Projects = () => {
             }}
             id="projectSection"
           >
-            <h1 id="projectHeading" className="purple">
-              Artificial Intelligence and Deep Learning
-            </h1>
+            <Bounce right duration={1000}>
+              <h1 id="projectHeading" className="purple">
+                Artificial Intelligence and Deep Learning
+              </h1>
+            </Bounce>
             <div
               style={{
                 width: "80vw",
@@ -219,9 +233,11 @@ const Projects = () => {
             }}
             id="projectSection"
           >
-            <h1 id="projectHeading" className="purple">
-              Paper Publications & Reviews
-            </h1>
+            <Bounce left duration={1000}>
+              <h1 id="projectHeading" className="purple">
+                Paper Publications & Reviews
+              </h1>
+            </Bounce>
             <div
               style={{
                 width: "80vw",
@@ -320,9 +336,11 @@ const Projects = () => {
             }}
             id="projectSection"
           >
-            <h1 id="projectHeading" className="purple">
-              Python Frontend GUI using PySimpleGUI
-            </h1>
+            <Bounce right duration={1000}>
+              <h1 id="projectHeading" className="purple">
+                Python Frontend GUI using PySimpleGUI
+              </h1>
+            </Bounce>
             <div
               style={{
                 width: "80vw",

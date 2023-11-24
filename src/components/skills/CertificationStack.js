@@ -64,7 +64,7 @@ function CertificationStack() {
             course_org_link="https://www.coursera.org/learn/ai-for-medical-diagnosis"
             course_logo={DeepLearningAI}
             certificate_link="https://www.coursera.org/account/accomplishments/verify/6S66A6AVQRZ7"
-            certificate_color_code="#E0E0E0"
+            certificate_color_code="#477E96"
           />
 
           <CertificationCard
@@ -73,7 +73,7 @@ function CertificationStack() {
             course_org_link="https://www.coursera.org/learn/ai-for-medical-prognosis"
             course_logo={DeepLearningAI}
             certificate_link="https://www.coursera.org/account/accomplishments/verify/P9EMJ7E2MMQF"
-            certificate_color_code="#E0E0E0"
+            certificate_color_code="#76FBC6"
           />
 
           <CertificationCard
@@ -82,16 +82,16 @@ function CertificationStack() {
             course_org_link="https://www.coursera.org/learn/ai-for-medical-treatment"
             course_logo={DeepLearningAI}
             certificate_link="https://www.coursera.org/account/accomplishments/verify/3HT5E53TQZQE"
-            certificate_color_code="#E0E0E0"
+            certificate_color_code="#EC8590"
           />
 
           <CertificationCard
-            course_title="AI for Medicine"
+            course_title="AI for Medicine Specialization"
             course_org="DeepLearning.AI"
             course_org_link="https://www.deeplearning.ai/courses/ai-for-medicine-specialization/"
             course_logo={DeepLearningAI}
             certificate_link="https://www.coursera.org/account/accomplishments/specialization/KQD3MKQFMMYS"
-            certificate_color_code="#E0E0E0"
+            certificate_color_code="#3C7AE4"
           />
 
           <CertificationCard
