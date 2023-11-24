@@ -2,8 +2,10 @@ import "./publications.css";
 import { Col, Container, Row } from "react-bootstrap";
 import { useState, useMemo } from "react";
 import { MaterialReactTable } from "material-react-table";
+import { Bounce, Fade } from "react-reveal";
 import Abstract from "./Abstract";
 import publication from "../../img/page_logos/publications.jpg";
+import BookNerd from "../../img/page_logos/BookNerd.png";
 
 const journals = [
   {
@@ -152,60 +154,71 @@ const Publications = () => {
       <Container fluid>
         <Row>
           <Col md={6}>
-            <div className="col-lg-10" style={{ marginTop: "80px" }}>
-              <h2 id="heading" className="purple">
-                Peer Reviewed Publications
-              </h2>
+            <div className="col-lg-10" style={{ marginTop: "60px" }}>
+              <Bounce top duration={1000}>
+                <h1 id="heading" className="purple">
+                  Peer Reviewed Publications
+                </h1>
+              </Bounce>
               <div className="publications-text">
-                <p>
-                  The inspiration to write peer reviewed papers arose during the
-                  days of my masters in AI & ML where I had to do my
-                  dissertation for the end project. The process of writing long
-                  thesis was something{" "}
-                  <span className="purple">
-                    <b> completely new to me, the learnings involved</b>
-                  </span>{" "}
-                  inspired me to continue the process so that knowledge sharing
-                  is available to every one. It is also a way to make my work
-                  available to the{" "}
-                  <span className="purple">
-                    <b>
-                      larger tech community and access to new learning is
-                      seamlessly available across domains
-                    </b>
-                  </span>
-                  .
-                </p>{" "}
-                <p>
-                  Also,{" "}
-                  <span className="purple">
-                    <b>
-                      the fact that my work could help others in some ways also
-                      motivates to continue writing, publishing, and sharing
-                    </b>
-                  </span>
-                  .
-                </p>{" "}
-                <p>All of my recently published papers are listed below.</p>
+                <Bounce right duration={1000}>
+                  <p>
+                    The inspiration to write peer reviewed papers arose during
+                    the days of my masters in AI & ML where I had to do my
+                    dissertation for the end project. The process of writing
+                    long thesis was something{" "}
+                    <span className="purple">
+                      <b> completely new to me, the learnings involved</b>
+                    </span>{" "}
+                    inspired me to continue the process so that knowledge
+                    sharing is available to every one. It is also a way to make
+                    my work available to the{" "}
+                    <span className="purple">
+                      <b>
+                        larger tech community and access to new learning is
+                        seamlessly available across domains
+                      </b>
+                    </span>
+                    .
+                  </p>{" "}
+                </Bounce>
+                <Bounce left duration={1000}>
+                  <p>
+                    Also,{" "}
+                    <span className="purple">
+                      <b>
+                        the fact that my work could help others in some ways
+                        also motivates to continue writing, publishing, and
+                        sharing
+                      </b>
+                    </span>
+                    .
+                  </p>{" "}
+                </Bounce>
+                <Bounce right duration={1000}>
+                  <p>All of my recently published papers are listed below.</p>
+                </Bounce>
               </div>
             </div>
           </Col>
           <Col md={6}>
-            <img
-              className="image"
-              src={publication}
-              alt=""
-              height={600}
-              width={800}
-            />
+            <Fade bottom diatance="500px">
+              <img
+                className="image"
+                src={publication}
+                alt=""
+                height={600}
+                width={800}
+              />
+            </Fade>
           </Col>
         </Row>
         <Row>
           <div className="publications">
-            <h2 id="heading" className="purple">
+            <h1 id="heading" className="purple">
               {" "}
               Recent Publications{" "}
-            </h2>
+            </h1>
             <p style={{ fontSize: "10px", color: "red", fontWeight: "800" }}>
               <sup>*</sup>Click anywhere in the row to view the abstract.
             </p>
@@ -214,9 +227,13 @@ const Publications = () => {
               data={journals}
               enableSorting={false}
               enableFilters={false}
+              enableTopToolbar={false}
+              enableBottomToolbar={false}
               enableDensityToggle={false}
               enableFullScreenToggle={false}
               enableColumnResizing={false}
+              enableColumnActions={false}
+              enableColumnFilters={false}
               // muiTableContainerProps={{ sx: { maxWidth: '100%', maxHeight: '50%' }, }}
               muiTableBodyRowProps={{
                 onClick: (event) => {
@@ -258,6 +275,25 @@ const Publications = () => {
             title={title}
             fullPaperLink={fullPaperLink}
           />
+        </Row>
+        <Row>
+          <div className="col-lg-10" style={{ marginTop: "20px" }}>
+            <Bounce right duration={1000}>
+              <h1 id="heading" className="purple">
+                Books I have Read
+              </h1>
+            </Bounce>
+
+            <Fade top>
+              <img
+                // className="image"
+                src={BookNerd}
+                alt=""
+                height={400}
+                width={400}
+              />
+            </Fade>
+          </div>
         </Row>
       </Container>
     </>

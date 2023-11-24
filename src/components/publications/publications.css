@@ -2,7 +2,7 @@
 
 .publications {
     /* background-color: #EDF9FE; */
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 100px;
     padding-left: 15px;
     padding-right: 15px;
@@ -15,6 +15,8 @@
 .publications-text p {
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
 .image {
