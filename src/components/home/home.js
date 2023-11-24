@@ -42,7 +42,7 @@ const Home = () => {
                   </div>
                 </Bounce>
                 <div className="parallax purple">
-                <Fade className="hithere" left duration={1000}>
+                <Fade left duration={1000}>
                   <h1 className="hithere">
                       Hi There!{" "}
                       <span className="wave" role="img" aria-labelledby="wave">
