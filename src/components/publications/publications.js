@@ -277,23 +277,53 @@ const Publications = () => {
           />
         </Row>
         <Row>
-          <div className="col-lg-10" style={{ marginTop: "20px" }}>
-            <Bounce right duration={1000}>
-              <h1 id="heading" className="purple">
-                Books I have Read
-              </h1>
-            </Bounce>
+          <Col md={9}>
+            <div className="col-lg-10" style={{ marginTop: "20px" }}>
+              <Bounce right duration={1000}>
+                <h1 id="heading" className="purple">
+                  Books I have Read
+                </h1>
+              </Bounce>
 
+              <div className="publications-text">
+                <Bounce right duration={1000}>
+                  <p>
+                    Not a book nerd as the picture would suggest but I am more
+                    kind of a seasonal reader. But once I get into my reading
+                    mode, I want to finish it off in a sitting or two. Starting
+                    with the exchange of the Enid Blyton's & the Agatha
+                    Christie's while in high school to now reading books on
+                    space-science & universe, to impact of AI in healthacre, my
+                    reading journey has been a mix of multiple start & stop kind
+                    of phases.
+                  </p>
+                  <p>
+                    Starting with Enid Blyton's The famous Five & The Secret
+                    Seven to J. K. Rowling's portrayl of characters Harry,
+                    Hermione, & Ron had been a major motivation back then to be
+                    glued to The Harry Potter series and getting me addicted to
+                    novels. It then transitioned me to the next phase of enjoying my
+                    engineering days reading about what not to do at <s>engineering
+                    colleges</s> IITs? with Five Point Someone, The 3 Mistakes of My
+                    Life from Chetan Bhagat's leafs.
+                  </p>
+                </Bounce>
+              </div>
+            </div>
+          </Col>
+          <Col md={3}>
             <Fade top>
-              <img
-                // className="image"
-                src={BookNerd}
-                alt=""
-                height={400}
-                width={400}
-              />
+              <div style={{ marginTop: "30px" }}>
+                <img
+                  // className="image"
+                  src={BookNerd}
+                  alt=""
+                  height={400}
+                  width={400}
+                />
+              </div>
             </Fade>
-          </div>
+          </Col>
         </Row>
       </Container>
     </>
