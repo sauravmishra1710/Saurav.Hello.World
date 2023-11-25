@@ -297,23 +297,34 @@ const Publications = () => {
                     reading journey has been a mix of multiple start & stop kind
                     of phases.
                   </p>
+                  </Bounce>
+                  <Bounce left duration={1000}>
                   <p>
                     Starting with Enid Blyton's The famous Five & The Secret
                     Seven to J. K. Rowling's portrayl of characters Harry,
                     Hermione, & Ron had been a major motivation back then to be
                     glued to The Harry Potter series and getting me addicted to
-                    novels. It then transitioned me to the next phase of enjoying my
-                    engineering days reading about what not to do at <s>engineering
-                    colleges</s> IITs? with Five Point Someone, The 3 Mistakes of My
-                    Life from Chetan Bhagat's leafs.
+                    novels. It then transitioned me to the next phase of
+                    enjoying my engineering days reading about what not to do at{" "}
+                    <s>engineering colleges</s> IITs? with Five Point Someone,
+                    and which 3 mistakes to not repeat with the 3 Mistakes of My
+                    Life from Chetan Bhagat's leafs. And more recently, the
+                    curious neurons in me have made me reading about the The Big
+                    Bang and the events that followed leading to the creation of
+                    our Universe which with it's continuous state of infinite
+                    expansion opens us to a source of infinite knowledge.
                   </p>
+                  <p></p>
+                </Bounce>
+                <Bounce right duration={1000}>
+                  <p>Below are a few books I have read...</p>
                 </Bounce>
               </div>
             </div>
           </Col>
           <Col md={3}>
-            <Fade top>
-              <div style={{ marginTop: "30px" }}>
+            <Bounce top>
+              <div style={{ marginTop: "30px", marginRight: "30px" }}>
                 <img
                   // className="image"
                   src={BookNerd}
@@ -322,7 +333,7 @@ const Publications = () => {
                   width={400}
                 />
               </div>
-            </Fade>
+            </Bounce>
           </Col>
         </Row>
       </Container>
