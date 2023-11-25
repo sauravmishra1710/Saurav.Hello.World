@@ -43,9 +43,10 @@ const Projects = () => {
                 <Bounce right duration={1000}>
                   <p>
                     Actual learning experience comes by actively engaging in
-                    putting the theoretical knowledge gained into practical
-                    implementation to design and build solutions. It helps gain
-                    conceptual insights as well as practical expertise.
+                    putting to action the theoretical knowledge gained for
+                    practical implementation to design and build solutions. It
+                    helps gain conceptual insights as well as practical
+                    expertise.
                   </p>
                 </Bounce>
                 <p></p>
