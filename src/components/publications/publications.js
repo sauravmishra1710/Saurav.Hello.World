@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import { MaterialReactTable } from "material-react-table";
 import { Bounce, Fade } from "react-reveal";
 import Abstract from "./Abstract";
+import CardBook from "./cardBook";
 import publication from "../../img/page_logos/publications.jpg";
 import BookNerd from "../../img/page_logos/BookNerd.png";
 
@@ -266,7 +267,6 @@ const Publications = () => {
           </div>
         </Row>
         <Row>
-          <div className="certifications"></div>
           <Abstract
             show={show}
             handleClose={handleClose}
@@ -297,8 +297,8 @@ const Publications = () => {
                     reading journey has been a mix of multiple start & stop kind
                     of phases.
                   </p>
-                  </Bounce>
-                  <Bounce left duration={1000}>
+                </Bounce>
+                <Bounce left duration={1000}>
                   <p>
                     Starting with Enid Blyton's The famous Five & The Secret
                     Seven to J. K. Rowling's portrayl of characters Harry,
@@ -335,6 +335,17 @@ const Publications = () => {
               </div>
             </Bounce>
           </Col>
+        </Row>
+        <Row>
+          <div>
+            <CardBook />
+            <p>
+              Starting with Enid Blyton's The famous Five & The Secret Seven to
+              J. K. Rowling's portrayl of characters Harry, Hermione, & Ron had
+              been a major motivation back then to be glued to The Harry Potter
+              series and getting me addicted to novels.
+            </p>
+          </div>
         </Row>
       </Container>
     </>
