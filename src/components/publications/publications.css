@@ -19,6 +19,30 @@
     text-justify: inter-word;
   }
 
+  .books-parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .books-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .all-books-container {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+  }
+
 .image {
     margin-top: 60px;
   }
