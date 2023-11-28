@@ -312,7 +312,7 @@ function Contact() {
               </div>
             </Col>
             <Col md={5}>
-            <Fade bottom distance="200px">
+            <Fade right>
               <div className="col-lg-6">
                 <img
                   className="images"
@@ -452,7 +452,7 @@ function Contact() {
           </Row>
           <Row>
             <Bounce bottom>
-              <div style={{paddingTop: "20px"}}>
+              <div style={{paddingTop: "10px"}}>
                 <img src={img2} alt="" height={800} width={850} />
               </div>
             </Bounce>

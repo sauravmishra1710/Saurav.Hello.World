@@ -35,23 +35,35 @@ const About = () => {
               <p>
                 A passionate individual who always thrives to work on front end
                 solutions which develop sustainable systems to create impact. I
-                have a strong affinity for working on and developing Artificial
-                Intelligence, Computer Vision solutions for the healthcare
-                domain. More recently, I have developed a strong interest
-                towards developing front-end web solutions.
+                have a strong affinity for working on and developing{" "}
+                <span className="purple">
+                  <b> Artificial Intelligence</b>
+                </span>
+                ,{" "}
+                <span className="purple">
+                  <b> Computer Vision solutions for the healthcare domain</b>
+                </span>
+                . More recently, I have developed a strong interest towards
+                developing front-end web solutions.
               </p>
               <p>
                 Outside of the techno world, my love for the nature takes me
                 travelling places to explore the unexplored, have new
-                experiences, get new inspirations, and be on toes for the
-                surprises the life has in store for me.
+                experiences, get new inspirations, and{" "}
+                <span className="purple">
+                  <b> be on toes for the surprises the life has in store</b>
+                </span>{" "}
+                for me.
               </p>
               <p>
-                I am a big foodie with a very diverse taste buds. My
-                explorations for lip smacking food is endless. I love to try out
-                every cuisine when I get the chance. Food in another movitation
-                to explore places and keep learnig about the culinary practices
-                of any region.
+                I am a{" "}
+                <span className="purple">
+                  <b> big foodie with a very diverse taste buds</b>
+                </span>
+                . My explorations for lip smacking food is endless. I love to
+                try out every cuisine when I get the chance. Food in another
+                movitation to explore places and keep learnig about the culinary
+                practices of any region.
               </p>
               <h3 id="heading" className="purple">
                 Techinical Prowess
@@ -283,27 +295,35 @@ const About = () => {
                   </div>
                 </div>
               </p>
+
               <h3 id="heading" className="purple">
-                Beyond the Résumé
+                Connect & Collaborate
               </h3>
               <p>
-                While my résumé might paint a picture of a typical tech
-                enthusiast, there's more to me than meets the eye. I have an
-                insatiable love for cooking, travelling, and nature photography.
-                I aspire to visit trails as humanly possible. It's a thrilling
-                way to disconnect from the digital world and reconnect with
-                nature.
-              </p>
-              <p>...</p>
-              <h3 id="heading" className="purple">
-                Let's Connect and Collaborate
-              </h3>
-              <p>
-                I thrive on collaboration and the opportunity to work with
-                like-minded individuals. Whether you want to discuss the latest
-                world affairs, share street food recommendations, or brainstorm
-                over a cup of chai, I'm always eager to connect on LinkedIn and
-                explore exciting opportunities together.
+                I am always in for connecting & collaborating with like-minded
+                individuals for developing something{" "}
+                <span className="purple">
+                  <b> cool with code</b>
+                </span>
+                , work on{" "}
+                <span className="purple">
+                  <b> AI stuffs</b>
+                </span>
+                , talk about the{" "}
+                <span className="purple">
+                  <b> culinary experiences</b>
+                </span>
+                , go on a{" "}
+                <span className="purple">
+                  <b> nature photography</b>
+                </span>{" "}
+                tour, or just have a <s>chai</s>coffee-pe-charcha I'm always
+                ready. I am available in almost every social platform and my
+                inbox is open for all. I am just a{" "}
+                <span className="purple">
+                  <b>request away</b>
+                </span>{" "}
+                to collaborate.
               </p>
             </div>
           </div>

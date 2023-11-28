@@ -82,7 +82,7 @@ function Skills() {
                         </b>
                       </span>
                       . The world of Artificial Intelligence is evolving faster
-                      that ever with cutting-edge development across the globe.
+                      than ever with cutting-edge development across the globe.
                       I make it a point to keep pace with the innovations in AI
                       and computer vision space within the healthcare domain.
                     </p>

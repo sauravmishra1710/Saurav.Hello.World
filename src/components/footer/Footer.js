@@ -26,7 +26,7 @@ function Footer() {
           <div className='social-media-icons'>
               <a
                 href="https://github.com/sauravmishra1710"
-                style={{ color: '#253222', marginRight:'10px' }}
+                style={{ color: '#243123', marginRight:'10px' }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -34,7 +34,7 @@ function Footer() {
               </a>
               <a
                 href="https://www.linkedin.com/in/saurav-mishra1710/"
-                style={{ color: '#253222', marginRight:'10px'}}
+                style={{ color: '#243123', marginRight:'10px'}}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -42,7 +42,7 @@ function Footer() {
               </a>
               <a
                 href="https://scholar.google.com/citations?hl=en&user=t1GX3O8AAAAJ"
-                style={{ color: '#253222', marginRight:'10px' }}
+                style={{ color: '#243123', marginRight:'10px' }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -50,7 +50,7 @@ function Footer() {
               </a>
               <a
                 href="https://twitter.com/forevrManUtd"
-                style={{ color: '#253222', marginRight:'10px' }}
+                style={{ color: '#243123', marginRight:'10px' }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -58,7 +58,7 @@ function Footer() {
               </a>
               <a
                 href="https://www.instagram.com/saurav.mishra1710/"
-                style={{ color: '#253222', marginRight:'10px' }}
+                style={{ color: '#243123', marginRight:'10px' }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -66,7 +66,7 @@ function Footer() {
               </a>
               <a
                 href="https://www.instagram.com/flashyfilters.saurav1710/"
-                style={{ color: '#253222', marginRight:'10px' }}
+                style={{ color: '#243123', marginRight:'10px' }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >

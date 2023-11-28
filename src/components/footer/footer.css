@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(174, 240, 172);
+  background-color: #c770f0;
   background-size: contain;
   display: flex;
   position: fixed;
@@ -9,6 +9,7 @@
   bottom: 0;
   left: 0;
   height: 5vh;
+  z-index: 1;
 }
 
 .footer-row {
@@ -18,12 +19,12 @@
 
 .copyright {
   width: 33.33%;
-  font-family: "Special Elite", cursive;
+  font-family: 'Raleway';
 }
 
 .made-by {
   width: 33.33%;
-  font-family: "Special Elite", cursive;
+  font-family:  'Raleway';
 }
 
 .social-media-icons {
