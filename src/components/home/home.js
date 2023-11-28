@@ -5,7 +5,7 @@ import "../../App.css";
 import ThemeContext from "../../utility/themeContext";
 import Typewriter from "typewriter-effect";
 import { Bounce, Fade } from "react-reveal";
-import programmer from "../../img/page_logos/programmer.png";
+import home from "../../img/page_logos/home.png";
 import me from "../../img/page_logos/me_light_mode_cartoonized.png";
 
 const Home = () => {
@@ -114,10 +114,10 @@ const Home = () => {
               <div className="col-lg-6">
                 <img
                   className="homeimages"
-                  src={programmer}
+                  src={home}
                   alt=""
                   height={700}
-                  width={1000}
+                  width={900}
                 />
               </div>
             </Bounce>
