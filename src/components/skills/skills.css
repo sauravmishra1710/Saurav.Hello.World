@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
 
 .skills-parent {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 50px;
   display: flex;
   /* justify-content: center; */
