@@ -29,7 +29,9 @@ const About = () => {
             }}
           >
             <div className="about-text" id="aboutSection">
-              <h2 id="heading">The Journey Begins Here</h2>
+              <h2 id="heading" className="purple">
+                Me in a Nutshell
+              </h2>
               <p>
                 A passionate individual who always thrives to work on front end
                 solutions which develop sustainable systems to create impact. I
@@ -38,8 +40,21 @@ const About = () => {
                 domain. More recently, I have developed a strong interest
                 towards developing front-end web solutions.
               </p>
-              <h3>
-                <b>Techinical Prowess</b>
+              <p>
+                Outside of the techno world, my love for the nature takes me
+                travelling places to explore the unexplored, have new
+                experiences, get new inspirations, and be on toes for the
+                surprises the life has in store for me.
+              </p>
+              <p>
+                I am a big foodie with a very diverse taste buds. My
+                explorations for lip smacking food is endless. I love to try out
+                every cuisine when I get the chance. Food in another movitation
+                to explore places and keep learnig about the culinary practices
+                of any region.
+              </p>
+              <h3 id="heading" className="purple">
+                Techinical Prowess
               </h3>
               <p>
                 Professionally, I work for Oracle Health & AI as a Software
@@ -62,7 +77,7 @@ const About = () => {
                   <b>C# .Net</b>
                 </span>{" "}
                 and bits & pieces with VC++ when needed. Having spent the
-                majority of my profesional journey with C# .Net, I needed to
+                majority of my professional journey with C# .Net, I needed to
                 explore something new which has now put me in my path to explore
                 the{" "}
                 <span className="purple">
@@ -90,8 +105,8 @@ const About = () => {
                         domain
                       </b>
                     </span>
-                    The world of Artificial Intelligence is evolving faster than
-                    ever and is predicted to grow increasingly pervasive as
+                    . The field of Artificial Intelligence is evolving faster
+                    than ever and is predicted to grow increasingly pervasive as
                     technology develops, revolutionising various sectors
                     including healthcare with cutting-edge development across
                     the globe. This drives me to keep pace with these
@@ -102,8 +117,8 @@ const About = () => {
                 </Bounce>
                 <p></p>
               </p>
-              <h3>
-                <b>The Three Cs</b>
+              <h3 id="heading" className="purple">
+                The Three Cs
               </h3>
               <p>
                 Define myself in 3 Words?
@@ -131,20 +146,23 @@ const About = () => {
                   <span className="purple">
                     <b>pride in my culinary skills</b>
                   </span>
-                  . Like I want to develop my coding skills, I want to{" "}
+                  . Like I want to develop my coding skills, I want to be{" "}
                   <span className="purple">
                     <b>emerging and evolving in my cooking explorations</b>
                   </span>{" "}
                   too. Cooking with love for family, friends and serving
                   something that excites the taste buds is my passion. The
                   <span className="purple">
-                    <b>inspiration for cooking comes from my mother</b>
+                    <b> inspiration for cooking comes from my mother</b>
                   </span>{" "}
                   (as it does for everone who loves cooking) and the realisation
-                  that I can cook well came with every appreciation from
+                  that I can cook well comes with every appreciation from
                   friends, and family. And with every such realisation, comes{" "}
                   <span className="purple">
-                    <b>more confidence to try something new the next time</b>
+                    <b>
+                      more confidence to try my hands on something new the next
+                      time
+                    </b>
                   </span>
                   . Too early to tell, but I guess my youngest & the best fan
                   girl has been my 'lil daughter{" "}
@@ -177,11 +195,96 @@ const About = () => {
                     <span className="purple" style={{ fontSize: "3rem" }}>
                       <b>Camera...</b>
                     </span>
+                    <br />{" "}
+                    <p>
+                      An enthusiastic photographer, the joys of photographing
+                      nature & landscapes is immense to me. Great landscapes,
+                      beautiful sceneries, mountains, rivers, valleys excites me
+                      in the same way like{" "}
+                      <span className="purple">
+                        <b>
+                          {" "}
+                          that small 'lil kid getting excited on entering the
+                          house of candies
+                        </b>
+                      </span>
+                      . I guess this hidden passion and intensity for landscape
+                      and nature photography comes from{" "}
+                      <span className="purple">
+                        <b> my father</b>
+                      </span>
+                      . He was fond of travelling, exploring new places and made
+                      sure he always carried his{" "}
+                      <span className="purple">
+                        <b> Kodak 📸</b>
+                      </span>
+                      . Capturing all the beautiful landscapes, family pictures
+                      and then waiting for the films to get developed days after
+                      the vacation.{" "}
+                      <span className="purple">
+                        <b>
+                          {" "}
+                          The excitement of waiting for the pictures then built
+                          the passion that I have now
+                        </b>
+                      </span>
+                      .
+                    </p>
+                    <p>
+                      The fresh air and the spectacular views be it a bright
+                      sunny day or a coludy rainy day, photography is worth any
+                      kind of conditions and environment. It’s about being at
+                      the right place at the right time. Sometimes you get
+                      lucky, and sometimes times it's about waiting to that
+                      right moment and the right place to get the right click.
+                      Whatever it be like,{" "}
+                      <span className="purple">
+                        <b> the it's all worth the wait</b>
+                      </span>
+                      . Making those random road side stops just because you
+                      just got spectacular view of the sunset. Or waiting for
+                      that 'lil extra time to get the best shot.{" "}
+                      <span className="purple">
+                        <b> Everything in photography seems good</b>
+                      </span>
+                      .
+                    </p>
+                    <p>
+                      It just does not finish after that one click, a series of
+                      clicks follows and choosing your best shot, the post
+                      processing involved to enhance the picture,{" "}
+                      <span className="purple">
+                        <b>
+                          it's all a great learning experience with every single
+                          picture
+                        </b>
+                      </span>
+                      . It helps develop a keen attention to detail to notice
+                      slight changes in your field of view. Every day will
+                      invite you to explore something new (for e.g.{" "}
+                      <span className="purple">
+                        <b>
+                          watch changing position of the sunrise moves northward
+                          to southwards across seasons
+                        </b>
+                      </span>
+                      ).{" "}
+                      <span className="purple">
+                        <b>That’s the real beauty of photography!</b>
+                      </span>
+                      . It opens up the shutter with an infinite possibilities
+                      for field of views to capture with your camera. It’s all
+                      about noticing those smallest of the details.
+                    </p>
+                    <p>
+                      A glipmse of my experiments with clicks is shared in the
+                      Socials.
+                    </p>
                   </div>
                 </div>
               </p>
-              <h3>
-                <b>Beyond the Résumé</b>
+              <h3 id="heading" className="purple">
+                Beyond the Résumé
               </h3>
               <p>
                 While my résumé might paint a picture of a typical tech
@@ -192,8 +295,8 @@ const About = () => {
                 nature.
               </p>
               <p>...</p>
-              <h3>
-                <b>Let's Connect and Collaborate</b>
+              <h3 id="heading" className="purple">
+                Let's Connect and Collaborate
               </h3>
               <p>
                 I thrive on collaboration and the opportunity to work with

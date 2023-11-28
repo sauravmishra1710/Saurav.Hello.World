@@ -16,6 +16,8 @@
 }
 .about-text p {
   font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 #aboutHeading {
   font-family: "Jockey One", sans-serif;
