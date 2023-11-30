@@ -98,7 +98,7 @@ function Skills() {
               </div>
             </Col>
             <Col md={6}>
-            <Fade bottom duration={1000} distance="500px">
+            <Fade top duration={1000} distance="500px">
               <div className="col-lg-6 connect-image">
                 <img
                   className="images"

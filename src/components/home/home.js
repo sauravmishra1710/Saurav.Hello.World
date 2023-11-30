@@ -56,7 +56,7 @@ const Home = () => {
                     </Fade>
                   </h1>
 
-                  <Fade right duration={1000}>
+                  <Fade bottom duration={1000}>
                     <div className="parallax-text purple">
                       <Typewriter
                         options={{
