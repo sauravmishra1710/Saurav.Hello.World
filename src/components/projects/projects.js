@@ -388,6 +388,7 @@ const Projects = () => {
               />
             </div>
           </div>
+          <p>&nbsp;</p>
         </Row>
       </Container>
     </>
