@@ -86,12 +86,9 @@ const About = () => {
                   </Row>
                 </Col>
                 <Col md={7} style={{ marginRight: "20px" }}>
-                  <Bounce top duration={1000}>
                     <h1 id="heading" className="purple">
                       Me in a Nutshell
                     </h1>
-                  </Bounce>
-                  <Fade left duration={1000}>
                     <p>
                       A passionate individual who always thrives to work on
                       front end solutions which develop sustainable systems to
@@ -110,8 +107,6 @@ const About = () => {
                       . More recently, I have developed a strong interest
                       towards developing front-end web solutions.
                     </p>
-                  </Fade>
-                  <Fade right duration={1000}>
                     <p>
                       Outside of the techno world, my love for the nature takes
                       me travelling places to explore the unexplored, have new
@@ -124,8 +119,6 @@ const About = () => {
                       </span>{" "}
                       for me.
                     </p>
-                  </Fade>
-                  <Fade left duration={1000}>
                     <p>
                       I am a{" "}
                       <span className="purple">
@@ -136,17 +129,13 @@ const About = () => {
                       another movitation to explore places and keep learnig
                       about the culinary practices of any region.
                     </p>
-                  </Fade>
                 </Col>
               </Row>
               <Row>
                 <Col md={8}>
-                  <Bounce bottom duration={1000}>
                     <h1 id="heading" className="purple">
                       Techinical Prowess
                     </h1>
-                  </Bounce>
-                  <Fade top duration={1000}>
                     <p>
                       Professionally, I work for Oracle Health & AI as a
                       Software Engineer IV. Over the years, I have been lucky to
@@ -181,9 +170,7 @@ const About = () => {
                       other learnings the web world has to offer and that makes
                       things more exciting.
                     </p>
-                  </Fade>
                   <p></p>
-                  <Fade bottom duration={1000}>
                     <p>
                       Beyond my professional coding explorations, I never miss a
                       chance to get involved with code to remain updated with
@@ -206,7 +193,6 @@ const About = () => {
                       healthcare domain and ensure that I keep evolving
                       technically.
                     </p>
-                  </Fade>
                 </Col>
                 <Col md={4}>
                   <Bounce right duration={1000}>
@@ -219,15 +205,10 @@ const About = () => {
               <p></p>
               <Row>
                 <Col md={3}>
-                  <Bounce bottom dration={1000}>
                     <h1 id="heading" className="purple">
                       The Three Cs
                     </h1>
-                  </Bounce>
-                  <Fade left duration={1000}>
                     <p>Define myself in 3 Words?</p>
-                  </Fade>
-                  <Fade right duration={1000}>
                     <p>
                       <span className="purple">
                         <b>
@@ -236,7 +217,6 @@ const About = () => {
                         </b>
                       </span>
                     </p>
-                  </Fade>
                   <p></p>
                   <p>
                     <p>&nbsp;</p>
@@ -269,14 +249,11 @@ const About = () => {
                 </Col>
                 <Col md={9}>
                   <div>
-                    <Bounce right duration={1000}>
                       <p>
                         <span className="purple" style={{ fontSize: "2rem" }}>
                           <b>Cooking...🧑‍🍳</b>
                         </span>{" "}
                       </p>
-                    </Bounce>
-                    <Fade left duration={1000}>
                       <p>
                         A hobby... a stress buster... whatever it be like, I
                         love to cook. I take{" "}
@@ -311,9 +288,7 @@ const About = () => {
                         </span>{" "}
                         ❤️ who I love cooking for.
                       </p>
-                    </Fade>
                     <p></p>
-                    <Fade right duration={1000}>
                       <p>
                         An avid follower of the cullinary shows, all of the
                         Master Chef Series, the chefs and their little nuskha's
@@ -331,13 +306,10 @@ const About = () => {
                         </span>
                         .
                       </p>
-                    </Fade>
-                    <Fade left duration={1000}>
                       <p>
                         A glipmse of my cooking and cullinary skills is shared
                         in the Socials.
                       </p>
-                    </Fade>
                   </div>
                 </Col>
               </Row>
@@ -345,14 +317,11 @@ const About = () => {
               <Row>
                 <Col md={9}>
                   <div>
-                    <Bounce top duration={1000}>
                       <p>
                         <span className="purple" style={{ fontSize: "2rem" }}>
                           <b>Camera... 📸</b>
                         </span>
                       </p>
-                    </Bounce>
-                    <Fade right duration={1000}>
                       <p>
                         An enthusiastic photographer, the joys of photographing
                         nature & landscapes is immense to me. Great landscapes,
@@ -387,8 +356,6 @@ const About = () => {
                         </span>
                         .
                       </p>
-                    </Fade>
-                    <Fade left duration={1000}>
                       <p>
                         The fresh air and the spectacular views be it a bright
                         sunny day or a coludy rainy day, photography is worth
@@ -408,8 +375,6 @@ const About = () => {
                         </span>
                         .
                       </p>
-                    </Fade>
-                    <Fade right duration={1000}>
                       <p>
                         It just does not finish after that one click, a series
                         of clicks follows and choosing your best shot, the post
@@ -437,13 +402,10 @@ const About = () => {
                         for field of views to capture with your camera. It’s all
                         about noticing those smallest of the details.
                       </p>
-                    </Fade>
-                    <Fade left duration={1000}>
                       <p>
                         A glipmse of my experiments with clicks is shared in the
                         Socials.
                       </p>
-                    </Fade>
                   </div>
                 </Col>
                 <Col md={3}>
@@ -475,12 +437,9 @@ const About = () => {
                 <Col md={9}>
                   <div>
                     <br />
-                    <Bounce right duration={1000}>
                       <h1 id="heading" className="purple">
                         Connect & Collaborate
                       </h1>
-                    </Bounce>
-                    <Fade bottom duration={1000}>
                       <p>
                         I am always in for connecting & collaborating with
                         like-minded individuals for developing something{" "}
@@ -524,7 +483,6 @@ const About = () => {
                         </span>{" "}
                         to collaborate.
                       </p>
-                    </Fade>
                   </div>
                 </Col>
               </Row>

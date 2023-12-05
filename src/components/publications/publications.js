@@ -2,7 +2,7 @@ import "./publications.css";
 import { Col, Container, Row } from "react-bootstrap";
 import { useState, useMemo } from "react";
 import { MaterialReactTable } from "material-react-table";
-import { Bounce, Fade } from "react-reveal";
+import { Fade } from "react-reveal";
 import Abstract from "./Abstract";
 import Bookstack from "./BookStack";
 
@@ -156,13 +156,10 @@ const Publications = () => {
         <Row>
           <Col md={6}>
             <div className="col-lg-10" style={{ marginTop: "60px" }}>
-              <Bounce top duration={1000}>
                 <h1 id="heading" className="purple">
                   Peer Reviewed Publications
                 </h1>
-              </Bounce>
               <div className="publications-text">
-                <Bounce right duration={1000}>
                   <p>
                     The inspiration to write peer reviewed papers arose during
                     the days of my masters in AI & ML where I had to do my
@@ -182,8 +179,6 @@ const Publications = () => {
                     </span>
                     .
                   </p>{" "}
-                </Bounce>
-                <Bounce left duration={1000}>
                   <p>
                     Also,{" "}
                     <span className="purple">
@@ -195,10 +190,7 @@ const Publications = () => {
                     </span>
                     .
                   </p>{" "}
-                </Bounce>
-                <Bounce right duration={1000}>
                   <p>All of my recently published papers are listed below.</p>
-                </Bounce>
               </div>
             </div>
           </Col>

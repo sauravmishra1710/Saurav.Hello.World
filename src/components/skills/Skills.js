@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import {Bounce, Fade} from "react-reveal";
+import {Fade} from "react-reveal";
 import Techstack from "./TechStack.js";
 import Toolstack from "./ToolStack.js";
 import CertificationStack from "./CertificationStack.js";
@@ -25,7 +25,6 @@ function Skills() {
                   </h2>
                 </Fade>
                 <div className="skills-text">
-                  <Bounce right duration={1000}>
                     <p>
                       Professionally, I have been lucky to get the chance for
                       working on both sides of the front-end application
@@ -59,9 +58,7 @@ function Skills() {
                       learnings the web world has to offer and that makes things
                       more interesting.
                     </p>
-                  </Bounce>
                   <p></p>
-                  <Bounce left duration={1000}>
                     <p>
                       On the personal front, the curiosity to expand my
                       skillset, I have been doing a few light-weight python
@@ -86,14 +83,11 @@ function Skills() {
                       I make it a point to keep pace with the innovations in AI
                       and computer vision space within the healthcare domain.
                     </p>
-                  </Bounce>
                   <p></p>
-                  <Bounce right duration={1000}>
                     <p>
                       A glimpse of my work with AI and python stuffs is listed
                       in the Projects page.
                     </p>
-                  </Bounce>
                 </div>
               </div>
             </Col>
