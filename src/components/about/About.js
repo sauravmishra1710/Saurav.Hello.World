@@ -382,7 +382,7 @@ const About = () => {
                           <b>
                             {" "}
                             The excitement of waiting for the pictures then
-                            built the passion that I have now
+                            brewed the passion I have now
                           </b>
                         </span>
                         .
