@@ -40,7 +40,6 @@ const Projects = () => {
               </Fade>
 
               <div className="project-text">
-                <Bounce right duration={1000}>
                   <p>
                     Actual learning experience comes by actively engaging in
                     putting to action the theoretical knowledge gained for
@@ -48,9 +47,7 @@ const Projects = () => {
                     helps gain conceptual insights as well as practical
                     expertise.
                   </p>
-                </Bounce>
                 <p></p>
-                <Bounce left duration={1000}>
                   <p>
                     I always try to put{" "}
                     <span className="purple">
@@ -62,11 +59,8 @@ const Projects = () => {
                     </span>
                     .
                   </p>
-                </Bounce>
                 <p></p>
-                <Bounce left duration={1000}>
                   <p>Here are a few projects I have worked on...</p>
-                </Bounce>
               </div>
             </div>
           </Col>
@@ -96,11 +90,9 @@ const Projects = () => {
             }}
             id="projectSection"
           >
-            <Bounce right duration={1000}>
               <h1 id="projectHeading" className="purple">
                 Artificial Intelligence and Deep Learning
               </h1>
-            </Bounce>
             <div
               style={{
                 width: "80vw",
@@ -234,11 +226,9 @@ const Projects = () => {
             }}
             id="projectSection"
           >
-            <Bounce left duration={1000}>
               <h1 id="projectHeading" className="purple">
                 Paper Publications & Reviews
               </h1>
-            </Bounce>
             <div
               style={{
                 width: "80vw",
@@ -337,11 +327,9 @@ const Projects = () => {
             }}
             id="projectSection"
           >
-            <Bounce right duration={1000}>
               <h1 id="projectHeading" className="purple">
-                Python Frontend GUI using PySimpleGUI
+                Python Frontend using PySimpleGUI
               </h1>
-            </Bounce>
             <div
               style={{
                 width: "80vw",

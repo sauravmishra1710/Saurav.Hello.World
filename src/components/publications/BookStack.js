@@ -23,14 +23,11 @@ function Bookstack() {
       <Row>
         <Col md={9}>
           <div className="col-lg-10" style={{ marginTop: "50px" }}>
-            <Bounce right duration={1000}>
               <h1 id="heading" className="purple">
                 Books
               </h1>
-            </Bounce>
 
             <div className="publications-text">
-              <Bounce right duration={1000}>
                 <p>
                   Not a book nerd as the picture suggest's but I am more kind of
                   a seasonal reader. But once I get into my reading mode, I want
@@ -54,8 +51,6 @@ function Bookstack() {
                   , my reading journey has been a mix of multiple start & stop
                   kind of phases.
                 </p>
-              </Bounce>
-              <Bounce left duration={1000}>
                 <p>
                   Starting with Enid Blyton's{" "}
                   <a
@@ -110,13 +105,10 @@ function Bookstack() {
                   us to a source of infinite knowledge.
                 </p>
                 <p></p>
-              </Bounce>
-              <Bounce right duration={1000}>
                 <p>
                   The list below gives a glimplse of my part and parcel reading
                   activities...
                 </p>
-              </Bounce>
             </div>
           </div>
         </Col>
@@ -135,11 +127,9 @@ function Bookstack() {
       </Row>
       <Row>
         <div className="books-parent" id="booksSection">
-          <Bounce left duration={1000}>
             <h2 id="heading" className="purple">
               Books I have read...
             </h2>
-          </Bounce>
           <div className="all-books-container">
             <div className="books-card">
               <CardBook

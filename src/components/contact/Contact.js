@@ -8,7 +8,7 @@ import LoadingButton from "@mui/lab/LoadingButton";
 import SendIcon from "@mui/icons-material/Send";
 import ThemeContext from "../../utility/themeContext";
 import { Icon } from "@iconify/react";
-import { Zoom, Fade, Roll, Bounce } from "react-reveal";
+import { Fade, Roll, Bounce } from "react-reveal";
 import collaborate from "../../img/page_logos/connect.jpg";
 import thankyou from "../../img/page_logos/thankyou.jpeg";
 import emailImg from "../../img/page_logos/email.svg";
@@ -102,51 +102,41 @@ function Contact() {
           <Row>
             <Col md={6}>
               <div className="contact-heading">
-                <Fade top duration={2000} distance="100px">
-                  <h1 className="heading purple">Reach out to me...</h1>
-                </Fade>
+                <h1 className="heading purple">Reach out to me...</h1>
                 <div className="connect-with-me-text">
                   <p>
                     Thank you for visiting my space{" "}
-                    <Roll left>
                       <span
                         className="purple"
                         style={{ fontSize: "20.0pt", fontWeight: "bold" }}
                       >
                         <b>Saurav.Hello.World</b>
                       </span>
-                    </Roll>
                     .
                   </p>
-                  <Zoom right>
-                    <p>
-                      Feel free to reach out, and let's embark on this journey
-                      of
-                      <span className="purple">
-                        <b>
-                          {" "}
-                          knowledge sharing, innovation, cullinary skills, lip
-                          smacking food, cricket, football, & photography
-                          discoveries{" "}
-                        </b>
-                      </span>
-                      together. Always up to work on stuffs related to{" "}
-                      <span className="purple">
-                        <b>
-                          deep learning & computer vision in the healthcare
-                          domain
-                        </b>
-                      </span>
-                      .
-                    </p>
-                  </Zoom>
+                  <p>
+                    Feel free to reach out, and let's embark on this journey of
+                    <span className="purple">
+                      <b>
+                        {" "}
+                        knowledge sharing, innovation, cullinary skills, lip
+                        smacking food, cricket, football, & photography
+                        discoveries{" "}
+                      </b>
+                    </span>
+                    together. Always up to work on stuffs related to{" "}
+                    <span className="purple">
+                      <b>
+                        deep learning & computer vision in the healthcare domain
+                      </b>
+                    </span>
+                    .
+                  </p>
                   <p></p>
-                  <Zoom left>
-                    <p>
-                      I am available in almost every social platform and my
-                      Inbox is always open for all...
-                    </p>
-                  </Zoom>
+                  <p>
+                    I am available in almost every social platform and my Inbox
+                    is always open for all...
+                  </p>
                 </div>
                 <div>
                   <p>&nbsp;</p>
@@ -323,12 +313,10 @@ function Contact() {
           </Row>
 
           <Row>
-            <Fade bottom duration={2000} distance="500px">
-              <h1 className="heading purple">
-                {" "}
-                Have something to talk about...?
-              </h1>
-            </Fade>
+            <h1 className="heading purple">
+              {" "}
+              Have something to talk about...?
+            </h1>
 
             <div
               style={{
@@ -340,14 +328,11 @@ function Contact() {
             >
               <div className="col-lg-3">
                 <Bounce right>
-                  <Fade right>
-                    <div>
-                      <img src={emailImg} alt="" height={300} width={400} />
-                    </div>
-                  </Fade>
+                  <div>
+                    <img src={emailImg} alt="" height={300} width={400} />
+                  </div>
                 </Bounce>
               </div>
-              <Bounce left>
                 <div className="contact-row">
                   <div className="contact">
                     <div className="contact-card">
@@ -437,7 +422,6 @@ function Contact() {
                     </div>
                   </div>
                 </div>
-              </Bounce>
             </div>
           </Row>
           <Row>
