@@ -86,9 +86,6 @@
   background-color: #2eff13;
 }
 
-.heading {
-  font-family: "Jockey One", sans-serif;
-}
 @media only screen and (max-width: 567px) {
   #form-name,
   #form-email,

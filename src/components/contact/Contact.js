@@ -9,8 +9,9 @@ import SendIcon from "@mui/icons-material/Send";
 import ThemeContext from "../../utility/themeContext";
 import { Icon } from "@iconify/react";
 import { Zoom, Fade, Roll, Bounce } from "react-reveal";
-import img1 from "../../img/page_logos/connecting_people.jpg";
-import img2 from "../../img/page_logos/connection.png";
+import collaborate from "../../img/page_logos/connect.jpg";
+import thankyou from "../../img/page_logos/thankyou.jpeg";
+import emailImg from "../../img/page_logos/email.svg";
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
@@ -148,6 +149,7 @@ function Contact() {
                   </Zoom>
                 </div>
                 <div>
+                  <p>&nbsp;</p>
                   <Row>
                     <Col>
                       <Bounce right>
@@ -312,16 +314,10 @@ function Contact() {
               </div>
             </Col>
             <Col md={5}>
-            <Fade right>
-              <div className="col-lg-6">
-                <img
-                  className="images"
-                  src={img1}
-                  alt=""
-                  height={800}
-                  width={800}
-                />
-              </div>
+              <Fade right>
+                <div className="col-lg-6">
+                  <img src={collaborate} alt="" height={800} width={1000} />
+                </div>
               </Fade>
             </Col>
           </Row>
@@ -343,18 +339,12 @@ function Contact() {
               }}
             >
               <div className="col-lg-3">
-                {/* <img
-                  className="images"
-                  src={envelope}
-                  alt=""
-                  height={400}
-                  width={400}
-                /> */}
                 <Bounce right>
-                  <Icon
-                    icon="icon-park:send-email"
-                    style={{ fontSize: "350px", color: "red" }}
-                  />
+                  <Fade right>
+                    <div>
+                      <img src={emailImg} alt="" height={300} width={400} />
+                    </div>
+                  </Fade>
                 </Bounce>
               </div>
               <Bounce left>
@@ -452,10 +442,12 @@ function Contact() {
           </Row>
           <Row>
             <Bounce bottom>
-              <div style={{paddingTop: "10px"}}>
-                <img src={img2} alt="" height={800} width={850} />
+              <div style={{ paddingTop: "100px" }}>
+                <img src={thankyou} alt="" height={400} width={1500} />
               </div>
             </Bounce>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
           </Row>
         </div>
       </Container>
