@@ -19,11 +19,9 @@ function Skills() {
                 className="col-lg-10"
                 style={{ marginTop: "60px", marginLeft: "50px" }}
               >
-                <Fade bottom duration={1000} distance="100px">
                   <h2 id="heading" className="purple">
                     Technical Skillset
                   </h2>
-                </Fade>
                 <div className="skills-text">
                     <p>
                       Professionally, I have been lucky to get the chance for

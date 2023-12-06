@@ -33,11 +33,9 @@ const Projects = () => {
               className="col-lg-8"
               style={{ marginTop: "80px", marginLeft: "50px" }}
             >
-              <Fade top duration={1000}>
                 <h1 id="heading" className="purple">
                   Projects
                 </h1>
-              </Fade>
 
               <div className="project-text">
                   <p>
