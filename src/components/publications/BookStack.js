@@ -23,7 +23,7 @@ function Bookstack() {
       <Row>
         <Col md={9}>
           <div className="col-lg-10" style={{ marginTop: "50px" }}>
-              <h1 id="heading" className="purple">
+              <h1 className="purple heading">
                 Books
               </h1>
 
@@ -127,7 +127,7 @@ function Bookstack() {
       </Row>
       <Row>
         <div className="books-parent" id="booksSection">
-            <h2 id="heading" className="purple">
+            <h2 className="purple heading">
               Books I have read...
             </h2>
           <div className="all-books-container">
