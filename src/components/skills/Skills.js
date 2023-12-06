@@ -19,7 +19,7 @@ function Skills() {
                 className="col-lg-10"
                 style={{ marginTop: "60px", marginLeft: "50px" }}
               >
-                  <h2 className="purple heading">
+                  <h2 id="heading" className="purple">
                     Technical Skillset
                   </h2>
                 <div className="skills-text">

@@ -18,7 +18,7 @@ function CertificationStack() {
   return (
     <>
       <div className="skills-parent" id="skillsSection">
-        <h2 className="purple heading">
+        <h2 id="heading" className="purple">
           Certifications & Badges
         </h2>
         <div className="all-skills-container">

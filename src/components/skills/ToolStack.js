@@ -8,7 +8,7 @@ function Toolstack() {
   return (
     <Row>
       <div className="skills-parent" id="skillsSection">
-        <h2 className="purple heading">Process & Tools...</h2>
+        <h2 id="heading" className="purple">Process & Tools...</h2>
         <div className="all-skills-container">
           <div className="skills-card">
             <CardSkill

@@ -10,7 +10,7 @@ function Techstack() {
   return (
     <Row>
       <div className="skills-parent" id="skillsSection">
-        <h2 className="purple heading">Languages & Frameworks...</h2>
+        <h2 id="heading" className="purple">Languages & Frameworks...</h2>
         <div className="all-skills-container">
           <div className="skills-card">
             <CardSkill

@@ -36,3 +36,9 @@
   margin-bottom: 20px;
 }
 
+#heading {
+  font-family: "Jockey One", sans-serif;
+  text-align: left;
+  margin-top: 10px;
+  width: 100%;
+}
