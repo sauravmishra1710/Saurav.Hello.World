@@ -156,7 +156,7 @@ const Publications = () => {
         <Row>
           <Col md={6}>
             <div className="col-lg-10" style={{ marginTop: "60px" }}>
-                <h1 className="purple heading">
+                <h1 id="heading" className="purple">
                   Peer Reviewed Publications
                 </h1>
               <div className="publications-text">
@@ -208,7 +208,7 @@ const Publications = () => {
         </Row>
         <Row>
           <div className="publications">
-            <h2 className="purple heading">
+            <h2 id="heading" className="purple">
               {" "}
               Recent Publications{" "}
             </h2>
