@@ -6,31 +6,38 @@ import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import { FaMapLocationDot } from "react-icons/fa6";
 
-import img1 from "../../img/CullinarySpaces/1.png";
-import img2 from "../../img/CullinarySpaces/2.png";
-import img3 from "../../img/CullinarySpaces/3.png";
-import img4 from "../../img/CullinarySpaces/4.png";
-import img5 from "../../img/CullinarySpaces/5.png";
-import img6 from "../../img/CullinarySpaces/6.png";
-import img7 from "../../img/CullinarySpaces/7.png";
-import img8 from "../../img/CullinarySpaces/8.png";
-import img9 from "../../img/CullinarySpaces/9.png";
-import img10 from "../../img/CullinarySpaces/10.png";
-import img11 from "../../img/CullinarySpaces/11.png";
-import img12 from "../../img/CullinarySpaces/12.png";
-import img13 from "../../img/CullinarySpaces/13.png";
-import img14 from "../../img/CullinarySpaces/14.png";
-import img15 from "../../img/CullinarySpaces/15.png";
-import img16 from "../../img/CullinarySpaces/16.png";
-import img17 from "../../img/CullinarySpaces/17.png";
-import img18 from "../../img/CullinarySpaces/18.png";
-import img19 from "../../img/CullinarySpaces/19.png";
-import img20 from "../../img/CullinarySpaces/20.png";
-import img21 from "../../img/CullinarySpaces/21.png";
-import img22 from "../../img/CullinarySpaces/22.png";
-import img23 from "../../img/CullinarySpaces/23.png";
-import img24 from "../../img/CullinarySpaces/24.png";
-import img25 from "../../img/CullinarySpaces/25.png";
+import img1 from "../../img/image_gallery_2/1.jpeg";
+import img2 from "../../img/image_gallery_2/2.jpeg";
+import img3 from "../../img/image_gallery_2/3.jpeg";
+import img4 from "../../img/image_gallery_2/4.jpeg";
+import img5 from "../../img/image_gallery_2/5.jpeg";
+import img6 from "../../img/image_gallery_2/6.jpeg";
+import img7 from "../../img/image_gallery_2/7.jpeg";
+import img8 from "../../img/image_gallery_2/8.jpeg";
+import img9 from "../../img/image_gallery_2/9.jpeg";
+import img10 from "../../img/image_gallery_2/10.jpeg";
+import img11 from "../../img/image_gallery_2/11.jpeg";
+import img12 from "../../img/image_gallery_2/12.jpeg";
+import img13 from "../../img/image_gallery_2/13.jpeg";
+import img14 from "../../img/image_gallery_2/14.jpeg";
+import img15 from "../../img/image_gallery_2/15.jpeg";
+import img16 from "../../img/image_gallery_2/16.jpeg";
+import img17 from "../../img/image_gallery_2/17.jpeg";
+import img18 from "../../img/image_gallery_2/18.jpeg";
+import img19 from "../../img/image_gallery_2/19.jpeg";
+import img20 from "../../img/image_gallery_2/20.jpeg";
+import img21 from "../../img/image_gallery_2/21.jpeg";
+import img22 from "../../img/image_gallery_2/22.jpeg";
+import img23 from "../../img/image_gallery_2/23.jpeg";
+import img24 from "../../img/image_gallery_2/24.jpeg";
+import img25 from "../../img/image_gallery_2/25.jpeg";
+import img26 from "../../img/image_gallery_2/26.jpeg";
+import img27 from "../../img/image_gallery_2/27.jpeg";
+import img28 from "../../img/image_gallery_2/28.jpeg";
+import img29 from "../../img/image_gallery_2/29.jpeg";
+import img30 from "../../img/image_gallery_2/30.jpeg";
+import img31 from "../../img/image_gallery_2/31.jpeg";
+import img32 from "../../img/image_gallery_2/32.jpeg";
 
 const images = [
   img1,
@@ -58,6 +65,13 @@ const images = [
   img23,
   img24,
   img25,
+  img26,
+  img27,
+  img28,
+  img29,
+  img30,
+  img31,
+  img32
 ];
 
 const lightBoxCaptions = [
@@ -117,36 +131,12 @@ const pattern = [
     cols: 2,
   },
   {
-    rows: 2,
-    cols: 2,
-  },
-  {
     rows: 1,
     cols: 1,
   },
   {
     rows: 1,
     cols: 1,
-  },
-  {
-    rows: 2,
-    cols: 1,
-  },
-  {
-    rows: 1,
-    cols: 2,
-  },
-  {
-    rows: 1,
-    cols: 1,
-  },
-  {
-    rows: 1,
-    cols: 1,
-  },
-  {
-    rows: 1,
-    cols: 2,
   },
   {
     rows: 1,
@@ -158,7 +148,7 @@ const pattern = [
   },
   {
     rows: 1,
-    cols: 1,
+    cols: 2,
   },
   {
     rows: 1,
@@ -173,8 +163,16 @@ const pattern = [
     cols: 2,
   },
   {
-    rows: 2,
+    rows: 1,
     cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 2,
+    cols: 2,
   },
   {
     rows: 1,
@@ -185,11 +183,7 @@ const pattern = [
     cols: 1,
   },
   {
-    rows: 2,
-    cols: 1,
-  },
-  {
-    rows: 2,
+    rows: 1,
     cols: 1,
   },
   {
@@ -199,6 +193,54 @@ const pattern = [
   {
     rows: 1,
     cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 2,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 3,
+  },
+  {
+    rows: 2,
+    cols: 2,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 2,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 2,
   },
 ];
 

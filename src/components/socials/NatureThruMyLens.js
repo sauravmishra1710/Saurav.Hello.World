@@ -6,31 +6,31 @@ import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import { FaMapLocationDot } from "react-icons/fa6";
 
-import img1 from "../../img/CullinarySpaces/1.png";
-import img2 from "../../img/CullinarySpaces/2.png";
-import img3 from "../../img/CullinarySpaces/3.png";
-import img4 from "../../img/CullinarySpaces/4.png";
-import img5 from "../../img/CullinarySpaces/5.png";
-import img6 from "../../img/CullinarySpaces/6.png";
-import img7 from "../../img/CullinarySpaces/7.png";
-import img8 from "../../img/CullinarySpaces/8.png";
-import img9 from "../../img/CullinarySpaces/9.png";
-import img10 from "../../img/CullinarySpaces/10.png";
-import img11 from "../../img/CullinarySpaces/11.png";
-import img12 from "../../img/CullinarySpaces/12.png";
-import img13 from "../../img/CullinarySpaces/13.png";
-import img14 from "../../img/CullinarySpaces/14.png";
-import img15 from "../../img/CullinarySpaces/15.png";
-import img16 from "../../img/CullinarySpaces/16.png";
-import img17 from "../../img/CullinarySpaces/17.png";
-import img18 from "../../img/CullinarySpaces/18.png";
-import img19 from "../../img/CullinarySpaces/19.png";
-import img20 from "../../img/CullinarySpaces/20.png";
-import img21 from "../../img/CullinarySpaces/21.png";
-import img22 from "../../img/CullinarySpaces/22.png";
-import img23 from "../../img/CullinarySpaces/23.png";
-import img24 from "../../img/CullinarySpaces/24.png";
-import img25 from "../../img/CullinarySpaces/25.png";
+import img1 from "../../img/image_gallery_1/1.jpg";
+import img2 from "../../img/image_gallery_1/2.jpg";
+import img3 from "../../img/image_gallery_1/3.jpg";
+import img4 from "../../img/image_gallery_1/4.jpg";
+import img5 from "../../img/image_gallery_1/5.jpg";
+import img6 from "../../img/image_gallery_1/6.jpg";
+import img7 from "../../img/image_gallery_1/7.jpg";
+import img8 from "../../img/image_gallery_1/8.jpg";
+import img9 from "../../img/image_gallery_1/9.jpg";
+import img10 from "../../img/image_gallery_1/10.jpg";
+import img11 from "../../img/image_gallery_1/11.jpg";
+import img12 from "../../img/image_gallery_1/12.jpg";
+import img13 from "../../img/image_gallery_1/13.jpg";
+import img14 from "../../img/image_gallery_1/14.jpg";
+import img15 from "../../img/image_gallery_1/15.jpg";
+import img16 from "../../img/image_gallery_1/16.jpg";
+import img17 from "../../img/image_gallery_1/17.jpg";
+import img18 from "../../img/image_gallery_1/18.jpg";
+import img19 from "../../img/image_gallery_1/19.jpg";
+import img20 from "../../img/image_gallery_1/20.jpg";
+import img21 from "../../img/image_gallery_1/21.jpg";
+import img22 from "../../img/image_gallery_1/22.jpg";
+import img23 from "../../img/image_gallery_1/23.jpg";
+import img24 from "../../img/image_gallery_1/24.jpg";
+import img25 from "../../img/image_gallery_1/25.jpg";
 
 const images = [
   img1,
@@ -62,7 +62,8 @@ const images = [
 
 const lightBoxCaptions = [
   <p className="legend">
-    Lighting the Diya on the ocassion of Diwali... Let there be light everywhere...
+    Lighting the Diya on the ocassion of Diwali... Let there be light
+    everywhere...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
     &nbsp;
@@ -101,6 +102,42 @@ const lightBoxCaptions = [
 
 const pattern = [
   {
+    rows: 2,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 2,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 2,
+    cols: 2,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 2,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
     rows: 1,
     cols: 1,
   },
@@ -129,31 +166,11 @@ const pattern = [
     cols: 1,
   },
   {
-    rows: 2,
-    cols: 1,
-  },
-  {
-    rows: 1,
-    cols: 2,
-  },
-  {
     rows: 1,
     cols: 1,
   },
   {
     rows: 1,
-    cols: 1,
-  },
-  {
-    rows: 1,
-    cols: 2,
-  },
-  {
-    rows: 1,
-    cols: 1,
-  },
-  {
-    rows: 2,
     cols: 2,
   },
   {
@@ -173,23 +190,7 @@ const pattern = [
     cols: 2,
   },
   {
-    rows: 2,
-    cols: 1,
-  },
-  {
     rows: 1,
-    cols: 1,
-  },
-  {
-    rows: 1,
-    cols: 1,
-  },
-  {
-    rows: 2,
-    cols: 1,
-  },
-  {
-    rows: 2,
     cols: 1,
   },
   {
@@ -198,7 +199,7 @@ const pattern = [
   },
   {
     rows: 1,
-    cols: 1,
+    cols: 3,
   },
 ];
 
@@ -211,12 +212,12 @@ function srcset(image, size, rows = 1, cols = 1) {
   };
 }
 
-export default function ImageGallery2(props) {
+export default function MyPixelStories(props) {
   const [ImgIdx, setImgIdx] = useState(0);
-  const [showModal, setShowModal] = useState(false);
+  const [showLightBox, setShowLightBox] = useState(false);
   const showLightBoxAndSetIndex = (index) => {
     setImgIdx(index);
-    setShowModal(true);
+    setShowLightBox(true);
     return;
   };
   const imgsLength = images.length;
@@ -277,12 +278,14 @@ export default function ImageGallery2(props) {
         ))}
       </ImageList>
 
-      {showModal && (
+      {showLightBox && (
         <Lightbox
           mainSrc={images[ImgIdx]}
           nextSrc={images[(ImgIdx + 1) % imgsLength]}
           prevSrc={images[(ImgIdx + imgsLength - 1) % imgsLength]}
-          onCloseRequest={() => setShowModal(false)}
+          onCloseRequest={() => {
+            setShowLightBox(false);
+          }}
           onMovePrevRequest={() =>
             setImgIdx((ImgIdx + imgsLength - 1) % imgsLength)
           }
