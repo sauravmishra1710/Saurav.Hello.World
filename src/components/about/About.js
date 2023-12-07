@@ -11,7 +11,7 @@ import programmer from "../../img/page_logos/programmer.png";
 import photoon from "../../img/page_logos/photoon.jpg";
 import programmer_toon from "../../img/page_logos/programmer_toon.png";
 import coding_toon from "../../img/page_logos/coding_toon.jpg";
-import chefToon from "../../img/page_logos/chef_toon.jpg";
+import chefToon from "../../img/page_logos/chef_toon.svg";
 import collaborateToon from "../../img/page_logos/collaborateToon.jpg";
 
 const About = () => {
@@ -242,8 +242,8 @@ const About = () => {
               <Row>
                 <Col md={3}>
                   <Bounce right duration={1000}>
-                    <div style={{ marginTop: "15px" }}>
-                      <img src={chefToon} alt="" height={350} width={400} />
+                    <div>
+                      <img src={chefToon} alt="" height={400} width={400} />
                     </div>
                   </Bounce>
                 </Col>
