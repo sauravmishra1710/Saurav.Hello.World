@@ -86,7 +86,7 @@ const About = () => {
                   </Row>
                 </Col>
                 <Col md={7} style={{ marginRight: "20px" }}>
-                    <h1 id="heading" className="purple">
+                    <h1 className="purple heading">
                       Me in a Nutshell
                     </h1>
                     <p>
@@ -133,7 +133,7 @@ const About = () => {
               </Row>
               <Row>
                 <Col md={8}>
-                    <h1 id="heading" className="purple">
+                    <h1 className="purple heading">
                       Techinical Prowess
                     </h1>
                     <p>
@@ -205,7 +205,7 @@ const About = () => {
               <p></p>
               <Row>
                 <Col md={3}>
-                    <h1 id="heading" className="purple">
+                    <h1 className="purple heading">
                       The Three Cs
                     </h1>
                     <p>Define myself in 3 Words?</p>
@@ -437,7 +437,7 @@ const About = () => {
                 <Col md={9}>
                   <div>
                     <br />
-                      <h1 id="heading" className="purple">
+                      <h1 className="purple heading">
                         Connect & Collaborate
                       </h1>
                       <p>
