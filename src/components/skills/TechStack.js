@@ -4,7 +4,8 @@ import "./skills.css";
 import CardSkill from "./cardSkill";
 import { Icon } from "@iconify/react";
 import { Fade } from "react-reveal";
-import pysimplegui from "../../img/pysimplegui.png"
+import pysimplegui from "../../img/pysimplegui.png";
+import logoTurtle from "../../img/LogoTurtle.gif";
 
 function Techstack() {
   return (
@@ -12,6 +13,13 @@ function Techstack() {
       <div className="skills-parent" id="skillsSection">
         <h2 className="purple heading">Languages & Frameworks...</h2>
         <div className="all-skills-container">
+        <div className="skills-card">
+            <Fade bottom duration={1000} distance="50px">
+              <div className="cardSkill-container">
+                <img src={logoTurtle} alt="" height={190} width={190} />
+              </div>
+            </Fade>
+          </div>
           <div className="skills-card">
             <CardSkill
               icon={<Icon icon="devicon:csharp" width="112" height="112" />}
@@ -33,10 +41,10 @@ function Techstack() {
             />
           </div>
           <div className="skills-card">
-          <Fade bottom duration={1000} distance="50px">
-            <div className="cardSkill-container">
-              <img src={pysimplegui} alt="" height={190} width={190} />
-            </div>
+            <Fade bottom duration={1000} distance="50px">
+              <div className="cardSkill-container">
+                <img src={pysimplegui} alt="" height={190} width={190} />
+              </div>
             </Fade>
           </div>
           <div className="skills-card">
