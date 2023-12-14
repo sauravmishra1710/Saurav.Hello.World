@@ -70,7 +70,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/aboutSection"
+                to="/about_me"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
@@ -93,7 +93,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/skills"
+                to="/skills_and_certifications"
                 onClick={() => updateExpanded(false)}
               >
                 <GiSkills style={{ marginBottom: "2px" }} /> Skills & Certifications
@@ -103,7 +103,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/publications"
+                to="/books_and_publications"
                 onClick={() => updateExpanded(false)}
               >
                 <BsJournalBookmarkFill style={{ marginBottom: "2px" }} /> Books & Publications
