@@ -39,7 +39,7 @@ return (
       <Routes>
       <Route path="/" element={<Home />} />
         <Route path="/about_me" element={<About />} />
-        <Route path="/project" element={<Projects />} />
+        <Route path="/my_projects" element={<Projects />} />
         <Route path="/skills_and_certifications" element={<Skills />} />
         <Route path="/books_and_publications" element={<Publications />} />
         <Route path="/socials" element={<Socials />} />
