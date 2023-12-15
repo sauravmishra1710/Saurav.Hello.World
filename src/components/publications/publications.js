@@ -206,7 +206,7 @@ const Publications = () => {
             </Fade>
           </Col>
         </Row>
-        <Row>
+        <Row style={{margin:"10px"}}>
           <div className="publications">
             <h2 className="purple heading">
               {" "}
