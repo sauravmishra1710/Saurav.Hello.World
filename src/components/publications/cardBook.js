@@ -5,42 +5,42 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 import Popover from "react-bootstrap/Popover";
 
-const popover = (tooltip_blurb_text) => (
-  // <div style={{ display: "block", width: "1500px", padding: 30 }}>
-    <Popover
-      id="popover-basic"
-      style={{ width: "1500px", wordBreak: "break-all" }}
-    >
-      <Popover.Header as="h3">Popover right</Popover.Header>
-      <Popover.Body>{tooltip_blurb_text}</Popover.Body>
-    </Popover>
-  // </div>
+const renderPopover = (tooltip_header, tooltip_blurb_text) => (
+  <Popover
+    className="popover-inner"
+    id="popover-basic"
+    style={{ width: "700px", wordBreak: "break-all", backgroundColor:"black"}}
+  >
+    <Popover.Header as="h3">{tooltip_header}</Popover.Header>
+    <Popover.Body style={{color: "white" }}>{tooltip_blurb_text}</Popover.Body>
+  </Popover>
 );
 
 const renderTooltip = (tooltip_blurb_text) => (
-  // <div style={{ width: 1500, padding: 30 }}>
-    <Tooltip className="tooltip-inner"
-      id="card-tooltip"
-      style={{ width: "1500px", wordBreak: "break-all" }}
-    >
-      {tooltip_blurb_text}
-    </Tooltip>
-  // </div>
+  <Tooltip
+    className="tooltip-inner"
+    id="card-tooltip"
+    style={{ width: "700px", wordBreak: "break-all" }}
+  >
+    {tooltip_blurb_text}
+  </Tooltip>
 );
 
 const CardBook = ({
+  book_title,
+  book_author,
   book_cover,
   good_read_link,
-  tooltip_blurb_text = "",
+  blurb_text = "",
   animationType,
 }) => {
   if (animationType === "top") {
     return (
       <OverlayTrigger
-        placement="right"
+        placement="auto"
         delay={{ show: 250, hide: 400 }}
-        overlay={renderTooltip(tooltip_blurb_text)}
-        fallbackPlacements={['right', 'left']}
+        overlay={renderPopover(book_title + " by " + book_author, blurb_text)}
+        fallbackPlacements={["right", "left"]}
       >
         <div className="master-container">
           <Fade top duration={1000} distance="50px">
@@ -50,9 +50,6 @@ const CardBook = ({
               </a>
             </div>
           </Fade>
-          {/* <div className="tooltip-box">
-          <p>{tooltip_blurb_text}</p>
-        </div> */}
         </div>
       </OverlayTrigger>
     );
@@ -60,9 +57,9 @@ const CardBook = ({
 
   return (
     <OverlayTrigger
-      placement="right"
+      placement="auto"
       delay={{ show: 250, hide: 400 }}
-      overlay={popover(tooltip_blurb_text)}
+      overlay={renderPopover(book_title + " by " + book_author, blurb_text)}
     >
       <div className="master-container">
         <Fade bottom duration={1000} distance="50px">
@@ -72,7 +69,6 @@ const CardBook = ({
             </a>
           </div>
         </Fade>
-        {/* <div className="tooltip-box">{tooltip_blurb_text}</div> */}
       </div>
     </OverlayTrigger>
   );

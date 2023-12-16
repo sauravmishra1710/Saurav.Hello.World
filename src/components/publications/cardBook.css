@@ -25,46 +25,10 @@
   overflow: hidden !important;
 }
 
-/* .master-container {
-  width: 215px;
-  margin: 10px;
-} */
+.tooltip-inner {
+  max-width: none; 
+}
 
-/* .tooltip-box {
-  position: relative;
-  height: 0px;
-  left: 30px;
-  visibility: hidden;
-  color: transparent;
-  background-color: transparent;
-  width: 0px;
-  padding: 5px 5px;
-  border-radius: 4px;
-
-  transition: visibility 0.5s, color 0.5s, background-color 0.5s, width 0.5s,
-    padding 0.5s ease-in-out;
-} */
-
-/* .tooltip-box::before {
-  content: "";
-  width: 0px;
-  height: 0px;
-  left: 0px;
-  top: 0px;
-  position: relative;
-
-  border: 10px solid transparent;
-  transform: rotate(135deg);
-  transition: border 0.3s ease-in-out;
-} */
-
-/* .master-container:hover .tooltip-box {
-  visibility: visible !important;
-  display: block !important;
-  top: -webkit-calc(100% + 300px);
-  height: fit-content;
-  color: #fff !important;
-  background-color: rgba(0, 0, 0, 1) !important;
-  width: 300px !important;
-  padding: 8px 8px !important;
-} */
+.popover-inner {
+  max-width: none; 
+}
