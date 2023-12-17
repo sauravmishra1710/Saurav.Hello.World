@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { useState, useMemo } from "react";
 import { MaterialReactTable } from "material-react-table";
 import { Fade } from "react-reveal";
+import { Icon } from "@iconify/react";
 import Abstract from "./Abstract";
 import Bookstack from "./BookStack";
 
@@ -156,41 +157,86 @@ const Publications = () => {
         <Row>
           <Col md={6}>
             <div className="col-lg-10" style={{ marginTop: "60px" }}>
-                <h1 className="purple heading">
-                  Peer Reviewed Publications
-                </h1>
+              <h1 className="purple heading">Peer Reviewed Publications</h1>
               <div className="publications-text">
-                  <p>
-                    The inspiration to write peer reviewed papers arose during
-                    the days of my masters in AI & ML where I had to do my
-                    dissertation for the end project. The process of writing
-                    long thesis was something{" "}
-                    <span className="purple">
-                      <b> completely new to me, the learnings involved</b>
-                    </span>{" "}
-                    inspired me to continue the process so that knowledge
-                    sharing is available to every one. It is also a way to make
-                    my work available to the{" "}
-                    <span className="purple">
-                      <b>
-                        larger tech community and access to new learning is
-                        seamlessly available across domains
-                      </b>
-                    </span>
-                    .
-                  </p>{" "}
-                  <p>
-                    Also,{" "}
-                    <span className="purple">
-                      <b>
-                        the fact that my work could help others in some ways
-                        also motivates to continue writing, publishing, and
-                        sharing
-                      </b>
-                    </span>
-                    .
-                  </p>{" "}
-                  <p>All of my recently published papers are listed below.</p>
+                <p>
+                  The inspiration to write peer reviewed papers arose during the
+                  days of my masters in AI & ML where I had to do my
+                  dissertation for the end project. The process of writing long
+                  thesis was something{" "}
+                  <span className="purple">
+                    <b> completely new to me, the learnings involved</b>
+                  </span>{" "}
+                  inspired me to continue the process so that knowledge sharing
+                  is available to every one. It is also a way to make my work
+                  available to the{" "}
+                  <span className="purple">
+                    <b>
+                      larger tech community and access to new learning is
+                      seamlessly available across domains
+                    </b>
+                  </span>
+                  .
+                </p>{" "}
+                <p>
+                  Also,{" "}
+                  <span className="purple">
+                    <b>
+                      the fact that my work could help others in some ways also
+                      motivates to continue writing, publishing, and sharing
+                    </b>
+                  </span>
+                  .
+                </p>{" "}
+                <div style={{ margin: "20px" }}>
+                  <h5 className="purple heading">
+                    My ORCID & Google Scholar Profiles...
+                  </h5>
+                  <div className="social-icons-container" style={{ margin: "20px" }}>
+                    <li>
+                      <a
+                        href="https://scholar.google.com/citations?hl=en&user=t1GX3O8AAAAJ"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Icon
+                          icon="academicons:google-scholar-square"
+                          className="social_icons"
+                        />
+                      </a>
+                      Google Scholar @{" "}
+                      <a
+                        href="https://scholar.google.com/citations?hl=en&user=t1GX3O8AAAAJ"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Saurav Mishra
+                      </a>
+                    </li>
+                  </div>
+
+                  <div className="social-icons-container" style={{ margin: "20px" }}>
+                    <a
+                      href="https://orcid.org/my-orcid?orcid=0000-0002-6107-0999"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon
+                        icon="academicons:orcid-square"
+                        className="social_icons"
+                      />
+                    </a>
+                    ORCID @{" "}
+                    <a
+                      href="https://orcid.org/my-orcid?orcid=0000-0002-6107-0999"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Saurav Mishra
+                    </a>
+                  </div>
+                </div>
+                <p>All of my recently published papers are listed below.</p>
               </div>
             </div>
           </Col>
@@ -206,12 +252,9 @@ const Publications = () => {
             </Fade>
           </Col>
         </Row>
-        <Row style={{margin:"10px"}}>
+        <Row style={{ margin: "10px" }}>
           <div className="publications">
-            <h2 className="purple heading">
-              {" "}
-              Recent Publications{" "}
-            </h2>
+            <h2 className="purple heading"> Recent Publications </h2>
             <p style={{ fontSize: "10px", color: "red", fontWeight: "800" }}>
               <sup>*</sup>Click anywhere in the row to view the abstract.
             </p>

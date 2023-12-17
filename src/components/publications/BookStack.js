@@ -23,6 +23,15 @@ import TheMonkWhoSoldHisFerrari from "../../img/books/TheMonkWhoSoldHisFerrari.j
 import Factfullness from "../../img/books/Factfullness.jpg";
 import HotFlatCrowded from "../../img/books/HotFlatCrowded.jpg";
 import ThinkingFastAndSlow from "../../img/books/ThinkingFastAndSlow.jpg";
+import TheoryOfEverything from "../../img/books/TheoryOfEverything.jpg";
+import BriefHistoryOfTime from "../../img/books/BriefHistoryOfTime.jpg";
+import BriefAnswersToTheBigQuestions from "../../img/books/BriefAnswersToTheBigQuestions.jpg";
+import OriginOfAlmostEverything from "../../img/books/OriginOfAlmostEverything.jpg";
+import OurMathematicalUniverse from "../../img/books/OurMathematicalUniverse.jpg";
+import Life3dot0 from "../../img/books/Life3dot0.jpg";
+import PhysicsOfTheImpossible from "../../img/books/PhysicsOfTheImpossible.jpg";
+import WhyWeSleep from "../../img/books/WhyWeSleep.jpg";
+import WillWeSurviveEarth from "../../img/books/WillWeSurviveEarth.jpg";
 
 function Bookstack() {
   return (
@@ -127,7 +136,112 @@ function Bookstack() {
       <Row>
         <div className="books-parent" id="booksSection">
           <h2 className="purple heading">Books I have read...</h2>
+          <p style={{ fontSize: "10px", color: "red", fontWeight: "800" }}>
+              <sup>*</sup>or currently reading...
+            </p>
           <div className="all-books-container">
+            <div className="books-card">
+              <CardBook
+                book_title="Why We Sleep: Unlocking the Power of Sleep and Dreams"
+                book_author="Matthew Walker"
+                book_cover={WhyWeSleep}
+                good_read_link="https://www.goodreads.com/book/show/34466963-why-we-sleep"
+                blurb_text="Neuroscientist and sleep expert Matthew Walker provides a revolutionary exploration of sleep, examining how it affects every aspect of our physical and mental well-being. Charting the most cutting-edge scientific breakthroughs, and marshalling his decades of research and clinical practice, Walker explains how we can harness sleep to improve learning, mood and energy levels, regulate hormones, prevent cancer, Alzheimer's and diabetes, slow the effects of aging, and increase longevity. He also provides actionable steps towards getting a better night's sleep every night."
+                animationType="top"
+              />
+            </div>
+            <div className="books-card">
+              <CardBook
+                book_title="Physics of the Impossible"
+                book_author="Michio Kaku"
+                book_cover={PhysicsOfTheImpossible}
+                good_read_link="https://www.goodreads.com/book/show/1168341.Physics_of_the_Impossible"
+                blurb_text="A fascinating exploration of the science of the impossible—from death rays and force fields to invisibility cloaks—revealing to what extent such technologies might be achievable decades or millennia into the future.
+                One hundred years ago, scientists would have said that lasers, televisions, and the atomic bomb were beyond the realm of physical possibility. In Physics of the Impossible, the renowned physicist Michio Kaku explores to what extent the technologies and devices of science fiction that are deemed equally impossible today might well become commonplace in the future."
+                animationType="bottom"
+              />
+            </div>
+            <div className="books-card">
+              <CardBook
+                book_title="Will We Survive on Earth?"
+                book_author="Stephen Hawking"
+                book_cover={WillWeSurviveEarth}
+                good_read_link="https://www.goodreads.com/book/show/62087350-will-we-survive-on-earth"
+                blurb_text="'Be brave, be curious, be determined, overcome the odds. It can be done'
+                Will we survive on Earth?
+                Should we colonise space?
+                Throughout his extraordinary career, Stephen Hawking expanded our understanding of the universe and unravelled some of its greatest mysteries. In Will We Survive on Earth? the world-famous cosmologist and bestselling author of A Brief History of Time turns his attention to one of the most urgent issues for humankind and explores our options for survival.
+                'Effortlessly instructive, absorbing and witty' Guardian"
+                animationType="top"
+              />
+            </div>
+            <div className="books-card">
+              <CardBook
+                book_title="Life 3.0: Being Human in the Age of Artificial Intelligence"
+                book_author="Max Tegmark"
+                book_cover={Life3dot0}
+                good_read_link="https://www.goodreads.com/book/show/34272565-life-3-0"
+                blurb_text="How will Artificial Intelligence affect crime, war, justice, jobs, society and our very sense of being human? The rise of AI has the potential to transform our future more than any other technology--and there's nobody better qualified or situated to explore that future than Max Tegmark, an MIT professor who's helped mainstream research on how to keep AI beneficial.
+                How can we grow our prosperity through automation without leaving people lacking income or purpose? What career advice should we give today's kids? How can we make future AI systems more robust, so that they do what we want without crashing, malfunctioning or getting hacked? Should we fear an arms race in lethal autonomous weapons? Will machines eventually outsmart us at all tasks, replacing humans on the job market and perhaps altogether? Will AI help life flourish like never before or give us more power than we can handle?
+                What sort of future do you want? This book empowers you to join what may be the most important conversation of our time. It doesn't shy away from the full range of viewpoints or from the most controversial issues--from superintelligence to meaning, consciousness and the ultimate physical limits on life in the cosmos."
+                animationType="bottom"
+              />
+            </div>
+            <div className="books-card">
+              <CardBook
+                book_title="Our Mathematical Universe: My Quest for the Ultimate Nature of Reality"
+                book_author="Max Tegmark"
+                book_cover={OurMathematicalUniverse}
+                good_read_link="https://www.goodreads.com/book/show/19395553-our-mathematical-universe"
+                blurb_text="Our Mathematical Universe is a journey to explore the mysteries uncovered by cosmology and to discover the nature of reality. Our Big Bang, our distant future, parallel worlds, the sub-atomic and intergalactic - none of them are what they seem. But there is a way to understand this immense strangeness - mathematics. Seeking an answer to the fundamental puzzle of why our universe seems so mathematical, Tegmark proposes a radical idea: that our physical world not only is described by mathematics, but that it is mathematics. This may offer answers to our deepest questions: How large is reality? What is everything made of? Why is our universe the way it is?"
+                animationType="top"
+              />
+            </div>
+            <div className="books-card">
+              <CardBook
+                book_title="New Scientist: The Origin of (almost) Everything"
+                book_author="Graham Lawton"
+                book_cover={OriginOfAlmostEverything}
+                good_read_link="https://www.goodreads.com/book/show/30762400-new-scientist"
+                blurb_text="Where did we come from? How did it all begin? These are the biggest questions in the universe, and New Scientist has the answers ...
+                Introduction by Professor Stephen Hawking From what actually happened in the Big Bang to the accidental discovery of post-it notes, science is packed with surprising discoveries. Did you know, for instance, that if you were to get too close to a black hole it would suck you up like a noodle (it's called spaghettification), why your keyboard is laid out in QWERTY (it' s not to make it easier to type) or whether the invention of the wheel was less important to civilization than the bag (think about it).
+                And now they and illustrator Jennifer Daniel want to take you on a whistlestop journey from the start of our universe (through the history of stars, galaxies, meteorites, the Moon and dark energy ) to our planet (through oceans and weather to oil) and life (through dinosaurs to emotions and sex) to civilization (from cities to alcohol and cooking), knowledge (from alphabets to alchemy) ending up with technology (computers to rocket science) .
+                Witty essays explore the concepts alongside enlightening infographics that zoom from how many people have ever lived to showing you how a left-wing brain differs from a right-wing one."
+                animationType="bottom"
+              />
+            </div>
+            <div className="books-card">
+              <CardBook
+                book_title="Brief Answers to the Big Questions"
+                book_author="Stephen Hawking"
+                book_cover={BriefAnswersToTheBigQuestions}
+                good_read_link="https://www.goodreads.com/book/show/40277241-brief-answers-to-the-big-questions"
+                blurb_text="Stephen Hawking was recognized as one of the greatest minds of our time and a figure of inspiration after defying his ALS diagnosis at age twenty-one. He is known for both his breakthroughs in theoretical physics as well as his ability to make complex concepts accessible for all, and was beloved for his mischievous sense of humor. At the time of his death, Hawking was working on a final project: a book compiling his answers to the 'big' questions that he was so often posed--questions that ranged beyond his academic field.
+                Within these pages, he provides his personal views on our biggest challenges as a human race, and where we, as a planet, are heading next. Each section will be introduced by a leading thinker offering his or her own insight into Professor Hawking's contribution to our understanding."
+                animationType="top"
+              />
+            </div>
+            <div className="books-card">
+              <CardBook
+                book_title="A Brief History of Time"
+                book_author="Stephen Hawking"
+                book_cover={BriefHistoryOfTime}
+                good_read_link="https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time"
+                blurb_text="A landmark volume in science writing by one of the great minds of our time, Stephen Hawking’s book explores such profound questions as: How did the universe begin—and what made its start possible? Does time always flow forward? Is the universe unending—or are there boundaries? Are there other dimensions in space? What will happen when it all ends?
+                Told in language we all can understand, A Brief History of Time plunges into the exotic realms of black holes and quarks, of antimatter and “arrows of time,” of the big bang and a bigger God—where the possibilities are wondrous and unexpected. With exciting images and profound imagination, Stephen Hawking brings us closer to the ultimate secrets at the very heart of creation."
+                animationType="bottom"
+              />
+            </div>
+            <div className="books-card">
+              <CardBook
+                book_title="The Theory of Everything: The Origin and Fate of the Universe"
+                book_author="Stephen Hawking"
+                book_cover={TheoryOfEverything}
+                good_read_link="https://www.goodreads.com/book/show/449573.The_Theory_of_Everything"
+                blurb_text="Based on a series of lectures given at Cambridge University, Professor Hawking's work introduced 'the history of ideas about the universe' as well as today's most important scientific theories about time, space, and the cosmos in a clear, easy-to-understand way. 'The Theory of Everything' presents the most complex theories, both past and present, of physics; yet it remains clear and accessible. It will enlighten readers and expose them to the rich history of scientific thought and the complexities of the universe in which we live."
+                animationType="top"
+              />
+            </div>
             <div className="books-card">
               <CardBook
                 book_title="Thinking, Fast and Slow"
@@ -167,7 +281,7 @@ function Bookstack() {
             </div>
             <div className="books-card">
               <CardBook
-                book_title="Evolution - Decoding India's Tech Story"
+                book_title="Evolution - Decoding India's Disruptive Tech Story"
                 book_author="Kiran Karnik"
                 book_cover={EvolutionDecodingIndiasTechStory}
                 good_read_link="https://www.goodreads.com/book/show/43427898-evolution"

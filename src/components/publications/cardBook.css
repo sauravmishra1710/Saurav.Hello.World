@@ -40,17 +40,17 @@
 
 /* https://stackoverflow.com/questions/75501013/react-bootstrap-popover-arrow-colors-are-inverted-when-arrow-is-vertical-vs-hor */
 .popover[x-placement^=top]>.popover-arrow:after {
-  border-top-color: #000000;
+  border-top-color: black;
 }
 
 .popover[x-placement^=bottom]>.popover-arrow:after {
-  border-bottom-color: #000000;
+  border-bottom-color: black;
 }
 
 .popover[x-placement^=right]>.popover-arrow:after {
-  border-right-color: #000000;
+  border-right-color: black;
 }
 
 .popover[x-placement^=left]>.popover-arrow:after {
-  border-left-color: #000000;
+  border-left-color: black;
 }
