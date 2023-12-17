@@ -25,46 +25,32 @@
   overflow: hidden !important;
 }
 
-/* .master-container {
-  width: 215px;
-  margin: 10px;
-} */
+.tooltip-inner {
+  max-width: none; 
+}
 
-/* .tooltip-box {
-  position: relative;
-  height: 0px;
-  left: 30px;
-  visibility: hidden;
-  color: transparent;
-  background-color: transparent;
-  width: 0px;
-  padding: 5px 5px;
-  border-radius: 4px;
+.popover-inner {
+  max-width: none; 
+}
 
-  transition: visibility 0.5s, color 0.5s, background-color 0.5s, width 0.5s,
-    padding 0.5s ease-in-out;
-} */
+.popover .popover-arrow {
+  display: block;
+  opacity: 0.75;
+}
 
-/* .tooltip-box::before {
-  content: "";
-  width: 0px;
-  height: 0px;
-  left: 0px;
-  top: 0px;
-  position: relative;
+/* https://stackoverflow.com/questions/75501013/react-bootstrap-popover-arrow-colors-are-inverted-when-arrow-is-vertical-vs-hor */
+.popover[x-placement^=top]>.popover-arrow:after {
+  border-top-color: #000000;
+}
 
-  border: 10px solid transparent;
-  transform: rotate(135deg);
-  transition: border 0.3s ease-in-out;
-} */
+.popover[x-placement^=bottom]>.popover-arrow:after {
+  border-bottom-color: #000000;
+}
 
-/* .master-container:hover .tooltip-box {
-  visibility: visible !important;
-  display: block !important;
-  top: -webkit-calc(100% + 300px);
-  height: fit-content;
-  color: #fff !important;
-  background-color: rgba(0, 0, 0, 1) !important;
-  width: 300px !important;
-  padding: 8px 8px !important;
-} */
+.popover[x-placement^=right]>.popover-arrow:after {
+  border-right-color: #000000;
+}
+
+.popover[x-placement^=left]>.popover-arrow:after {
+  border-left-color: #000000;
+}
