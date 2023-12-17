@@ -11,7 +11,7 @@ const renderPopover = (tooltip_header, tooltip_blurb_text) => (
     id="popover-basic"
     style={{ width: "700px", wordBreak: "break-all", backgroundColor:"black"}}
   >
-    <Popover.Header as="h2">{tooltip_header}</Popover.Header>
+    <Popover.Header as="h3">{tooltip_header}</Popover.Header>
     <Popover.Body style={{color: "white" }}>{tooltip_blurb_text}</Popover.Body>
   </Popover>
 );
