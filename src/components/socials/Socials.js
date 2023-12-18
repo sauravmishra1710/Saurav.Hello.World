@@ -77,7 +77,7 @@ const Socials = () => {
             <span id="section1" style={{ color: "white", marginTop: "20px" }}>
               ...
             </span>
-            <h1 className="purple heading">Seeing the world through a camera lens...</h1>
+            <h1 className="purple heading">Seeing the World through a Camera Lens...</h1>
             <p style={{ fontSize: "10px", color: "red", fontWeight: "800" }}>
               <sup>*</sup>Click on the image or button below to start the
               lightbox mode.

@@ -61,41 +61,21 @@ const images = [
 ];
 
 const lightBoxCaptions = [
-  <p className="legend">
-    Lighting the Diya on the ocassion of Diwali... Let there be light everywhere...
-    <br />
-    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
-    &nbsp;
-    <a
-      href="https://www.google.com/maps/place/Sambalpur,+Odisha/@21.470398,83.9728832,13z/data=!3m1!4b1!4m6!3m5!1s0x3a21167f047cd9b5:0x7660a40be684d655!8m2!3d21.4668716!4d83.9811665!16zL20vMGNtbHBo?entry=ttu"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Sambalpur, Odisha
-    </a>{" "}
-  </p>,
-  "img2",
+  <p>The Death by Chocolate filled with Bourbon Chips...</p>,
   <p>
-    .. img 3 not in the&nbsp;
-    <em>mood</em>
-    &nbsp;for games right now
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    C&#39;mon. Seriously.
+    The Mix Veg Paratha, wheat flatbread stuffed with a flavorful & spicy
+    mixture of vegetables served with green mint chutney and cubed of butter...{" "}
   </p>,
-  "img4",
-  "img5",
+  <p>
+    The Rajma Chawal, a delicious comfort food power packed with a perfect
+    combination of carbs & protein...
+  </p>,
+  <p>
+    The Healthy Steak Stir Fry, Grilled chicken breast loaded with extra veggies
+    (perfect combination of carrots, peppers, peas, & corn...) served over rice
+    for that flavorful and balanced portion...
+  </p>,
+  <p>The Creamy Spaghetti With Butter Garlic Prawns,</p>,
   "img6",
 ];
 
