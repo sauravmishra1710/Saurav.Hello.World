@@ -31,6 +31,11 @@ import img22 from "../../img/CullinarySpaces/22.png";
 import img23 from "../../img/CullinarySpaces/23.png";
 import img24 from "../../img/CullinarySpaces/24.png";
 import img25 from "../../img/CullinarySpaces/25.png";
+import img26 from "../../img/CullinarySpaces/26.png";
+import img27 from "../../img/CullinarySpaces/27.png";
+import img28 from "../../img/CullinarySpaces/28.png";
+import img29 from "../../img/CullinarySpaces/29.png";
+import img30 from "../../img/CullinarySpaces/30.png";
 
 const images = [
   img1,
@@ -58,25 +63,119 @@ const images = [
   img23,
   img24,
   img25,
+  img26,
+  img27,
+  img28,
+  img29,
+  img30,
 ];
 
 const lightBoxCaptions = [
   <p>The Death by Chocolate filled with Bourbon Chips...</p>,
   <p>
-    The Mix Veg Paratha, wheat flatbread stuffed with a flavorful & spicy
-    mixture of vegetables served with green mint chutney and cubed of butter...{" "}
+    The Mix Veg Paratha - Wheat flatbread stuffed with a flavorful & spicy
+    mixture of vegetables served with green mint chutney and cubes of butter...{" "}
   </p>,
   <p>
-    The Rajma Chawal, a delicious comfort food power packed with a perfect
+    The Rajma Chawal - A delicious comfort food power packed with a perfect
     combination of carbs & protein...
   </p>,
   <p>
-    The Healthy Steak Stir Fry, Grilled chicken breast loaded with extra veggies
-    (perfect combination of carrots, peppers, peas, & corn...) served over rice
-    for that flavorful and balanced portion...
+    The Healthy Steak Stir Fry - Grilled chicken breast loaded with stir-fried
+    veggies (perfect combination of carrots, peppers, peas, & corn...) served
+    over rice for that flavorful and balanced portion...
   </p>,
-  <p>The Creamy Spaghetti With Butter Garlic Prawns,</p>,
-  "img6",
+  <p>
+    The Creamy Spaghetti With Butter Garlic Prawns - An indulgent but not
+    ridiculously rich spaghetti dish smothered in a creamy sauce infused with
+    sauteed garlic, & tossed through with juicy prawns. It's a pure bliss dream
+    come true for every spaghetti lover...!!!
+  </p>,
+  <p>
+    The Classic Onion Pakoras with Tomato Chutney - Crunchy, Spice-rich,
+    Delicate, & Hearty all at the same time. One of the most addictive Indian
+    comfort food...
+  </p>,
+  <p>
+    The Classic Cheela & Chutney - The crisp & soft Indian version pancakes
+    prepared in almost every Indian kitchen in various different flavours.
+  </p>,
+  <p>
+    The Street Style Maggi - Instant 2 min classic version loaded with butter...
+  </p>,
+  <p>
+    The Stuffed Idly - Moving away from the normal to have the veggie stuffed
+    masala idly in preparation...
+  </p>,
+  <p>
+    The Cottage Cheese Fritters - Once of the favourite & delicious roadside
+    snack to serve your all day cravings...
+  </p>,
+  <p>
+    Burger King - Loaded Burger with sliced veggies, avocado cream, cheese, &
+    minced meat patty...
+  </p>,
+  <p>
+    Chocolate for Breakfast and still feel excellent about it... Yes, The
+    Chocolate Oat bowl loaded with seasonal fruits & dark chocolate flavoured
+    peanut butter...
+  </p>,
+  <p>
+    The perfect flavourful luncg plate - Jeera Rice, Prawn Vepudu Masala, and
+    Daal Fry...
+  </p>,
+  <p>Biskut ke saath time for some Chai pe Charcha...</p>,
+  <p>
+    The Rural Karnataka's most nutritious and filling meal - Ragi Mudde served
+    with curd & Pepper Chicken...
+  </p>,
+  <p>
+    The Dal Khichdi - A super comforting bowl of Indian wholesome meal. Made
+    with rice, dal and spices is delicious, nourishing and wholesome...
+  </p>,
+  <p>
+    The Desi street side Chow Mein - A popular roadside style saucy & flavourful
+    hakka chow mein...
+  </p>,
+  <p>
+    The Classic Gnocchi - Oval shaped ribbed soft dumplings stuffed with potato
+    and sauteed with butter & cream sauce...
+  </p>,
+  <p>
+    The Drums of Heaven - Spicy & Smoky grilled drumsticks served starting out
+    of the grill...
+  </p>,
+  <p>
+    The Cream of Mushroom - A warm bowl of soup so deliciously creamy to treat
+    the taste buds with the deep earthy flavours of tender bites of mushroom
+    pieces flavoured with garlic, onions and herbs topped with crushed
+    peppers...
+  </p>,
+  <p>
+    The Rice Farra - A traditional dish from the state of Chattisgarh prepared
+    from the left over rice & rice flour steamed and sauteed with mild spices
+    served with chutney...
+  </p>,
+  <p>
+    The Puliyogare - This tangy, spicy & flavourful rice dish made with the
+    puliyogare podi powder (mix of roasted lentils, peanuts, red chilies,
+    tamarind & other spices) will surely bring the taste buds to a burst of
+    flavours...
+  </p>,
+  <p>
+    The Hummus - A smooth and creamy middle easetrn delicacy, puree of cooked
+    chickpeas, tahini, lemon juice topped with olive oil & dried herbs mix...{" "}
+  </p>,
+  <p>
+    The Raagi Chocolate Pancakes - One of the best ways to fulfill the chocolate
+    cravings for breakfast topped with fresh cream, choclate sauce and
+    almonds...
+  </p>,
+  <p>
+    Paneer Sauteed Vegetables - This nutritious dish is loaded with paneer cubes
+    fried into crispy brown edges, fresh bell peppers, mushrooms and a touch of
+    spices.
+  </p>,
 ];
 
 const pattern = [
@@ -179,6 +278,26 @@ const pattern = [
   {
     rows: 1,
     cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 2,
+    cols: 2,
+  },
+  {
+    rows: 2,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 2,
   },
 ];
 
