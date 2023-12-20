@@ -36,6 +36,7 @@ import img27 from "../../img/CullinarySpaces/27.png";
 import img28 from "../../img/CullinarySpaces/28.png";
 import img29 from "../../img/CullinarySpaces/29.png";
 import img30 from "../../img/CullinarySpaces/30.png";
+import img31 from "../../img/CullinarySpaces/31.png";
 
 const images = [
   img1,
@@ -68,6 +69,7 @@ const images = [
   img28,
   img29,
   img30,
+  img31,
 ];
 
 const lightBoxCaptions = [
@@ -121,7 +123,7 @@ const lightBoxCaptions = [
     peanut butter...
   </p>,
   <p>
-    The perfect flavourful luncg plate - Jeera Rice, Prawn Vepudu Masala, and
+    The perfect flavourful lunch plate - Jeera Rice, Prawn Vepudu Masala, and
     Daal Fry...
   </p>,
   <p>Biskut ke saath time for some Chai pe Charcha...</p>,
@@ -164,7 +166,8 @@ const lightBoxCaptions = [
   </p>,
   <p>
     The Hummus - A smooth and creamy middle easetrn delicacy, puree of cooked
-    chickpeas, tahini, lemon juice topped with olive oil & dried herbs mix...{" "}
+    chickpeas, tahini, lemon juice topped with olive oil & dried seasoning herbs
+    mix...{" "}
   </p>,
   <p>
     The Raagi Chocolate Pancakes - One of the best ways to fulfill the chocolate
@@ -172,9 +175,42 @@ const lightBoxCaptions = [
     almonds...
   </p>,
   <p>
-    Paneer Sauteed Vegetables - This nutritious dish is loaded with paneer cubes
-    fried into crispy brown edges, fresh bell peppers, mushrooms and a touch of
-    spices.
+    The Mushroom Spaghetti Aglio Olio - My comfort food for that perfect weenend
+    dinner with spaghetti tossed with mushrooms, coriander, garlic, & seasoning
+    herbs with much of olive oil to enahnce the flavours...
+  </p>,
+  <p>
+    The Butter Garlic Prawns - The saucy, flavoursome and full of garlic flavour
+    with tender pieces of prawns coated in a mouth-watering savoury sauce that’s
+    rich, creamy and seasoned with black pepper, salt, parsley and chilli flakes
+    to make it utterly delightful... An all time favourite...!!
+  </p>,
+  <p>
+    The Hyderabadi Chicken Biryani - An aromatic, mouth watering & authentic
+    Indian dish with exquisitely spiced succulent chicken in layers of fluffy
+    basmati rice, fragrant spices and fried onions...
+  </p>,
+  <p>
+    The Mati Handi Mutton - A classic from the state of Odisha, my first time
+    trying to cook the traditional slow method using earthern pots to retain the
+    finer goodness, aroma of the spices and ensure the earthiness of the pots is
+    infused into the dish...
+  </p>,
+  <p>
+    The Whole Wheat Pizza - Crispy on the outside, soft on the inside as it
+    turned out to be on the very first attempt to get my hands on pizza. The
+    crust and the toppings turned out to be in complete harmony...
+  </p>,
+  <p>
+    The Schezwan Fried Rice with Chilli Mushroom - The veggie packed schezwan
+    rice forms a flavourful combination with chilli button mushrooms tossed with
+    colourful bell peppers & spring onions covered in a sweet and spicy sauce. A
+    perfect Indo-Chinese fusion for dinner...
+  </p>,
+  <p>
+    The Paniyaram with Peanut Chutney - A traditional South Indian breakfast
+    dish that are crispy on the outside and soft on the inside, with a tangy
+    flavor server with a spicy peanut tomato chutney...
   </p>,
 ];
 
@@ -297,7 +333,11 @@ const pattern = [
   },
   {
     rows: 1,
-    cols: 2,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
   },
 ];
 
