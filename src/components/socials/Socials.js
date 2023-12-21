@@ -27,7 +27,7 @@ const Socials = () => {
                 <span className="purple">
                   <b> Photography</b>
                 </span>{" "}
-                for an important part of me. Like each place has its own story
+                form an important part of me. Like each place has its own story
                 to tell, every plate of food has something to tell about it's
                 origin & evolution. How it traveled around the world, getting
                 modified to suit local flavours and taste buds before finally it

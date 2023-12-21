@@ -77,7 +77,7 @@ function Footer() {
         <Col className="copyright" lg={4} sm={6} xs={12}>
         <h6>
           <TbCopyrightOff style={{ marginBottom: "2px" }} />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No Copyright issues | Feel free to fork | Let's Learn Together
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No Copyright issues | Let's Learn Together
           </h6>
         </Col>
       </Row>

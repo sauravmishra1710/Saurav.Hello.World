@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import ImageListItemBar from "@mui/material/ImageListItemBar";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import { FaMapLocationDot } from "react-icons/fa6";
