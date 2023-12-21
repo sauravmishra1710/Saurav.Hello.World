@@ -10,8 +10,8 @@ import socialsPhotographer from "../../img/page_logos/socialsPhotographer.jpeg";
 const Socials = () => {
   return (
     <>
-      <div style={{marginBottom: "40px"}}>
-        <Row style={{ margin: "100px 100px 10px 100px" }}>
+      <div style={{marginBottom: "40px",display: "flex",flexDirection:"column",justifyContent: "center",alignItems: "center"}}>
+        <Row style={{ margin: "100px 10px 20px 100px" }}>
           <Col md={9}>
             <h1 className="purple heading">My Stories from behind the Lens</h1>
             <div className="socials-text">
@@ -71,7 +71,7 @@ const Socials = () => {
           </Col>
         </Row>
         <Row
-          style={{ justifyContent: "center", margin: "10px 100px 10px 100px" }}
+          className="imgs"
         >
           <div>
             <span id="section1" style={{ color: "white", marginTop: "20px" }}>
@@ -87,7 +87,7 @@ const Socials = () => {
         </Row>
 
         <Row
-          style={{ justifyContent: "center", margin: "10px 100px 10px 100px" }}
+          className="imgs"
         >
           <div>
             <span id="section2" style={{ color: "white", marginTop: "20px" }}>
@@ -103,7 +103,7 @@ const Socials = () => {
         </Row>
 
         <Row
-          style={{ justifyContent: "center", margin: "10px 100px 10px 100px" }}
+          className="imgs"
         >
           <div>
             <span id="section3" style={{ color: "white", marginTop: "20px" }}>

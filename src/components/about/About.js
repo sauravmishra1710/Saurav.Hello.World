@@ -35,10 +35,10 @@ const About = () => {
             }}
           >
             <div className="about-text" id="aboutSection">
-              <Row>
+              <Row style={{display:"flex",justifyContent:"center"}}>
                 <Col md={4} style={{zIndex:"-1"}}>
                   <Row>
-                    <Col lg={6}>
+                    <Col lg={6} xs={3}>
                       <Bounce top duration={1000}>
                         <div>
                           <img
@@ -50,7 +50,7 @@ const About = () => {
                         </div>
                       </Bounce>
                     </Col>
-                    <Col lg={6}>
+                    <Col lg={6} xs={3}>
                       <Bounce right duration={1000}>
                         <div>
                           <img
@@ -265,7 +265,7 @@ const About = () => {
                 <Col md={4}>
                   <Bounce right duration={1000}>
                     <div>
-                      <img src={chefToon} alt="" height={400} width={400} />
+                      <img src={chefToon} alt="" id="chef" />
                     </div>
                   </Bounce>
                 </Col>
@@ -440,7 +440,7 @@ const About = () => {
                   </Bounce>
                 </Col>
               </Row>
-              <Row>
+              <Row className="collab-section">
                 <Col md={3}>
                   <Fade bottom duration={2000}>
                     <div>
