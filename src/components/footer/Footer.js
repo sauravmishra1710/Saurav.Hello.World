@@ -17,12 +17,12 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row className="footer-row">
-        <Col className="made-by" lg={4} sm={6} xs={12}>
+        <Col className="made-by" lg={4} sm={12} xs={12}>
           <h6>
             Designed & Developed By Saurav Mishra
           </h6>
         </Col>
-        <Col className="footer-body" lg={4} sm={6} xs={12}>
+        <Col className="footer-body" lg={4} sm={12} xs={12}>
           <div className='social-media-icons'>
               <a
                 href="https://github.com/sauravmishra1710"
@@ -74,7 +74,7 @@ function Footer() {
               </a>
           </div>
         </Col>
-        <Col className="copyright" lg={4} sm={6} xs={12}>
+        <Col className="copyright" lg={4} sm={12} xs={12}>
         <h6>
           <TbCopyrightOff style={{ marginBottom: "2px" }} />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No Copyright issues | Let's Learn Together

@@ -4,13 +4,13 @@
 
 .parallax {
   margin-top: 4rem;
-  height: 100vh;
+  height: 55vh;
   padding: 10px;
   overflow: hidden;
   position: relative;
   z-index: 5;
-  width: 100vw;
-  margin-top: 50px;
+
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
 }
@@ -19,6 +19,7 @@
   color: purple;
   font-family: "Bellefair", serif; 
   font-weight: bolder;
+  height: fit-content;
 }
 
 .wave {
@@ -67,7 +68,10 @@
 
 .homeimages {
   margin-top: 70px;
-  margin-left: 70px;
+  margin-left: 40px;
+  width: 100%;
+  max-width: 70%;
+  height: auto;
 }
 
 .home {

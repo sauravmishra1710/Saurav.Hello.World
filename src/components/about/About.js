@@ -38,7 +38,7 @@ const About = () => {
               <Row>
                 <Col md={4}>
                   <Row>
-                    <Col md={3}>
+                    <Col md={6}>
                       <Bounce top duration={1000}>
                         <div style={{ marginLeft: "50px" }}>
                           <img
@@ -50,7 +50,7 @@ const About = () => {
                         </div>
                       </Bounce>
                     </Col>
-                    <Col md={3}>
+                    <Col md={6}>
                       <Bounce right duration={1000}>
                         <div style={{ marginLeft: "90px" }}>
                           <img
@@ -64,7 +64,7 @@ const About = () => {
                     </Col>
                   </Row>
                   <Row>
-                    <Col md={3} style={{ marginLeft: "50px" }}>
+                    <Col md={6} style={{ marginLeft: "50px" }}>
                       <Bounce left duration={1000}>
                         <div>
                           <img
@@ -76,7 +76,7 @@ const About = () => {
                         </div>
                       </Bounce>
                     </Col>
-                    <Col md={3}>
+                    <Col md={6}>
                       <Bounce bottom duration={1000}>
                         <div style={{ marginLeft: "50px" }}>
                           <img src={photoon} alt="" height={200} width={200} />

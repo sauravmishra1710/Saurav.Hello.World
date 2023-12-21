@@ -4,7 +4,6 @@
     transition: all 0.3s ease-out 0s !important;
     padding: 0.3rem 2rem !important;
     font-size: 1.2rem !important;
-    height:50px !important;
   }
 
   .logo {
@@ -28,6 +27,22 @@
   .navbar-nav .nav-item a:hover::after {
     width: 100%;
   }
-  
 
+  #navbarStyle{
+    display:flex;
+    width: 90%;
+    justify-content: space-between;
+     flex-direction: column;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav {
+      flex-direction: row;
+      width: 100%;
+      justify-content: end;
+  }
+  #navbarStyle{
+     flex-direction: row;
+  }
+  }
   
