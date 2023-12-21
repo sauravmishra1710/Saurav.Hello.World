@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import ImageListItemBar from "@mui/material/ImageListItemBar";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
-import { FaMapLocationDot } from "react-icons/fa6";
 
 import img1 from "../../img/CullinarySpaces/1.png";
 import img2 from "../../img/CullinarySpaces/2.png";

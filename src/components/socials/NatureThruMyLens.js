@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import ImageListItemBar from "@mui/material/ImageListItemBar";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import { FaMapLocationDot } from "react-icons/fa6";
@@ -75,29 +74,7 @@ const lightBoxCaptions = [
       Sambalpur, Odisha
     </a>{" "}
   </p>,
-  "img2",
-  <p>
-    .. img 3 not in the&nbsp;
-    <em>mood</em>
-    &nbsp;for games right now
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    C&#39;mon. Seriously.
-  </p>,
-  "img4",
-  "img5",
-  "img6",
+  
 ];
 
 const pattern = [
