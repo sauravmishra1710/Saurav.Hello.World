@@ -51,7 +51,7 @@ function NavBar() {
         ></Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <div style={{display:"flex"}}>
+            <div id="navbarStyle" style={{display:"flex",width: "90%",justifyContent: "space-between"}}>
               <Nav.Item>
                 <Nav.Link
                   as={Link}

@@ -20,14 +20,14 @@ const Home = () => {
     <>
       <Container fluid>
         <Row>
-          <Col md={5}>
+          <Col md={6}>
             <div className="home">
               <div
                 style={{
                   display: "flex",
                   flexDirection: "column",
                   justifyContent: "center",
-                  height: "100%",
+                  height: "100vh",
                 }}
               >
                 <Bounce top duration={1000}>
@@ -67,36 +67,36 @@ const Home = () => {
                         onInit={(typewriter) => {
                           typewriter
                             .typeString(
-                              '<span style="font-size:20.0pt">Welcome to My Space - Saurav.Hello.World!<br></span>'
+                              '<span style="font-size:1.5rem">Welcome to My Space - Saurav.Hello.World!<br></span>'
                             )
                             .pauseFor(200);
                           typewriter
                             .typeString(
-                              '<span style="font-size:20.0pt">Software/Frontend Developer<br></span>'
+                              '<span style="font-size:1.5rem">Software/Frontend Developer<br></span>'
                             )
                             .pauseFor(200);
                           typewriter
                             .typeString(
-                              '<span style="font-size:20.0pt">Learn & Code Everyday<br></span>'
+                              '<span style="font-size:1.5rem">Learn & Code Everyday<br></span>'
                             )
                             .pauseFor(200);
                           typewriter
                             .typeString(
-                              '<span style="font-size:20.0pt">AI, Computer Vision for Medicine & Healthcare<br></span>'
+                              '<span style="font-size:1.5rem">AI, Computer Vision for Medicine & Healthcare<br></span>'
                             )
                             .pauseFor(200);
                           typewriter
                             .typeString(
-                              '<span style="font-size:20.0pt">Enthusiast Photographer<br></span>'
+                              '<span style="font-size:1.5rem">Enthusiast Photographer<br></span>'
                             )
                             .pauseFor(200);
                           typewriter
                             .typeString(
-                              '<span style="font-size:20.0pt">Chef @ Home <br></span>'
+                              '<span style="font-size:1.5rem">Chef @ Home <br></span>'
                             )
                             .pauseFor(200)
                             .typeString(
-                              '<span style="color: red; font-size:20.0pt;">Manchester United</span><span style=font-size:20.0pt;"> Fan Boy</span></strong>'
+                              '<span style="color: red; font-size:1.5rem;">Manchester United</span><span style=font-size:1.5rem;"> Fan Boy</span></strong>'
                             )
                             .pauseFor(1000)
                             .deleteAll()
@@ -109,15 +109,13 @@ const Home = () => {
               </div>
             </div>
           </Col>
-          <Col md={7}>
+          <Col md={6} style={{display: "flex",alignItems: "center"}}>
             <Bounce right duration={1000}>
-              <div className="col-lg-6">
+              <div className="col-lg-6" style={{width: "100%"}}> 
                 <img
                   className="homeimages"
                   src={home}
-                  alt=""
-                  height={700}
-                  width={900}
+                  alt="homepage-clipart"
                 />
               </div>
             </Bounce>
