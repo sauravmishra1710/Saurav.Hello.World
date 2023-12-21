@@ -306,26 +306,19 @@ function Contact() {
             <Col md={5}>
               <Fade right>
                 <div className="col-lg-6">
-                  <img src={collaborate} alt="" height={800} width={1000} />
+                  <img src={collaborate} alt="" height={800} width={1000} className="collaborate"/>
                 </div>
               </Fade>
             </Col>
           </Row>
 
-          <Row>
+          <Row style={{width:"90vw"}}>
             <h1 className="heading purple">
               {" "}
               Have something to talk about...?
             </h1>
 
-            <div
-              style={{
-                alignItems: "center",
-                justifyContent: "center",
-                display: "flex",
-                flexDirection: "row",
-              }}
-            >
+            <div className="contact-div">
               <div className="col-lg-3">
                 <Bounce right>
                   <div>
@@ -426,8 +419,8 @@ function Contact() {
           </Row>
           <Row>
             <Bounce bottom>
-              <div style={{ paddingTop: "100px" }}>
-                <img src={thankyou} alt="" height={400} width={1500} />
+              <div>
+                <img src={thankyou} alt="" className="collaborate" height={400} width={1500} />
               </div>
             </Bounce>
             <p>&nbsp;</p>

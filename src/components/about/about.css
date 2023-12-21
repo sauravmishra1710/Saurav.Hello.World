@@ -30,7 +30,7 @@
 
 .about-cliparts{
   height: 200px;
-  width: 200px;
+  width: 145px;
 }
 
 #coding-img{
@@ -45,7 +45,16 @@
   width: 80%;
 }
 
+#chef{
+  height: 400px;
+  width: 100%;
+}
+
 @media (max-width: 768px) {
+  .collab-section{
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .row>* {
     width: fit-content;
   }

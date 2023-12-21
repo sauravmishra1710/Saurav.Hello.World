@@ -128,7 +128,7 @@ function Bookstack() {
         <Col md={3}>
           <Bounce top>
             <div style={{ marginTop: "60px", marginRight: "50px" }}>
-              <img src={BookNerd} alt="" height={400} width={400} />
+              <img src={BookNerd} alt="" height={400} width={400} className="bookNerd" />
             </div>
           </Bounce>
         </Col>

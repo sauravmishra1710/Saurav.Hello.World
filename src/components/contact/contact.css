@@ -6,7 +6,6 @@
   align-items: center;
 }
 #contact-section {
-  height: 100vh;
   justify-content: flex-start;
   padding: 20px;
   align-items: center;
@@ -85,6 +84,12 @@
   cursor: pointer;
   background-color: #2eff13;
 }
+.contact-div{
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}
 
 @media only screen and (max-width: 567px) {
   #form-name,
@@ -92,6 +97,9 @@
   #form-message {
     width: 100%;
   }
+  .contact-div{
+    flex-direction: column;
+    }
 }
 
 li {
@@ -105,4 +113,20 @@ li {
 
 .social-icons-container {
   margin-bottom: 20px;
+}
+
+.contact-form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+  .collaborate{
+    width: 100%;
+    height: auto;
+  }
+  .contact-form{
+    width: 100vw;
+  }
 }
