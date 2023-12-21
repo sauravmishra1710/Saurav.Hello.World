@@ -27,3 +27,29 @@
 #aboutHeading {
   font-family: "Jockey One", sans-serif;
 }
+
+.about-cliparts{
+  height: 200px;
+  width: 200px;
+}
+
+#coding-img{
+  height: auto;
+  width: 80%;
+  margin-left: 10%;
+  max-height: 300px;
+}
+
+#programmer{
+  height: 400px;
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .row>* {
+    width: fit-content;
+  }
+#coding-img{
+   margin-left: 0;
+}
+}
