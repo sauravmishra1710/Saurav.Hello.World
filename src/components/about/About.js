@@ -22,7 +22,8 @@ const About = () => {
       <div className="about-parent">
         <div
           style={{
-            // backgroundColor: theme ? "black" : "white",
+            display: "flex",
+            justifyContent:"center",
             color: theme ? "white" : "black",
           }}
         >
@@ -30,56 +31,53 @@ const About = () => {
             style={{
               padding: "10px",
               marginTop: "60px",
-              marginLeft: "50px",
-              // width: "80%",
+               width: "90%",
             }}
           >
             <div className="about-text" id="aboutSection">
               <Row>
-                <Col md={4}>
+                <Col md={4} style={{zIndex:"-1"}}>
                   <Row>
-                    <Col md={6}>
+                    <Col lg={6}>
                       <Bounce top duration={1000}>
-                        <div style={{ marginLeft: "50px" }}>
+                        <div>
                           <img
                             src={professional_toon}
                             alt=""
-                            height={200}
-                            width={200}
+                            
+                            className="about-cliparts"
                           />
                         </div>
                       </Bounce>
                     </Col>
-                    <Col md={6}>
+                    <Col lg={6}>
                       <Bounce right duration={1000}>
-                        <div style={{ marginLeft: "90px" }}>
+                        <div>
                           <img
                             src={programmer_toon}
                             alt=""
-                            height={200}
-                            width={200}
+                            className="about-cliparts"
                           />
                         </div>
                       </Bounce>
                     </Col>
                   </Row>
                   <Row>
-                    <Col md={6} style={{ marginLeft: "50px" }}>
+                    <Col lg={6}>
                       <Bounce left duration={1000}>
                         <div>
                           <img
                             src={chefToon3d}
                             alt=""
-                            height={200}
-                            width={200}
+                            className="about-cliparts"
                           />
                         </div>
                       </Bounce>
                     </Col>
-                    <Col md={6}>
+                    <Col lg={6}>
                       <Bounce bottom duration={1000}>
-                        <div style={{ marginLeft: "50px" }}>
-                          <img src={photoon} alt="" height={200} width={200} />
+                        <div>
+                          <img src={photoon} alt="" className="about-cliparts"/>
                         </div>
                       </Bounce>
                     </Col>
@@ -223,14 +221,14 @@ const About = () => {
                 <Col md={4}>
                   <Bounce right duration={1000}>
                     <div style={{ marginLeft: "20px" }}>
-                      <img src={programmer} alt="" height={400} width={450} />
+                      <img src={programmer} id="programmer" alt="" />
                     </div>
                   </Bounce>
                 </Col>
               </Row>
               <p></p>
               <Row>
-                <Col md={3}>
+                <Col md={4}>
                   <h1 className="purple heading">The Three Cs</h1>
                   <p>Define myself in 3 Words?</p>
                   <p>
@@ -254,24 +252,24 @@ const About = () => {
                   </p>
                   <p></p>
                 </Col>
-                <Col md={9}>
+                <Col md={8}>
                   <Bounce right duration={1000}>
-                    <div style={{ marginLeft: "150px" }}>
-                      <img src={coding_toon} alt="" height={300} width={1000} />
+                    <div id="coding-img-div">
+                      <img src={coding_toon} id="coding-img" alt=""/>
                     </div>
                   </Bounce>
                 </Col>
               </Row>
               <p>&nbsp;</p>
               <Row>
-                <Col md={3}>
+                <Col md={4}>
                   <Bounce right duration={1000}>
                     <div>
                       <img src={chefToon} alt="" height={400} width={400} />
                     </div>
                   </Bounce>
                 </Col>
-                <Col md={9}>
+                <Col md={8}>
                   <div>
                     <p>
                       <span className="purple" style={{ fontSize: "2rem" }}>
@@ -436,6 +434,7 @@ const About = () => {
                         alt=""
                         height={500}
                         width={500}
+                        style={{width:"100%"}}
                       />
                     </div>
                   </Bounce>
