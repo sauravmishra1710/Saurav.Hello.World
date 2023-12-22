@@ -25,6 +25,7 @@ const About = () => {
             display: "flex",
             justifyContent:"center",
             color: theme ? "white" : "black",
+            marginTop: "2rem",
           }}
         >
           <div
@@ -261,7 +262,7 @@ const About = () => {
                 </Col>
               </Row>
               <p>&nbsp;</p>
-              <Row>
+              <Row className="cooking-section">
                 <Col md={4}>
                   <Bounce right duration={1000}>
                     <div>
