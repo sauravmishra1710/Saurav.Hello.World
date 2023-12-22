@@ -28,37 +28,38 @@
   font-family: "Jockey One", sans-serif;
 }
 
-.about-cliparts{
+.about-cliparts {
   height: 200px;
   width: 145px;
 }
 
-#coding-img{
+#coding-img {
   height: auto;
   width: 80%;
   margin-left: 10%;
   max-height: 300px;
 }
 
-#programmer{
+#programmer {
   height: 400px;
   width: 80%;
 }
 
-#chef{
+#chef {
   height: 400px;
   width: 100%;
 }
 
 @media (max-width: 768px) {
-  .collab-section{
+  .collab-section,
+  .cooking-section {
     display: flex;
     flex-direction: column-reverse;
   }
-  .row>* {
+  .row > * {
     width: fit-content;
   }
-#coding-img{
-   margin-left: 0;
-}
+  #coding-img {
+    margin-left: 0;
+  }
 }

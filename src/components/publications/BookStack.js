@@ -133,14 +133,28 @@ function Bookstack() {
         <Col md={3}>
           <Bounce top>
             <div style={{ marginTop: "60px", marginRight: "50px" }}>
-              <img src={BookNerd} alt="" height={400} width={400} className="bookNerd" />
+              <img
+                src={BookNerd}
+                alt=""
+                height={400}
+                width={400}
+                className="bookNerd"
+              />
             </div>
           </Bounce>
         </Col>
       </Row>
       <Row>
         <div className="books-parent" id="booksSection">
-          <Accordion>
+          <Accordion
+            style={{
+              width: "98%",
+              marginTop: "20px",
+              border: "1px solid #d1d1d1",
+              boxShadow:
+                "0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12)",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"

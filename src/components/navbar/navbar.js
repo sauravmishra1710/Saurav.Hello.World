@@ -51,7 +51,14 @@ function NavBar() {
         ></Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <div id="navbarStyle" style={{display:"flex",width: "90%",justifyContent: "space-between"}}>
+            <div
+              id="navbarStyle"
+              style={{
+                display: "flex",
+                width: "90%",
+                justifyContent: "space-between",
+              }}
+            >
               <Nav.Item>
                 <Nav.Link
                   as={Link}
@@ -91,8 +98,7 @@ function NavBar() {
                   to="/skills_and_certifications"
                   onClick={() => updateExpanded(false)}
                 >
-                  <GiSkills style={{ marginBottom: "2px" }} /> Skills &
-                  Certifications
+                  <GiSkills style={{ marginBottom: "2px" }} /> Skills
                 </Nav.Link>
               </Nav.Item>
 

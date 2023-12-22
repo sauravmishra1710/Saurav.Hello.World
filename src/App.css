@@ -31,6 +31,10 @@
   font-size: 0.75rem;
 }
 
+.container-fluid {
+  margin-top: 2rem;
+}
+
 .object-fit_fill { object-fit: fill }
 .object-fit_contain { object-fit: contain }
 .object-fit_cover { object-fit: cover }
