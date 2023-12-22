@@ -48,7 +48,7 @@ function Bookstack() {
 
             <div className="publications-text">
               <p>
-                Not a book nerd as the picture suggest's but I am more kind of a
+                Not a book nerd as the picture suggests but I am more kind of a
                 seasonal reader. But once I get into my reading mode, I want to
                 finish it off in a sitting or two. Starting with the exchange of
                 the{" "}

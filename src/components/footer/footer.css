@@ -14,6 +14,8 @@
 .footer-row {
   width: 100%;
   align-items: baseline;
+  display: flex;
+  justify-content: center;
 }
 
 .copyright {

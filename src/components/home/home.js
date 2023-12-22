@@ -27,7 +27,7 @@ const Home = () => {
                   display: "flex",
                   flexDirection: "column",
                   justifyContent: "center",
-                  height: "100vh",
+                  // height: "100vh",
                 }}
               >
                 <Bounce top duration={1000}>
@@ -62,7 +62,7 @@ const Home = () => {
                         options={{
                           autoStart: true,
                           loop: true,
-                          deleteSpeed: 50,
+                          deleteSpeed: 70,
                         }}
                         onInit={(typewriter) => {
                           typewriter

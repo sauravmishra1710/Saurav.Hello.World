@@ -93,7 +93,6 @@ const Projects = () => {
               </h1>
             <div
               style={{
-                width: "80vw",
                 padding: "10px",
                 display: "flex",
                 flexWrap: "wrap",
@@ -229,7 +228,6 @@ const Projects = () => {
               </h1>
             <div
               style={{
-                width: "80vw",
                 padding: "10px",
                 display: "flex",
                 flexWrap: "wrap",
