@@ -4,7 +4,7 @@
 
 .parallax {
   margin-top: 4rem;
-  height: 55vh;
+  height: 67vh;
   padding: 10px;
   overflow: hidden;
   position: relative;
@@ -67,7 +67,7 @@
 }
 
 .homeimages {
-  margin-top: 70px;
+  /* margin-top: 70px; */
   margin-left: 40px;
   width: 100%;
   max-width: 70%;

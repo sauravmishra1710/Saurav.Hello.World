@@ -3,6 +3,8 @@ import { Col, Row } from "react-bootstrap";
 import "./about.css";
 import ThemeContext from "../../utility/themeContext";
 import { Bounce, Fade } from "react-reveal";
+import { Link } from "react-router-dom";
+import Socials from "../socials/Socials.js"
 
 import chefToon3d from "../../img/page_logos/3d_chef.jpg";
 import professional_toon from "../../img/page_logos/professional_toon.jpg";
@@ -23,7 +25,7 @@ const About = () => {
         <div
           style={{
             display: "flex",
-            justifyContent:"center",
+            justifyContent: "center",
             color: theme ? "white" : "black",
             marginTop: "2rem",
           }}
@@ -32,12 +34,12 @@ const About = () => {
             style={{
               padding: "10px",
               marginTop: "60px",
-               width: "90%",
+              width: "90%",
             }}
           >
             <div className="about-text" id="aboutSection">
-              <Row style={{display:"flex",justifyContent:"center"}}>
-                <Col md={4} style={{zIndex:"-1"}}>
+              <Row style={{ display: "flex", justifyContent: "center" }}>
+                <Col md={4} style={{ zIndex: "-1" }}>
                   <Row>
                     <Col lg={6} xs={3}>
                       <Bounce top duration={1000}>
@@ -45,7 +47,6 @@ const About = () => {
                           <img
                             src={professional_toon}
                             alt=""
-                            
                             className="about-cliparts"
                           />
                         </div>
@@ -78,7 +79,11 @@ const About = () => {
                     <Col lg={6}>
                       <Bounce bottom duration={1000}>
                         <div>
-                          <img src={photoon} alt="" className="about-cliparts"/>
+                          <img
+                            src={photoon}
+                            alt=""
+                            className="about-cliparts"
+                          />
                         </div>
                       </Bounce>
                     </Col>
@@ -119,7 +124,7 @@ const About = () => {
                       <b> big foodie with a very diverse taste buds</b>
                     </span>
                     . My explorations for lip smacking food is endless. I love
-                    to try out every cuisine when I get the chance. Food in
+                    to try out every cuisine when I get the chance. Food is
                     another movitation to explore places and keep learnig about
                     the culinary practices of any region.
                   </p>
@@ -155,7 +160,7 @@ const About = () => {
                     <span className="purple">
                       <b>Ocean of Web</b>
                     </span>{" "}
-                    applications. And nothing better that starting to react with
+                    applications. And nothing better than starting to react with
                     React. This new phase has been all sort of enthusiasm to
                     gain a plethora of knowledge with web technologies. Not only
                     React, but you get to know HTML, Javascript, CSS, & other
@@ -256,7 +261,7 @@ const About = () => {
                 <Col md={8}>
                   <Bounce right duration={1000}>
                     <div id="coding-img-div">
-                      <img src={coding_toon} id="coding-img" alt=""/>
+                      <img src={coding_toon} id="coding-img" alt="" />
                     </div>
                   </Bounce>
                 </Col>
@@ -327,7 +332,15 @@ const About = () => {
                     </p>
                     <p>
                       A glipmse of my cooking and cullinary skills is shared in
-                      the Socials.
+                      the &nbsp;
+                      <Link
+                        to="/socials#section3"
+                        aria-label="Navigate to socials page"
+                        // className={styles.link}
+                      >
+                        Socials
+                      </Link>
+                      .
                     </p>
                   </div>
                 </Col>
@@ -384,7 +397,7 @@ const About = () => {
                       right moment and the right place to get the right click.
                       Whatever it be like,{" "}
                       <span className="purple">
-                        <b> the it's all worth the wait</b>
+                        <b> it's all worth the wait</b>
                       </span>
                       . Making those random road side stops just because you
                       just got spectacular view of the sunset. Or waiting for
@@ -435,7 +448,7 @@ const About = () => {
                         alt=""
                         height={500}
                         width={500}
-                        style={{width:"100%"}}
+                        style={{ width: "100%" }}
                       />
                     </div>
                   </Bounce>

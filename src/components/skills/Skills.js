@@ -49,7 +49,7 @@ function Skills() {
                       <span className="purple">
                         <b>Ocean of Web</b>
                       </span>{" "}
-                      applications. And nothing better that starting to react
+                      applications. And nothing better than starting to react
                       with React. This new phase has been exciting and
                       enthusiastic to learn the web technologies. Not only
                       React, but you get to know HTML, Javascript, CSS, & other

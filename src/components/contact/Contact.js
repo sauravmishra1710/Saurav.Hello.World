@@ -48,7 +48,7 @@ function Contact() {
   }
 
   function sendEmail() {
-    let formData = { name: name, email: email, message: msg };
+    let formData = { from_name: name, from_email: email, message: msg };
     emailjs
       .send(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -72,11 +72,11 @@ function Contact() {
   }
 
   function handleSubmit(event) {
-    if (name === "" || !/^[A-Za-z\s]+$/.test(name)) {
+    if (name.trim() === "") {
       setError("No name. Lord Voldemort?");
-    } else if (email === "" || !validEmailRegex.test(email)) {
+    } else if (email.trim() === "" || !validEmailRegex.test(email)) {
       setError("You missed entering correct email ID!");
-    } else if (msg === "") {
+    } else if (msg.trim() === "") {
       setError("I don't read minds, please type some message!");
     } else {
       setLoading(true);
