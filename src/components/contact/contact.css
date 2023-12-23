@@ -23,7 +23,7 @@
   width: 100%;
 }
 .connect-with-me-text {
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
 }
 .connect-with-me-text p {
@@ -72,6 +72,10 @@
   width: 100%;
   margin-bottom: 10px;
 }
+#thankyou {
+  margin-top: 30px;
+}
+
 #submit-btn {
   padding: 10px;
   margin-top: 15px;
@@ -84,7 +88,7 @@
   cursor: pointer;
   background-color: #2eff13;
 }
-.contact-div{
+.contact-div {
   align-items: center;
   justify-content: space-evenly;
   display: flex;
@@ -97,9 +101,13 @@
   #form-message {
     width: 100%;
   }
-  .contact-div{
+  .contact-div {
     flex-direction: column;
-    }
+  }
+
+  .contact-form:hover {
+    transform: scale(1.02) !important;
+  }
 }
 
 li {
@@ -115,18 +123,23 @@ li {
   margin-bottom: 20px;
 }
 
-.contact-form{
-    align-items: center;
-    justify-content: center;
-    display: flex;
+.contact-form {
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 @media (max-width: 768px) {
-  .collaborate{
+  .contactImgs {
     width: 100%;
     height: auto;
   }
-  .contact-form{
+  .contact-form {
     width: 100vw;
+  }
+
+  #emailImg {
+    /* width: 100%; */
+    height: auto;
   }
 }

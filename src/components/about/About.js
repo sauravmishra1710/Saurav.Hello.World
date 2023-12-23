@@ -4,7 +4,7 @@ import "./about.css";
 import ThemeContext from "../../utility/themeContext";
 import { Bounce, Fade } from "react-reveal";
 import { Link } from "react-router-dom";
-import Socials from "../socials/Socials.js"
+import Socials from "../socials/Socials.js";
 
 import chefToon3d from "../../img/page_logos/3d_chef.jpg";
 import professional_toon from "../../img/page_logos/professional_toon.jpg";
@@ -331,13 +331,9 @@ const About = () => {
                       .
                     </p>
                     <p>
-                      A glipmse of my cooking and cullinary skills is shared in
+                      A glimpse of my cooking and cullinary skills is shared in
                       the &nbsp;
-                      <Link
-                        to="/socials#section3"
-                        aria-label="Navigate to socials page"
-                        // className={styles.link}
-                      >
+                      <Link to="/socials" aria-label="Navigate to socials page">
                         Socials
                       </Link>
                       .
@@ -435,8 +431,12 @@ const About = () => {
                       about noticing those smallest of the details.
                     </p>
                     <p>
-                      A glipmse of my experiments with clicks is shared in the
-                      Socials.
+                      A glimpse of my experiments with clicks is shared in the
+                      &nbsp;
+                      <Link to="/socials" aria-label="Navigate to socials page">
+                        Socials
+                      </Link>
+                      .
                     </p>
                   </div>
                 </Col>

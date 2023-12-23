@@ -8,8 +8,8 @@ import LoadingButton from "@mui/lab/LoadingButton";
 import SendIcon from "@mui/icons-material/Send";
 import ThemeContext from "../../utility/themeContext";
 import { Icon } from "@iconify/react";
-import { Fade, Roll, Bounce } from "react-reveal";
-import collaborate from "../../img/page_logos/connect.jpg";
+import { Fade, Bounce } from "react-reveal";
+import contactImgs from "../../img/page_logos/connect.jpg";
 import thankyou from "../../img/page_logos/thankyou.jpeg";
 import emailImg from "../../img/page_logos/email.svg";
 
@@ -31,12 +31,21 @@ function Contact() {
     /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i
   );
 
+  function isValidEmail(email) {
+    return validEmailRegex.test(email);
+  }
+
   function handleChange(event) {
     switch (event.target.name) {
       case "name":
         setName(event.target.value);
         break;
       case "email":
+        if (!isValidEmail(event.target.value)) {
+          setError('Email is invalid. Please input a valid email.');
+        } else {
+          setError(null);
+        }
         setEmail(event.target.value);
         break;
       case "message":
@@ -51,10 +60,10 @@ function Contact() {
     let formData = { from_name: name, from_email: email, message: msg };
     emailjs
       .send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        "service_minqris",
+        "template_58bxgw8",
         formData,
-        process.env.REACT_APP_EMAILJS_USER_ID
+        "Uuvw9AnI2UjjBsooF"
       )
       .then(
         (result) => {
@@ -65,7 +74,7 @@ function Contact() {
           setLoading(false);
         },
         (error) => {
-          setInfo("Oops!!! Something is wrong");
+          setInfo("Oops!!! Something went wrong. Try sending again.");
           setLoading(false);
         }
       );
@@ -75,7 +84,7 @@ function Contact() {
     if (name.trim() === "") {
       setError("No name. Lord Voldemort?");
     } else if (email.trim() === "" || !validEmailRegex.test(email)) {
-      setError("You missed entering correct email ID!");
+      setError("Please enter a valid email ID!");
     } else if (msg.trim() === "") {
       setError("I don't read minds, please type some message!");
     } else {
@@ -306,7 +315,7 @@ function Contact() {
             <Col md={5}>
               <Fade right>
                 <div className="col-lg-6">
-                  <img src={collaborate} alt="" height={800} width={1000} className="collaborate"/>
+                  <img src={contactImgs} alt="" height={800} width={1000} className="contactImgs"/>
                 </div>
               </Fade>
             </Col>
@@ -319,7 +328,7 @@ function Contact() {
             </h1>
 
             <div className="contact-div">
-              <div className="col-lg-3">
+              <div id="emailImg">
                 <Bounce right>
                   <div>
                     <img src={emailImg} alt="" height={300} width={400} />
@@ -360,7 +369,7 @@ function Contact() {
                           value={email}
                           onChange={handleChange}
                           name="email"
-                          placeholder="Your E-mail ID"
+                          placeholder="Enter your E-mail ID"
                           autoComplete="off"
                           className="contact-field"
                           id="form-email"
@@ -420,7 +429,7 @@ function Contact() {
           <Row>
             <Bounce bottom>
               <div>
-                <img src={thankyou} alt="" className="collaborate" height={400} width={1500} />
+                <img src={thankyou} alt="" id="thankyou" className="contactImgs" height={400} width={1500} />
               </div>
             </Bounce>
             <p>&nbsp;</p>
