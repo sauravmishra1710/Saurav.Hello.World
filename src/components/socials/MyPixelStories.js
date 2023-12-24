@@ -37,6 +37,12 @@ import img29 from "../../img/image_gallery_2/29.jpeg";
 import img30 from "../../img/image_gallery_2/30.jpeg";
 import img31 from "../../img/image_gallery_2/31.jpeg";
 import img32 from "../../img/image_gallery_2/32.jpeg";
+import img33 from "../../img/image_gallery_2/33.jpeg";
+import img34 from "../../img/image_gallery_2/34.jpeg";
+import img35 from "../../img/image_gallery_2/35.jpeg";
+import img36 from "../../img/image_gallery_2/36.jpeg";
+import img37 from "../../img/image_gallery_2/37.jpeg";
+import img38 from "../../img/image_gallery_2/38.jpeg";
 
 const images = [
   img1,
@@ -70,46 +76,30 @@ const images = [
   img29,
   img30,
   img31,
-  img32
+  img32,
+  img33,
+  img34,
+  img35,
+  img36,
+  img37,
+  img38,
 ];
 
 const lightBoxCaptions = [
   <p className="legend">
-    Lighting the Diya on the ocassion of Diwali... Let there be light everywhere...
+    My experiments with the candles...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
     &nbsp;
     <a
-      href="https://www.google.com/maps/place/Sambalpur,+Odisha/@21.470398,83.9728832,13z/data=!3m1!4b1!4m6!3m5!1s0x3a21167f047cd9b5:0x7660a40be684d655!8m2!3d21.4668716!4d83.9811665!16zL20vMGNtbHBo?entry=ttu"
+      href="https://www.google.com/maps/place/Gopalan+Grandeur,+Hoodi+Main+Rd,+Hudi,+Hoodi,+Bengaluru,+Karnataka+560048/@12.9909812,77.7131459,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae1196bb3db273:0xc9f97c9818e9f551!8m2!3d12.990976!4d77.7157208!16s%2Fg%2F12hsxqjy5?entry=ttu"
       target="_blank"
       rel="noreferrer"
     >
-      Sambalpur, Odisha
+      Bengaluru, Karnataka
     </a>{" "}
   </p>,
-  "img2",
-  <p>
-    .. img 3 not in the&nbsp;
-    <em>mood</em>
-    &nbsp;for games right now
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    ...
-    <br />
-    C&#39;mon. Seriously.
-  </p>,
-  "img4",
-  "img5",
-  "img6",
+  
 ];
 
 const pattern = [
@@ -158,12 +148,12 @@ const pattern = [
     cols: 1,
   },
   {
-    rows: 1,
+    rows: 2,
     cols: 2,
   },
   {
     rows: 1,
-    cols: 1,
+    cols: 2,
   },
   {
     rows: 1,
@@ -191,6 +181,14 @@ const pattern = [
   },
   {
     rows: 1,
+    cols: 2,
+  },
+  {
+    rows: 2,
+    cols: 1,
+  },
+  {
+    rows: 1,
     cols: 1,
   },
   {
@@ -200,14 +198,6 @@ const pattern = [
   {
     rows: 1,
     cols: 2,
-  },
-  {
-    rows: 1,
-    cols: 1,
-  },
-  {
-    rows: 1,
-    cols: 1,
   },
   {
     rows: 1,
@@ -241,6 +231,30 @@ const pattern = [
     rows: 1,
     cols: 2,
   },
+  {
+    rows: 1,
+    cols: 2,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 2,
+  },
+  {
+    rows: 2,
+    cols: 2,
+  },
+  {
+    rows: 2,
+    cols: 1,
+  },
+  {
+    rows: 2,
+    cols: 2,
+  },
 ];
 
 function srcset(image, size, rows = 1, cols = 1) {
@@ -260,6 +274,7 @@ export default function ImageGallery2(props) {
     setShowModal(true);
     return;
   };
+
   const imgsLength = images.length;
   return (
     <>
