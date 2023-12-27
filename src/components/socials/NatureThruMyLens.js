@@ -194,7 +194,7 @@ const lightBoxCaptions = [
     </a>{" "}
   </p>,
   <p className="legend">
-    Beach by the countryside is one of the most wonderful experience on can and
+    Beach by the countryside is one of the most wonderful experience one can and
     should have...Another one amongst my best, this morning walk shot taken on
     the way to this country side beach (calm & serene) in Southern part of Goa
     gave us the most exciting start to the day...
@@ -287,7 +287,7 @@ const lightBoxCaptions = [
   <p className="legend">
     These colors, the calmness of the nature and the sea this was the scene the
     day after the Cyclonic Storm Yaas, true to say Mother Nature has her own
-    ways of tranquility after a turnmoil. And Yes, the is one of the best views
+    ways of tranquility after a turnmoil. And Yes, this is one of the best views
     of the Sea and the Sun I have ever seen...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
@@ -347,7 +347,7 @@ const lightBoxCaptions = [
   </p>,
   <p className="legend">
     Being in a tea garden & sorrounded by millions of tea leaves but finding the
-    perfect leaves for that one perfect shot, it was quiet a task...
+    perfect leaves for that one perfect shot, it was quite a task...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
     &nbsp;

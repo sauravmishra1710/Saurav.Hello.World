@@ -14,13 +14,13 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
 } from "react-router-dom";
+import ScrollToTop from "./utility/ScrollToTop.js";
 import Preloader from "./components/preloader/preloader";
 import Navbar from "./components/navbar/navbar.js";
 
 function App() {
-const [screenLoading, setScreenLoading] = useState(true);
+  const [screenLoading, setScreenLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -30,27 +30,28 @@ const [screenLoading, setScreenLoading] = useState(true);
     return () => clearTimeout(timer);
   }, []);
 
-return (
-  <Router>
-    <ThemeProvider>
-    <Preloader load={screenLoading}/>
-    <div className="App" id={screenLoading ? "no-scroll" : "scroll"}>
-      <Navbar />
-      <Routes>
-      <Route path="/" element={<Home />} />
-        <Route path="/about_me" element={<About />} />
-        <Route path="/my_projects" element={<Projects />} />
-        <Route path="/skills_and_certifications" element={<Skills />} />
-        <Route path="/books_and_publications" element={<Publications />} />
-        <Route path="/socials" element={<Socials />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Footer />} />
-      </Routes>
-      <Footer />
-    </div>
-    </ThemeProvider>
-  </Router>
-);
+  return (
+    <Router>
+      <ThemeProvider>
+        <Preloader load={screenLoading} />
+        <div className="App" id={screenLoading ? "no-scroll" : "scroll"}>
+          <Navbar />
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about_me" element={<About />} />
+            <Route path="/my_projects" element={<Projects />} />
+            <Route path="/skills_and_certifications" element={<Skills />} />
+            <Route path="/books_and_publications" element={<Publications />} />
+            <Route path="/socials" element={<Socials />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Footer />} />
+          </Routes>
+          <Footer />
+        </div>
+      </ThemeProvider>
+    </Router>
+  );
 }
 
 export default App;
