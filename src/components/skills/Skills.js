@@ -17,7 +17,7 @@ function Skills() {
             <Col md={6}>
               <div
                 className="col-lg-10"
-                style={{ marginTop: "60px", marginLeft: "50px" }}
+                style={{ marginTop: "60px", marginLeft: "25px" }}
               >
                   <h2 className="purple heading">
                     Technical Skillset
