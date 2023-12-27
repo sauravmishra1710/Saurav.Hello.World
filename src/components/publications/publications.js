@@ -156,7 +156,7 @@ const Publications = () => {
       <Container fluid>
         <Row>
           <Col md={6}>
-            <div className="col-lg-10" style={{ marginTop: "60px" }}>
+            <div className="col-lg-10" style={{ marginTop: "60px", marginLeft: "25px" }}>
               <h1 className="purple heading">Peer Reviewed Publications</h1>
               <div className="publications-text">
                 <p>
@@ -192,7 +192,10 @@ const Publications = () => {
                   <h5 className="purple heading">
                     My ORCID & Google Scholar Profiles...
                   </h5>
-                  <div className="social-icons-container" style={{ margin: "20px" }}>
+                  <div
+                    className="social-icons-container"
+                    style={{ margin: "20px" }}
+                  >
                     <li>
                       <a
                         href="https://scholar.google.com/citations?hl=en&user=t1GX3O8AAAAJ"
@@ -215,7 +218,10 @@ const Publications = () => {
                     </li>
                   </div>
 
-                  <div className="social-icons-container" style={{ margin: "20px" }}>
+                  <div
+                    className="social-icons-container"
+                    style={{ margin: "20px" }}
+                  >
                     <a
                       href="https://orcid.org/my-orcid?orcid=0000-0002-6107-0999"
                       target="_blank"
