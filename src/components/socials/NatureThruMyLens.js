@@ -142,7 +142,7 @@ const lightBoxCaptions = [
       target="_blank"
       rel="noreferrer"
     >
-      Rishikesh, Uttarakhand
+      Parmarth Niketan, Rishikesh, Uttarakhand
     </a>{" "}
   </p>,
   <p className="legend">
@@ -404,19 +404,22 @@ const lightBoxCaptions = [
     </a>{" "}
   </p>,
   <p className="legend">
-    Far from the distractions of the cities, visiting the country side is always
-    relaxing and stress free. This one day trip was a special one & full of
-    memories for us as it happened to be our marriage anniversary. And more so
-    now as it turned out to be the last one with my father...
+    Travelling solo is one of the best things to do, and my love for the dawn
+    inspired me to capture the sun rise from the flight. The very idea of
+    capturing the sunrise from the high altitudes within the air plane was
+    exciting and inspiring. With clouds beneath & clear blue sky above, this is
+    one of my best dawn shots. <br />
+    Also remember that puzzled look on the air hostess's face seeing me with the
+    DSLR in hand and moving around my seat trying to get the right angle...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
     &nbsp;
     <a
-      href="https://www.google.com/maps/place/Pentha+Sea+Beach/@20.5373024,86.7836693,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0x3a1ba54051d62753:0x22a04437eb04a8e3!2sPentha+Sea+Beach!8m2!3d20.5372974!4d86.7862442!16s%2Fg%2F11qqyl4p8h!3m5!1s0x3a1ba54051d62753:0x22a04437eb04a8e3!8m2!3d20.5372974!4d86.7862442!16s%2Fg%2F11qqyl4p8h?entry=ttu"
+      href="https://www.google.com/maps/place/Kempegowda+International+Airport+Bengaluru/@13.1989089,77.7042382,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae1cfe75446265:0x296c70e9a129418e!8m2!3d13.1989089!4d77.7068131!16zL20vMGJmNm15?entry=ttu"
       target="_blank"
       rel="noreferrer"
     >
-      Pentha, Kendrapara, Odisha
+      The Skies of Bangaluru, Karnataka
     </a>{" "}
   </p>,
   <p className="legend">
@@ -435,20 +438,19 @@ const lightBoxCaptions = [
     </a>{" "}
   </p>,
   <p className="legend">
-    Travelling solo is one of the best things to do, and my love for the dawn
-    inspired me to capture the sun rise from the flight. The very idea of
-    capturing the sunrise from the high altitudes within the air plane was
-    exciting and inspiring. With clouds beneath & clear blue sky above, this is
-    one of my best dawn shots.
+    Far from the distractions of the cities, visiting the country side is always
+    relaxing and stress free. This one day trip was a special one & full of
+    memories for us as it happened to be our marriage anniversary. And more so
+    now as it turned out to be the last one with my father...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
     &nbsp;
     <a
-      href="https://www.google.com/maps/place/Kempegowda+International+Airport+Bengaluru/@13.1989089,77.7042382,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae1cfe75446265:0x296c70e9a129418e!8m2!3d13.1989089!4d77.7068131!16zL20vMGJmNm15?entry=ttu"
+      href="https://www.google.com/maps/place/Pentha+Sea+Beach/@20.5373024,86.7836693,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0x3a1ba54051d62753:0x22a04437eb04a8e3!2sPentha+Sea+Beach!8m2!3d20.5372974!4d86.7862442!16s%2Fg%2F11qqyl4p8h!3m5!1s0x3a1ba54051d62753:0x22a04437eb04a8e3!8m2!3d20.5372974!4d86.7862442!16s%2Fg%2F11qqyl4p8h?entry=ttu"
       target="_blank"
       rel="noreferrer"
     >
-      The Skies of Bangaluru, Karnataka
+      Pentha, Kendrapara, Odisha
     </a>{" "}
   </p>,
 ];
