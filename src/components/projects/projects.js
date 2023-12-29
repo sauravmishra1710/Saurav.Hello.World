@@ -6,21 +6,21 @@ import ThemeContext from "../../utility/themeContext";
 import { Bounce, Fade } from "react-reveal";
 
 import working from "../../img/page_logos/working.jpg";
-import imgClassification from "../../img/projects/imgClassification.png";
-import heartAnalysisImg from "../../img/projects/heartAnalysis.jpg";
+import imgClassification from "../../img/projects/imgClassification.jpg";
+import heartAnalysisImg from "../../img/projects/HeartAnalysis.jpg";
 import unetpp from "../../img/projects/nested_unet_architecture.png";
 import unet from "../../img/projects/Unet_Architecture.png";
 import inception from "../../img/projects/inception.png";
 import batchnorm from "../../img/projects/BatchNorm.jpg";
 import gradcam from "../../img/projects/gradcam.png";
 import covid19 from "../../img/projects/covid19.jpg";
-import malaria from "../../img/projects/malaria.png";
+import malaria from "../../img/projects/malaria.jpg";
 import notepadpy from "../../img/projects/NotepadPy.gif";
 import tictactoe from "../../img/projects/tictactoe.gif";
 import imageviewer from "../../img/projects/PyImageViewer.jpg";
-import covid19Analysis from "../../img/projects/covid19_analysis.png";
-import facemask from "../../img/projects/FaceMask.gif";
-import healthcareAI from "../../img/projects/HealthcareAI.png";
+import covid19Analysis from "../../img/projects/covid19_analysis.jpg";
+import facemask from "../../img/projects/FaceMask.jpg";
+import healthcareAI from "../../img/projects/HealthcareAI.jpg";
 
 const Projects = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -360,7 +360,7 @@ const Projects = () => {
               />
 
               <Card
-                title="Image Viewer"
+                title="Py Image Viewer"
                 srcLink="https://github.com/sauravmishra1710/Python-GUI-with-PySimpleGUI/blob/main/Sample%20GUI%20Implementation/image_viewer.py"
                 miscLink="https://github.com/sauravmishra1710/Python-GUI-with-PySimpleGUI/blob/main/Sample%20Executables/PyImageViewer/PyImageViewer.JPG"
                 description={[
