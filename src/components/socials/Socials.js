@@ -61,6 +61,7 @@ const Socials = () => {
             <Bounce top duration={1000} distance="500px">
               <div>
                 <img
+                id="socialsPhotographer"
                   src={socialsPhotographer}
                   alt=""
                   height={300}
