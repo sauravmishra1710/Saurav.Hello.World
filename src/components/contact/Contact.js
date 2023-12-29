@@ -60,10 +60,10 @@ function Contact() {
     let formData = { from_name: name, from_email: email, message: msg };
     emailjs
       .send(
-        "service_minqris",
-        "template_58bxgw8",
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         formData,
-        "Uuvw9AnI2UjjBsooF"
+        process.env.REACT_APP_EMAILJS_USER_ID
       )
       .then(
         (result) => {
