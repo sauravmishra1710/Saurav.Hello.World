@@ -31,6 +31,14 @@ import img23 from "../../img/image_gallery_1/23.jpg";
 import img24 from "../../img/image_gallery_1/24.jpg";
 import img25 from "../../img/image_gallery_1/25.jpg";
 import img26 from "../../img/image_gallery_1/26.jpg";
+import img27 from "../../img/image_gallery_1/27.jpg";
+import img28 from "../../img/image_gallery_1/28.jpg";
+import img29 from "../../img/image_gallery_1/29.jpg";
+import img30 from "../../img/image_gallery_1/30.jpg";
+import img31 from "../../img/image_gallery_1/31.jpg";
+import img32 from "../../img/image_gallery_1/32.jpg";
+import img33 from "../../img/image_gallery_1/33.jpg";
+import img34 from "../../img/image_gallery_1/34.jpg";
 
 const images = [
   img1,
@@ -59,6 +67,14 @@ const images = [
   img24,
   img25,
   img26,
+  img27,
+  img28,
+  img29,
+  img30,
+  img31,
+  img32,
+  img33,
+  img34,
 ];
 
 const lightBoxCaptions = [
@@ -77,7 +93,7 @@ const lightBoxCaptions = [
     </a>{" "}
   </p>,
   <p className="legend">
-    Going places that I’ve never been...
+    Going places where I’ve never been...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
     &nbsp;
@@ -171,11 +187,11 @@ const lightBoxCaptions = [
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
     &nbsp;
     <a
-      href="https://www.google.com/maps/place/Seetha+Devi+Lake/@10.0452728,77.1551299,17z/data=!4m15!1m8!3m7!1s0x3b079faec65a924d:0xde4b92b9c72c2ad1!2sSeetha+Devi+Lake!8m2!3d10.0452728!4d77.1551299!10e5!16s%2Fg%2F11c2r9r70p!3m5!1s0x3b079faec65a924d:0xde4b92b9c72c2ad1!8m2!3d10.0452728!4d77.1551299!16s%2Fg%2F11c2r9r70p?entry=ttu"
+      href="https://www.google.com/maps/place/Mattupetty+Lake/@10.1082853,77.1254786,17z/data=!3m1!4b1!4m6!3m5!1s0x3b079d76d10a1101:0x74126ce99bf7e1e7!8m2!3d10.10828!4d77.1280535!16s%2Fg%2F11qg0j8wgv?entry=ttu"
       target="_blank"
       rel="noreferrer"
     >
-      Devikulam, Munnar, Kerala
+      Munnar, Kerala
     </a>{" "}
   </p>,
   <p className="legend">
@@ -438,6 +454,119 @@ const lightBoxCaptions = [
     </a>{" "}
   </p>,
   <p className="legend">
+    The land of salt water crocodiles in one of the finest patches of mangrove
+    forest along the eastern coast of India...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Bhitarkanika,+Odisha+754248/@20.7215846,86.8535502,15z/data=!3m1!4b1!4m6!3m5!1s0x3a1b9fa84445d08f:0xe0b7fb81f221aef!8m2!3d20.7151469!4d86.8659449!16zL20vMGJ0NDVy?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Bhitarkanika, Odisha
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    What a fun filled friday morning it was with the place buzzing with colors,
+    smiles, spreading joy & happiness all around...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Nandibetta+Sunrise+Viewpoint/@13.3686718,77.6820178,17z/data=!3m1!4b1!4m6!3m5!1s0x3bb1e44f23b770ed:0x98a30c3014825b9e!8m2!3d13.3686666!4d77.6845927!16s%2Fg%2F11g69k1yw1?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Nandi Hills, Bangalore, Karnataka
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    A masterpiece of architecture and engineering that is awe-inspiring and a
+    testament to the skill and creativity...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Konark+Sun+Temple/@19.8876003,86.0919615,17z/data=!3m1!4b1!4m6!3m5!1s0x3a19f2a097819bbf:0xed9983ca391e3247!8m2!3d19.8875953!4d86.0945364!16s%2Fm%2F02rd_67?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Konark Sun Temple, Odisha
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    This 700 Year Old Temple in Odisha is a Chamber of Secrets where the
+    language of stones, surpasses the language of humans...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Konark+Sun+Temple/@19.8876003,86.0919615,17z/data=!3m1!4b1!4m6!3m5!1s0x3a19f2a097819bbf:0xed9983ca391e3247!8m2!3d19.8875953!4d86.0945364!16s%2Fm%2F02rd_67?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Konark Sun Temple, Odisha
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    The combination of shades of blue, green, and white is no less than the
+    wallpaper stuffs...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Coonoor,+Tamil+Nadu/@11.3497857,76.7687327,14z/data=!3m1!4b1!4m6!3m5!1s0x3ba894efa2fd0d5b:0x192d8d872b04dbbb!8m2!3d11.3530022!4d76.7959095!16zL20vMDQxazFi?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Coonoor, Tamil Nadu
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Going places where I’ve never been, another random shot that turned out to
+    be one of the best from this trip while experiencing the journey gazing
+    outside ...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Chikkamagaluru,+Karnataka/@13.3131132,75.7724486,13z/data=!3m1!4b1!4m6!3m5!1s0x3bbad762c8a889dd:0xb3cf49155294be16!8m2!3d13.3161441!4d75.7720439!16s%2Fm%2F02p74m6?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Chikkamagaluru, Karnataka
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Another random shot at a random stop over early in the morning...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Chikkamagaluru,+Karnataka/@13.3131132,75.7724486,13z/data=!3m1!4b1!4m6!3m5!1s0x3bbad762c8a889dd:0xb3cf49155294be16!8m2!3d13.3161441!4d75.7720439!16s%2Fm%2F02p74m6?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Chikkamagaluru, Karnataka
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    The vibrant colors of the forest, the boat, the lake, and hazily visible
+    Munnar town in the far distance... Nature's canvas and melody came together
+    to create magic...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Mattupetty+Lake/@10.1082853,77.1254786,17z/data=!3m1!4b1!4m6!3m5!1s0x3b079d76d10a1101:0x74126ce99bf7e1e7!8m2!3d10.10828!4d77.1280535!16s%2Fg%2F11qg0j8wgv?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Munnar, Kerala
+    </a>{" "}
+  </p>,
+  <p className="legend">
     Far from the distractions of the cities, visiting the country side is always
     relaxing and stress free. This one day trip was a special one & full of
     memories for us as it happened to be our marriage anniversary. And more so
@@ -502,11 +631,11 @@ const pattern = [
   },
   {
     rows: 1,
-    cols: 1,
+    cols: 2,
   },
   {
     rows: 1,
-    cols: 2,
+    cols: 1,
   },
   {
     rows: 2,
@@ -559,6 +688,38 @@ const pattern = [
   {
     rows: 1,
     cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 2,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 1,
+    cols: 1,
+  },
+  {
+    rows: 2,
+    cols: 3,
+  },
+  {
+    rows: 1,
+    cols: 2,
   },
 ];
 
