@@ -7,7 +7,7 @@ import { Bounce, Fade } from "react-reveal";
 
 import working from "../../img/page_logos/working.jpg";
 import imgClassification from "../../img/projects/imgClassification.jpg";
-import heartAnalysisImg from "../../img/projects/HeartAnalysis.jpg";
+import heartAnalysisImg from "../../img/projects/heartAnalysis.jpg";
 import unetpp from "../../img/projects/nested_unet_architecture.png";
 import unet from "../../img/projects/Unet_Architecture.png";
 import inception from "../../img/projects/inception.png";
