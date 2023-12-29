@@ -176,8 +176,9 @@ const lightBoxCaptions = [
     </a>{" "}
   </p>,
   <p className="legend">
-    A perfect rainbow = A perfect smile & happiness (like that of a child...)
-    making everything around dancing to see a view like this...
+    What a vibrant amd mesmerizing display of colours...
+    <br />A perfect rainbow = A perfect smile & happiness (like that of a
+    child...) to witness a view like this...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
     &nbsp;
@@ -620,12 +621,12 @@ const lightBoxCaptions = [
   <p className="legend">
     The confluence of the 3 holy rivers - The Ganga, The Yamuna, and the
     Saraswati marked by distinct color variations of the waters, the clear blue
-    of the Yamuna contrasting with the greenish hue of the Ganges, the mythical
-    Saraswati river is believed to flow underground, its presence adds an air of
-    mysticism to the place...
+    of the Yamuna contrasting with the greenish hue of the Ganges, and believed
+    to flow underground the mythical Saraswati river adds an air of mysticism to
+    the place...
     <br />
-    The serene and tranquil atmosphere, the gentle breeze, and the soothing sound
-    of flowing water creates a peaceful ambiance, instantly putting me at
+    The serene and tranquil atmosphere, the gentle breeze, and the soothing
+    sound of flowing water creates a peaceful ambiance, instantly putting one at
     ease...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
