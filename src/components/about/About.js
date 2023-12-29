@@ -4,7 +4,6 @@ import "./about.css";
 import ThemeContext from "../../utility/themeContext";
 import { Bounce, Fade } from "react-reveal";
 import { Link } from "react-router-dom";
-import Socials from "../socials/Socials.js";
 
 import chefToon3d from "../../img/page_logos/3d_chef.jpg";
 import professional_toon from "../../img/page_logos/professional_toon.jpg";
