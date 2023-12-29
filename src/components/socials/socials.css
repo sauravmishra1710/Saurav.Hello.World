@@ -1,19 +1,26 @@
 .ril-toolbar {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .socials-text p {
-    font-family:"Bellefair", serif;
-    font-size: 20px;
-    text-align: justify;
-    text-justify: inter-word;
-  }
-.imgs{
-    width: 90vw;
+  font-family: "Bellefair", serif;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.imgs {
+  width: 90vw;
 }
 
 @media (max-width: 768px) {
-    .imgs{
-        width: 100vw;
-    }
+  .imgs {
+    width: 100vw;
   }
+}
+
+@media (max-width: 400px) {
+  #socialsPhotographer {
+    width: 100%;
+    height: auto;
+  }
+}

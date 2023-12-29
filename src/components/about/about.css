@@ -63,3 +63,9 @@
     margin-left: 0;
   }
 }
+
+@media (max-width: 371px) {
+  .imgsToHide{
+    display: none;
+  }
+}

@@ -163,7 +163,7 @@ const lightBoxCaptions = [
   </p>,
   <p className="legend">
     Into the forest through the woods, this was our gateway to the bird
-    scantury...
+    sanctury...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
     &nbsp;
@@ -221,7 +221,7 @@ const lightBoxCaptions = [
   <p className="legend">
     My first trip with my camera and the excitement to get started was nothing
     less than the joy of a child with a new toy... Capturing the waves can be
-    challenging and getting this perfect short that morning I was all over the
+    challenging and getting this perfect shot that morning I was all over the
     moon...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
@@ -311,7 +311,7 @@ const lightBoxCaptions = [
     </a>{" "}
   </p>,
   <p className="legend">
-    Modes of communication in one of the finest patches of mangrove forest along
+    Modes of commutation in one of the finest patches of mangrove forest along
     the eastern coast of India...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
@@ -382,9 +382,9 @@ const lightBoxCaptions = [
     </a>{" "}
   </p>,
   <p className="legend">
-    Nature's paradise in Gods own country... I just can't put to words the
+    Nature's paradise in God's own country... I just can't put to words the
     excitement, the happiness seeeing this mesmerizing beauty...You have to
-    experience Munnar atleast once...
+    experience Munnar at least once...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
     &nbsp;
