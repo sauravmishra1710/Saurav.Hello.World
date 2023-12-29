@@ -287,7 +287,7 @@ const lightBoxCaptions = [
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
     &nbsp;
     <a
-      href="https://www.google.com/maps/place/Seetha+Devi+Lake/@10.0452728,77.1551299,17z/data=!4m15!1m8!3m7!1s0x3b079faec65a924d:0xde4b92b9c72c2ad1!2sSeetha+Devi+Lake!8m2!3d10.0452728!4d77.1551299!10e5!16s%2Fg%2F11c2r9r70p!3m5!1s0x3b079faec65a924d:0xde4b92b9c72c2ad1!8m2!3d10.0452728!4d77.1551299!16s%2Fg%2F11c2r9r70p?entry=ttu"
+      href="https://www.google.com/maps/place/Mattupetty+Lake/@10.1082853,77.1254786,17z/data=!3m1!4b1!4m6!3m5!1s0x3b079d76d10a1101:0x74126ce99bf7e1e7!8m2!3d10.10828!4d77.1280535!16s%2Fg%2F11qg0j8wgv?entry=ttu"
       target="_blank"
       rel="noreferrer"
     >
@@ -295,19 +295,347 @@ const lightBoxCaptions = [
     </a>{" "}
   </p>,
   <p className="legend">
-    This place was beaming with happiness and smiles all around with children
-    playing and dancing to the tunes of nature, couples entwined with hand in
-    hand, elderly people embracing the serenity of mother nature, this place had
-    something for everyone ...
+    Paradise on Earth...This place was beaming with happiness and smiles all
+    around with children playing and dancing to the tunes of nature, couples
+    entwined with hand in hand, elderly people embracing the pristine beauty,
+    this place had something for everyone...
     <br />
     <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
     &nbsp;
     <a
-      href="https://www.google.com/maps/place/Seetha+Devi+Lake/@10.0452728,77.1551299,17z/data=!4m15!1m8!3m7!1s0x3b079faec65a924d:0xde4b92b9c72c2ad1!2sSeetha+Devi+Lake!8m2!3d10.0452728!4d77.1551299!10e5!16s%2Fg%2F11c2r9r70p!3m5!1s0x3b079faec65a924d:0xde4b92b9c72c2ad1!8m2!3d10.0452728!4d77.1551299!16s%2Fg%2F11c2r9r70p?entry=ttu"
+      href="https://www.google.com/maps/place/Mattupetty+Lake/@10.1082853,77.1254786,17z/data=!3m1!4b1!4m6!3m5!1s0x3b079d76d10a1101:0x74126ce99bf7e1e7!8m2!3d10.10828!4d77.1280535!16s%2Fg%2F11qg0j8wgv?entry=ttu"
       target="_blank"
       rel="noreferrer"
     >
       Munnar, Kerala
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Modes of communication in one of the finest patches of mangrove forest along
+    the eastern coast of India...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Bhitarkanika,+Odisha+754248/@20.7215846,86.8535502,15z/data=!3m1!4b1!4m6!3m5!1s0x3a1b9fa84445d08f:0xe0b7fb81f221aef!8m2!3d20.7151469!4d86.8659449!16zL20vMGJ0NDVy?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Bhitarkanika, Odisha
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Always fascinated by these kind of photographs with the water bodies
+    captured to create a ghost-like effect of the rushing water, my experiments
+    with the slow shutter speed certainly paid off that day...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Munnar,+Kerala+685612/@10.0806705,77.0538782,15z/data=!3m1!4b1!4m6!3m5!1s0x3b0799794d099a6d:0x63250e5553c7e0c!8m2!3d10.0889333!4d77.0595248!16zL20vMDFydmpi?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Munnar, Kerala
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    The swing in the tree stood out in the frame and was calling to be
+    clicked...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Phuket,+Mueang+Phuket+District,+Phuket+83000,+Thailand/@7.8833484,98.3713689,14z/data=!3m1!4b1!4m6!3m5!1s0x305031fd2d6380a3:0x8df88000bd82f66b!8m2!3d7.8804479!4d98.3922504!16zL20vMGZfcjFf?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Phuket, Thailand
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    The perfect scenary, waking up to this view of the sunrise, we couldn't have
+    asked for a better way to start our vacation...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Swiss+County+Resort/@10.0307563,77.0450843,17z/data=!3m1!4b1!4m9!3m8!1s0x3b0798377ad4defb:0x622348ed1bd6021!5m2!4m1!1i2!8m2!3d10.030751!4d77.0476592!16s%2Fg%2F1thllhyz?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Munnar, Kerala
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Sitting in the nature's lap, every corner of this small town is picturesque
+    and this boat quitely resting under the shed, was not to be missed...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Kumarakom,+Kerala/@9.610431,76.3977661,13z/data=!3m1!4b1!4m6!3m5!1s0x3b0881caaef0a8f7:0xc23075c3529e921!8m2!3d9.6175449!4d76.430095!16zL20vMDR0Nmo4?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Kumarakom, Kerala
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Nature's paradise in Gods own country... I just can't put to words the
+    excitement, the happiness seeeing this mesmerizing beauty...You have to
+    experience Munnar atleast once...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Munnar,+Kerala+685612/@10.0806705,77.0538782,15z/data=!3m1!4b1!4m6!3m5!1s0x3b0799794d099a6d:0x63250e5553c7e0c!8m2!3d10.0889333!4d77.0595248!16zL20vMDFydmpi?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Munnar, Kerala
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Eevrything about the place was so energetic for one to be lost in the beauty
+    of Phuket’s sun-kissed beaches...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Phuket,+Mueang+Phuket+District,+Phuket+83000,+Thailand/@7.8833484,98.3713689,14z/data=!3m1!4b1!4m6!3m5!1s0x305031fd2d6380a3:0x8df88000bd82f66b!8m2!3d7.8804479!4d98.3922504!16zL20vMGZfcjFf?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Phuket, Thailand
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    The sun went down but she was all in for a few more clicks...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Phuket,+Mueang+Phuket+District,+Phuket+83000,+Thailand/@7.8833484,98.3713689,14z/data=!3m1!4b1!4m6!3m5!1s0x305031fd2d6380a3:0x8df88000bd82f66b!8m2!3d7.8804479!4d98.3922504!16zL20vMGZfcjFf?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Phuket, Thailand
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Another one from the front seat, it's about the journey and the experiences
+    that happen on the way while retaining the excitement to get to the
+    destination...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Nainital,+Uttarakhand/@29.3824819,79.4163022,14z/data=!3m1!4b1!4m6!3m5!1s0x39a0a1bc28fd9d61:0x7cae7ba916987db3!8m2!3d29.3924139!4d79.4533773!16zL20vMDE4Y2s5?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Nainital, Uttarakhand
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Ohh yes, I had to take one shot with full view of the Ram Jhula and it took
+    me a while to get this perfect view maintaining the symmetric...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Parmarth+Niketan+-+Ganga+Ghat/@30.1191971,78.3098885,17z/data=!4m14!1m7!3m6!1s0x39091615b6b94e37:0xc4ce4b75dd8890ae!2sParmarth+Niketan+Ashram!8m2!3d30.1191925!4d78.3124634!16s%2Fm%2F09gl0tm!3m5!1s0x3909163e1f87795b:0x583d99f6f80bf433!8m2!3d30.1193589!4d78.3116764!16s%2Fg%2F11c1t4s3xj?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Parmarth Niketan, Rishikesh, Uttarakhand
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Just like that oil painting... Ooty’s emerald paradise where every view is a
+    postcard moment...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Ooty,+Tamil+Nadu/@11.4118939,76.672822,14z/data=!3m1!4b1!4m6!3m5!1s0x3ba8bd84b5f3d78d:0x179bdb14c93e3f42!8m2!3d11.4102038!4d76.6950324!16s%2Fm%2F012n8khs?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Udhagamandalam, Tamil Nadu
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Riots of colors...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Krabi,+Thailand/@8.0753907,98.3538546,9z/data=!3m1!4b1!4m6!3m5!1s0x30518d792d7f9309:0x10223bc2c364c90!8m2!3d8.1191811!4d99.1013498!16zL20vMDFnOW1m?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Krabi, Thailand
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Lets go for a boat ride... <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Kumarakom,+Kerala/@9.610431,76.3977661,13z/data=!3m1!4b1!4m6!3m5!1s0x3b0881caaef0a8f7:0xc23075c3529e921!8m2!3d9.6175449!4d76.430095!16zL20vMDR0Nmo4?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Kumarakom, Kerala
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Another of from my favourites, that morning was a perfect one for me with
+    clear view of the hills in the backdrop and the perfect weather to get the
+    right color combination for the civil twilight...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Gopalan+Grandeur,+Hoodi+Main+Rd,+Hudi,+Hoodi,+Bengaluru,+Karnataka+560048/@12.9909812,77.7131459,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae1196bb3db273:0xc9f97c9818e9f551!8m2!3d12.990976!4d77.7157208!16s%2Fg%2F12hsxqjy5?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Bengaluru, Karnataka
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    These beams from the sun peeking through the trees had got me fully engaged
+    to get the one perfect shot that morning...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Coonoor,+Tamil+Nadu/@11.3497857,76.7687327,14z/data=!3m1!4b1!4m6!3m5!1s0x3ba894efa2fd0d5b:0x192d8d872b04dbbb!8m2!3d11.3530022!4d76.7959095!16zL20vMDQxazFi?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Coonoor, Tamil Nadu
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    The love birds and their moments...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Phuket,+Mueang+Phuket+District,+Phuket+83000,+Thailand/@7.8833484,98.3713689,14z/data=!3m1!4b1!4m6!3m5!1s0x305031fd2d6380a3:0x8df88000bd82f66b!8m2!3d7.8804479!4d98.3922504!16zL20vMGZfcjFf?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Phuket, Thailand
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    The location of our resort and the short trek to reach the top for sunrise
+    was all worth it at the end...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Chikkamagaluru,+Karnataka/@13.3131132,75.7724486,13z/data=!3m1!4b1!4m6!3m5!1s0x3bbad762c8a889dd:0xb3cf49155294be16!8m2!3d13.3161441!4d75.7720439!16s%2Fm%2F02p74m6?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Chikkamagaluru, Karnataka
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Mumbai - the maximum city, having seen many pictures of the marine drive, I
+    always wanted to capture the maximum view of this place...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Marine+Dr,+Mumbai/@18.9432162,72.8204234,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7d1e25ee8439d:0x5acd924f2726ad2b!8m2!3d18.9432111!4d72.8229983!16zL20vMDM1Nnls?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Marine drive, Mumbai, Maharashtra
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    On our way to Ooty, this is the entry point to the Bandipur Tiger Reserve
+    forest which opens up for public at 6:00 am... The wait was worth it all as
+    I got to capture some beautiful views of the early dawn...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Bandipur,+Karnataka+571126/@11.6660431,76.6197681,15z/data=!3m1!4b1!4m6!3m5!1s0x3ba8adfd4a29090d:0xad56e301cc9c1720!8m2!3d11.6676783!4d76.632607!16s%2Fg%2F1tfjczv5?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Bandipur, Karnataka
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    A perfect relaxed evening by the beach was the one we needed...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Phuket,+Mueang+Phuket+District,+Phuket+83000,+Thailand/@7.8833484,98.3713689,14z/data=!3m1!4b1!4m6!3m5!1s0x305031fd2d6380a3:0x8df88000bd82f66b!8m2!3d7.8804479!4d98.3922504!16zL20vMGZfcjFf?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Phuket, Thailand
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    A not so big waterfall but it remains a good memory for me as it gave me my
+    first cotton candy effect with the full view of the falls...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Kempty+Falls/@30.4878384,78.0318218,17z/data=!3m1!4b1!4m6!3m5!1s0x3908d19963f63b51:0xaf4d748e3bc60a88!8m2!3d30.4878339!4d78.0366927!16s%2Fg%2F1pxxrv21z?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Kempaty falls, Lakhwad, Ram Gaon, Uttarakhand
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    Bangalore skies can weave that magical effect, you just need to get lucky
+    and I certainly was that morning to have capture this minimalistically...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/%E0%B2%AE%E0%B2%B9%E0%B2%A6%E0%B3%87%E0%B2%B5%E0%B2%AA%E0%B3%81%E0%B2%B0%E0%B2%95%E0%B3%86%E0%B2%B0%E0%B3%86+%E0%B2%A8%E0%B2%A1%E0%B3%81%E0%B2%97%E0%B2%A1%E0%B3%8D%E0%B2%A1%E0%B3%86/@12.9858668,77.6894126,17.94z/data=!4m15!1m8!3m7!1s0x3bae116dbf7e22e5:0xfd3df3299cd59775!2sMahadevapura,+Bengaluru,+Karnataka!3b1!8m2!3d12.9879659!4d77.6895248!16zL20vMGY1Z2M4!3m5!1s0x3bae11faa1200f65:0xc552b5eaadb84080!8m2!3d12.9876461!4d77.6922689!16s%2Fg%2F11qsq1z7jd?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Mahadevapura Lake, Bangalore, Karnataka
+    </a>{" "}
+  </p>,
+  <p className="legend">
+    The confluence of the 3 holy rivers - The Ganga, The Yamuna, and the
+    Saraswati marked by distinct color variations of the waters, the clear blue
+    of the Yamuna contrasting with the greenish hue of the Ganges, the mythical
+    Saraswati river is believed to flow underground, its presence adds an air of
+    mysticism to the place...
+    <br />
+    The serene and tranquil atmosphere, the gentle breeze, and the soothing sound
+    of flowing water creates a peaceful ambiance, instantly putting me at
+    ease...
+    <br />
+    <FaMapLocationDot style={{ fontSize: "1.2em", color: "white" }} />
+    &nbsp;
+    <a
+      href="https://www.google.com/maps/place/Triveni+Sangam,+Prayagraj/@25.4088473,81.8434071,13.38z/data=!4m15!1m8!3m7!1s0x398534c9b20bd49f:0xa2237856ad4041a!2sPrayagraj,+Uttar+Pradesh!3b1!8m2!3d25.4358011!4d81.846311!16zL20vMDIwc2tj!3m5!1s0x399acad16d98ab95:0x43d73eb6d5b82c5!8m2!3d25.4206998!4d81.8901107!16s%2Fg%2F1tcvs7vn?entry=ttu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Triveni Sangam, Prayagraj, Uttar Pradesh
     </a>{" "}
   </p>,
 ];
