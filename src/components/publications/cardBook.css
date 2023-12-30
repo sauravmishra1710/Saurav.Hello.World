@@ -54,3 +54,9 @@
 .popover[x-placement^=left]>.popover-arrow:after {
   border-left-color: black;
 }
+
+@media (max-width: 991px) {
+  #popover-basic {
+    display: none;
+  }
+}
