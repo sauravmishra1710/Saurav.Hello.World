@@ -37,11 +37,15 @@ import Life3dot0 from "../../img/books/Life3dot0.jpg";
 import PhysicsOfTheImpossible from "../../img/books/PhysicsOfTheImpossible.jpg";
 import WhyWeSleep from "../../img/books/WhyWeSleep.jpg";
 import WillWeSurviveEarth from "../../img/books/WillWeSurviveEarth.jpg";
+import deepMecidine from "../../img/books/deepMedicine.jpg";
 
 function Bookstack() {
   return (
     <>
-      <h1 className="purple heading" style={{ marginTop: "50px", marginLeft: "25px" }}>
+      <h1
+        className="purple heading"
+        style={{ marginTop: "50px", marginLeft: "25px" }}
+      >
         Books
       </h1>
       <Row className="book-section">
@@ -184,7 +188,7 @@ function Bookstack() {
                     book_cover={WhyWeSleep}
                     good_read_link="https://www.goodreads.com/book/show/34466963-why-we-sleep"
                     blurb_text="Neuroscientist and sleep expert Matthew Walker provides a revolutionary exploration of sleep, examining how it affects every aspect of our physical and mental well-being. Charting the most cutting-edge scientific breakthroughs, and marshalling his decades of research and clinical practice, Walker explains how we can harness sleep to improve learning, mood and energy levels, regulate hormones, prevent cancer, Alzheimer's and diabetes, slow the effects of aging, and increase longevity. He also provides actionable steps towards getting a better night's sleep every night."
-                    animationType="top"
+                    animationType="bottom"
                   />
                 </div>
                 <div className="books-card">
@@ -195,6 +199,16 @@ function Bookstack() {
                     good_read_link="https://www.goodreads.com/book/show/1168341.Physics_of_the_Impossible"
                     blurb_text="A fascinating exploration of the science of the impossible—from death rays and force fields to invisibility cloaks—revealing to what extent such technologies might be achievable decades or millennia into the future.
                 One hundred years ago, scientists would have said that lasers, televisions, and the atomic bomb were beyond the realm of physical possibility. In Physics of the Impossible, the renowned physicist Michio Kaku explores to what extent the technologies and devices of science fiction that are deemed equally impossible today might well become commonplace in the future."
+                    animationType="top"
+                  />
+                </div>
+                <div className="books-card">
+                  <CardBook
+                    book_title="Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again"
+                    book_author="Eric J. Topol"
+                    book_cover={deepMecidine}
+                    good_read_link="https://www.goodreads.com/book/show/40915762-deep-medicine"
+                    blurb_text="'Medicine has become inhuman, to disastrous effect. The doctor-patient relationship--the heart of medicine--is broken: doctors are too distracted and overwhelmed to truly connect with their patients, and medical errors and misdiagnoses abound. In Deep Medicine, leading physician Eric Topol reveals how artificial intelligence can help. AI has the potential to transform everything doctors do, from notetaking and medical scans to diagnosis and treatment, greatly cutting down the cost of medicine and reducing human mortality. By freeing physicians from the tasks that interfere with human connection, AI will create space for the real healing that takes place between a doctor who can listen and a patient who needs to be heard. Innovative, provocative, and hopeful, Deep Medicine shows us how the awesome power of AI can make medicine better, for all the humans involved."
                     animationType="bottom"
                   />
                 </div>
