@@ -23,7 +23,7 @@ const Card = ({ title, srcLink, miscLink, description, miscDescription, image })
             <div className="front-title">{title}</div>
           </div>
           <div className="front__text">
-            <span className="front__text-hover">Hover to Read More</span>
+            <span className="front__text-hover"></span>
           </div>
         </div>
         <div className="back">
