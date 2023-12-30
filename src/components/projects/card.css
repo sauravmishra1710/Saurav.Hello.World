@@ -103,6 +103,10 @@
   color: #fff;
 }
 
+.front__text-hover:before {
+  content: "Hover to Read More";
+}
+
 .back {
   transform: rotateY(180deg);
   position: absolute;
@@ -112,7 +116,7 @@
   height: 100%;
   width: 100%;
   background: url("../../img/projCardBackFlip.png");
-  background-size:contain;
+  background-size: contain;
   object-fit: scale-down;
   border-radius: 5px;
   display: flex;
@@ -193,4 +197,10 @@
 
 .front-link:hover {
   border: 1px solid white;
+}
+
+@media (max-width: 1024px) {
+  .front__text-hover::before {
+    content: "Click to Read More";
+  }
 }

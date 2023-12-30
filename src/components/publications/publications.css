@@ -1,69 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
 
 .publications {
-    /* background-color: #EDF9FE; */
-    /* height: 100vh; */
-    padding-top: 100px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    justify-content:flex-start;
-    flex-direction: column;
-    align-items:normal;
+  /* background-color: #EDF9FE; */
+  /* height: 100vh; */
+  padding-top: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: normal;
 }
 
 .publications-text p {
-    font-family:"Bellefair", serif;
-    font-size: 20px;
-    text-align: justify;
-    text-justify: inter-word;
-  }
+  font-family: "Bellefair", serif;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
 
-  .books-parent {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+.books-parent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-  .books-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
+.books-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
 
-  .all-books-container {
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    flex-wrap: wrap;
-    overflow-x: hidden;
-    width: 100%;
-    flex-direction: row;
-    display: flex;
-  }
+.all-books-container {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
 
 .image {
-    margin-top: 60px;
-  }
-  
+  margin-top: 60px;
+}
 
 .modal-90w {
-    width: 90% !important;
+  width: 90% !important;
 }
 .modal-body {
-    font-weight: 500;
-    font-size: 17px;
-    color: black;
-    background-image: url("../../img/page_logos/paper.jpg");
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+  background-image: url("../../img/page_logos/paper.jpg");
 }
 
-@media (max-width: 768px) {
-  .image, .bookNerd {
+#bookNerdAvtar {
+  margin-top:-50px;
+  margin-right: 50px;
+}
+
+@media (max-width: 991px) {
+  .image,
+  .bookNerd {
     width: 100%;
     height: auto;
   }
-  
+
+  #bookNerdAvtar {
+    margin-top:0px;
+  }
+
+  .book-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

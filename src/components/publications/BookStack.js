@@ -41,12 +41,13 @@ import WillWeSurviveEarth from "../../img/books/WillWeSurviveEarth.jpg";
 function Bookstack() {
   return (
     <>
-      <Row>
-        <Col md={9}>
-          <div className="col-lg-10" style={{ marginTop: "50px" }}>
-            <h1 className="purple heading">Books</h1>
-
-            <div className="publications-text">
+      <h1 className="purple heading" style={{ marginTop: "50px", marginLeft: "25px" }}>
+        Books
+      </h1>
+      <Row className="book-section">
+        <Col md={8}>
+          <div className="col-lg-10">
+            <div className="publications-text" style={{ marginLeft: "25px" }}>
               <p>
                 Not a book nerd as the picture suggests but I am more kind of a
                 seasonal reader. But once I get into my reading mode, I want to
@@ -132,7 +133,7 @@ function Bookstack() {
         </Col>
         <Col md={3}>
           <Bounce top>
-            <div style={{ marginTop: "60px", marginRight: "50px" }}>
+            <div id="bookNerdAvtar">
               <img
                 src={BookNerd}
                 alt=""
