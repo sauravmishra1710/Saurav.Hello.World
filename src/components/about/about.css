@@ -64,8 +64,18 @@
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .imgsToAdjust {
+    display: flex;
+  }
+  .row > * {
+    width: fit-content;
+  }
+}
+
 @media (max-width: 371px) {
-  .imgsToHide{
-    display: none;
+  .imgsToAdjust {
+    display: inline-flex;
+    margin-left: -40px;
   }
 }
