@@ -38,7 +38,7 @@ const About = () => {
           >
             <div className="about-text" id="aboutSection">
               <Row style={{ display: "flex", justifyContent: "center" }}>
-                <Col md={4} className="imgsToHide" style={{ zIndex: "-1" }}>
+                <Col md={4} className="imgsToAdjust" style={{ zIndex: "-1" }}>
                   <Row>
                     <Col lg={6} xs={3}>
                       <Bounce top duration={1000}>
