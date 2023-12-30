@@ -1,5 +1,6 @@
 # Saurav.Hello.World
 
+
 <h1 align="center"> A personal portfolio website developed using react js. 🔥 </h1> 
 <h3 align="center"> A clean, beautiful, responsive portfolio <br /> template for Software Developers! </h3>
 
@@ -35,5 +36,3 @@
 </p>
 
 <p align="center">If you want to discuss about something, you can ask on my <a href="https://www.linkedin.com/in/saurav-mishra1710/">Linkedin</a> or connect via <a href="mailto:saurav.mishra@live.com">email</a>.</p>
-
-
