@@ -36,3 +36,21 @@
 </p>
 
 <p align="center">If you want to discuss about something, you can ask on my <a href="https://www.linkedin.com/in/saurav-mishra1710/">Linkedin</a> or connect via <a href="mailto:saurav.mishra@live.com">email</a>.</p>
+
+## Portfolio Sections
+- ✔️ Home page<br>
+- ✔️ About Me<br>
+  - The 3 C's
+    - Coding
+    - Camera
+    - Cooking<br>
+- ✔️ Projects<br>
+- ✔️ Skills (and Certifications) 🏆<br>
+- ✔️ Publications (Peer reviewed paper publications and Books read...)<br>
+- ✔️ Socials
+    - Seeing the world through a camera lens
+    - Wanderlust Chronicles: A Collection of Travel Photos
+    - Family, food, & fun - Happiness is Homemade
+- ✔️ Contact me
+
+To view a live example, **[click here](https://saurav-hello-world.netlify.app/)**.
