@@ -1,3 +1,7 @@
+// this file is used to allow the new pages/routes open from
+// the top instead the defaulting to the vertical scroll position
+// of the previous page due to single page applications.
+
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
