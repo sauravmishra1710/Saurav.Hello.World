@@ -11,7 +11,7 @@ function scrollFunction() {
   const topBtn = document.getElementById("scrollToTopBtn");
   const docElement = document.documentElement;
   if (topBtn) {
-    if (document.body.scrollTop > 20 || docElement.scrollTop > 20) {
+    if (document.body.scrollTop > 250 || docElement.scrollTop > 250) {
       topBtn.style.visibility = "visible";
     } else {
       topBtn.style.visibility = "hidden";
