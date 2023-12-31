@@ -95,7 +95,7 @@
   flex-direction: row;
 }
 
-@media only screen and (max-width: 567px) {
+@media only screen and (max-width: 1024px) {
   #form-name,
   #form-email,
   #form-message {
@@ -129,7 +129,7 @@ li {
   display: flex;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .contactImgs {
     width: 100%;
     height: auto;
@@ -141,5 +141,15 @@ li {
   #emailImg {
     /* width: 100%; */
     height: auto;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  #collabImg {
+    margin-left: 200px;
+  }
+  .row > * {
+    width: 100%;
+    /* height: auto; */
   }
 }

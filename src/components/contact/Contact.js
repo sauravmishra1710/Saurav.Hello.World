@@ -312,10 +312,10 @@ function Contact() {
                 </div>
               </div>
             </Col>
-            <Col md={5}>
+            <Col md={6}>
               <Fade right>
                 <div className="col-lg-6">
-                  <img src={contactImgs} alt="" height={800} width={1000} className="contactImgs"/>
+                  <img src={contactImgs} alt="" height={800} width={1000} id="collabImg" className="contactImgs"/>
                 </div>
               </Fade>
             </Col>
