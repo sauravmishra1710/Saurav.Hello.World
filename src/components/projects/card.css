@@ -93,6 +93,9 @@
   color: tomato;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.4px;
