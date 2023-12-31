@@ -253,14 +253,22 @@ const About = () => {
                   </p>
                   <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I guess we have spoken enough
-                    about it. More about my coding explorations can be found in the &nbsp;
-                    <Link to="/skills_and_certifications" aria-label="Navigate to skills page">
-                        skills
-                      </Link>
-                      &nbsp;page & the <Link to="/my_projects" aria-label="Navigate to skills page">
-                        projects
-                      </Link>
-                      &nbsp; page...
+                    about it. More about my coding explorations can be found in
+                    the &nbsp;
+                    <Link
+                      to="/skills_and_certifications"
+                      aria-label="Navigate to skills page"
+                    >
+                      skills
+                    </Link>
+                    &nbsp;page & the{" "}
+                    <Link
+                      to="/my_projects"
+                      aria-label="Navigate to skills page"
+                    >
+                      projects
+                    </Link>
+                    &nbsp; page...
                   </p>
                   <p></p>
                 </Col>

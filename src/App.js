@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Header from "./components/Header.js";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/home.js";
 import About from "./components/about/About.js";
@@ -15,7 +14,7 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import ScrollToTop from "./utility/ScrollToTop.js";
+import ScrollToTop from "./utility/ScrollToTopOnRouteChange.js";
 import Preloader from "./components/preloader/preloader";
 import Navbar from "./components/navbar/navbar.js";
 
