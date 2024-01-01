@@ -78,4 +78,36 @@ git@2.32.1 or higher
   npm install
   ```
 - Now the project is ready to use
-- You can check it using `npm start`, it will open the website locally on your browser.
+- The local deployment can be viewed using -
+   ```node
+  npm start
+   ```
+- It will open the website locally on your browser in the [http://localhost:3000](http://localhost:3000) port.
+The page will reload if you make edits.
+
+## Project Dependencies
+
+The following npm packages have been used to build the UI components - 
+
+- ["@emailjs/browser": "^3.10.0"](https://www.npmjs.com/package/@emailjs/browser),
+- ["@emotion/react": "^11.11.1"](https://www.npmjs.com/package/@emotion/react),
+- ["@emotion/styled": "^11.11.0"](https://www.npmjs.com/package/@emotion/styled),
+- ["@mui/icons-material": "^5.14.6"](https://www.npmjs.com/package/@mui/icons-material),
+- ["@mui/lab": "^5.0.0-alpha.146"](https://www.npmjs.com/package/@mui/lab),
+- ["@mui/material": "^5.14.11"](https://www.npmjs.com/package/@mui/material),
+- ["bootstrap": "^5.1.3"](https://www.npmjs.com/package/bootstrap),
+- ["react": "^18.2.0"](https://www.npmjs.com/package/react),
+- ["react-bootstrap": "^2.2.3"](https://www.npmjs.com/package/react-bootstrap),
+- ["react-dom": "^18.2.0"](https://www.npmjs.com/package/react-dom),
+- ["react-icons": "^4.7.1"](https://www.npmjs.com/package/react-icons),
+- ["react-image-lightbox": "^5.1.4"](https://www.npmjs.com/package/react-image-lightbox),
+- ["react-router-dom": "^6.15.0"](https://www.npmjs.com/package/react-router-dom),
+- ["react-scripts": "^5.0.0"](https://www.npmjs.com/package/react-scripts),
+- ["@iconify/icons-logos": "^1.2.36"](https://www.npmjs.com/package/@iconify-icons/logos),
+- ["@iconify/react": "^4.1.1"](https://www.npmjs.com/package/@iconify/react),
+- ["material-react-table": "^1.15.1"](https://www.npmjs.com/package/material-react-table),
+- ["react-reveal": "^1.2.2"](https://www.npmjs.com/package/react-reveal),
+- ["typewriter-effect": "^2.21.0"](https://www.npmjs.com/package/typewriter-effect)
+
+## Deployment
+The web app is deployed using netlify and the most recent depplument can be viewed @ https://saurav-hello-world.netlify.app/
