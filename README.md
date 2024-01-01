@@ -136,6 +136,11 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
   <img src="https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/readme%20_resources/ResponsivePhone.gif" alt="Responsive Mode" />
 </p>
 
+#### Play Full Video
+https://github.com/sauravmishra1710/Saurav.Hello.World/assets/42633345/252f8434-e8c2-4380-a2f3-32d61ce7e30c
+
+
+
 ## References
 
 Attributions for a few of the images used in this project and have been downloaded from freepik.
