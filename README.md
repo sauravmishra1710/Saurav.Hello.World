@@ -111,3 +111,38 @@ The following npm packages have been used to build the UI components -
 
 ## Deployment
 The web app is deployed using netlify and the most recent depplument can be viewed @ https://saurav-hello-world.netlify.app/
+
+## References
+
+Attributions for a few of the images used in this project and have been downloaded from freepik.
+<a href="https://www.freepik.com/free-photo/documents-paperwork-business-strategy-concept_16442635.htm#page=3&query=digital%20publications&position=15&from_view=search&track=ais&uuid=8d17f520-95c1-42d2-9631-b051e29a9ab7">Image by rawpixel.com</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/tiny-content-writers-creating-web-articles-flat-illustration_13146666.htm#page=6&query=digital%20publications&position=31&from_view=search&track=ais&uuid=aebc27b5-9e28-4e2e-8623-cf099259e8d4">Image by pch.vector</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/tiny-male-author-screenwriter-writing-story-movie-script-screenplay-writer-vintage-typewriter-with-paper-flat-vector-illustration-creativity-journalism-concept-banner-landing-web-page_28480871.htm#page=7&query=digital%20publications&position=48&from_view=search&track=ais&uuid=6db26ec2-b2e8-47af-9f3a-fd6c8fa9691a">Image by pch.vector</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/cooking-as-hobby-composition-with-man-enjoying-culinary-experience-tasting-dishes-his-kitchen_14658237.htm#page=2&query=cooking&position=9&from_view=search&track=sph&uuid=155eb9a9-94bd-4777-baa4-619f203f61cd">Image by macrovector</a> on Freepik
+
+<a href="https://www.freepik.com/free-ai-image/3d-digital-render-boy-with-camera-isolated-white-background_65674906.htm#page=2&query=photography&position=14&from_view=search&track=sph&uuid=892372e8-8766-443a-8b38-e8423cab3d87">Image By flatart</a>
+
+<a href="https://www.freepik.com/free-ai-image/3d-render-little-boy-with-chef-s-hat-cooking_65677440.htm#fromView=search&term=cooking+coding&page=1&position=41&track=ais_ai_generated&regularType=ai">Image By flatart</a>
+
+<a href="https://www.freepik.com/free-ai-image/3d-illustration-cartoon-character-with-camera-backpack_65675242.htm#fromView=search&term=photographer&page=1&position=18&track=ais_ai_generated&regularType=ai">Image By flatart</a>
+
+<a href="https://www.freepik.com/free-ai-image/3d-render-little-boy-with-glasses-tie-white-background_65675794.htm#fromView=search&term=programmer+toon&page=1&position=23&track=ais_ai_generated&regularType=ai">Image By flatart</a>
+
+<a href="https://www.freepik.com/free-ai-image/3d-portrait-people_66108324.htm#fromView=search&term=coding+toon&page=1&position=0&track=ais_ai_generated&regularType=ai&uuid=1f5fbf31-a1bd-4212-881a-d2100972ea69">Image By freepik</a>
+
+<a href="https://www.freepik.com/free-ai-image/view-3d-man-dish-washing_59992327.htm#fromView=search&term=cooking+toon&page=1&position=14&track=ais_ai_generated&regularType=ai&uuid=1ae07e54-7149-4d19-a7e4-ad8d4263f6b7">Image By freepik</a>
+
+<a href="https://www.freepik.com/free-vector/hand-drawn-teamwork-concept_20224953.htm#query=collaborate%20toon&position=7&from_view=search&track=ais&uuid=fb02762c-96d5-4ff6-9e14-7de5cd8538f4">Image by pikisuperstar</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/children-with-word-thank-you_30978983.htm#query=thanks%20toon&position=34&from_view=search&track=ais&uuid=f02076c5-25ae-4e5b-8514-98d8fb07ff06">Image by brgfx</a> on Freepik
+
+<a href="https://storyset.com/communication">Communication illustrations by Storyset</a>
+
+<a href="https://www.freepik.com/free-ai-image/3d-illustration-cartoon-boy-with-camera-his-shoulder_89263424.htm#fromView=search&term=nature+photographer&page=2&position=24&track=ais_ai_generated&regularType=ai&uuid=42744f4b-f80b-4cc3-9f31-4ca9ec41dc80">Image By flatart</a>
+
+<a href="https://storyset.com/work">Work illustrations by Storyset</a>
+
+<a href="https://www.freepik.com/free-vector/watercolour-background-with-leaves_15206849.htm#query=old%20paper&position=0&from_view=keyword&track=ais&uuid=b617e034-55fc-45d9-a8ab-625e6005af89">Image by VecMes</a> on Freepik
