@@ -2,7 +2,7 @@
 
 
 <h1 align="center"> A personal portfolio website developed using react js. 🔥 </h1> 
-<h3 align="center"> A clean, beautiful, responsive portfolio <br /> template for Software Developers! </h3>
+<h3 align="center"> A clean, beautiful, responsive personal web app <br /> template for Software Developers! </h3>
 
 <p align="center">
   </br>
@@ -111,6 +111,13 @@ The following npm packages have been used to build the UI components -
 
 ## Deployment
 The web app is deployed using netlify and the most recent depplument can be viewed @ https://saurav-hello-world.netlify.app/
+#### Deploying to Netlify
+
+You could also host directly with Netlify by linking your own repository.
+
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sauravmishra1710/Saurav.Hello.World)
+
+For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 ## References
 
