@@ -36,10 +36,7 @@
   <a href="https://forthebadge.com"><img alt="License" src="https://img.shields.io/github/forks/sauravmishra1710/Saurav.Hello.World?color=red&logo=github&style=for-the-badge" /></a> &nbsp;
 </p>
 
-![Home Page](https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/ReadMeImg.jpg)
-<p align="center">
-  <img src="https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/ResponsivePhone.gif" alt="Responsive Mode" />
-</p>
+![Home Page](https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/readme%20_resources/ReadMeImg.jpg)
 
 <p align="center">If you want to discuss about something, you can ask on my <a href="https://www.linkedin.com/in/saurav-mishra1710/">Linkedin</a> or connect via <a href="mailto:saurav.mishra@live.com">email</a>.</p>
 
@@ -124,6 +121,20 @@ You could also host directly with Netlify by linking your own repository.
 [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sauravmishra1710/Saurav.Hello.World)
 
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
+
+## Demo
+### Home Page
+![Home Page](https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/readme%20_resources/ReadMeImg.jpg)
+
+### Full Demo
+<p align="center">
+  <img src="https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/readme%20_resources/FullDemo.gif" alt="Responsive Mode" />
+</p>
+
+### Responsive Mode
+<p align="center">
+  <img src="https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/readme%20_resources/ResponsivePhone.gif" alt="Responsive Mode" />
+</p>
 
 ## References
 
