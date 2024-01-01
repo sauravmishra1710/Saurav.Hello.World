@@ -36,6 +36,11 @@
   <a href="https://forthebadge.com"><img alt="License" src="https://img.shields.io/github/forks/sauravmishra1710/Saurav.Hello.World?color=red&logo=github&style=for-the-badge" /></a> &nbsp;
 </p>
 
+![Home Page](https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/ReadMeImg.jpg)
+<p align="center">
+  <img src="https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/ResponsivePhone.gif" alt="Responsive Mode" />
+</p>
+
 <p align="center">If you want to discuss about something, you can ask on my <a href="https://www.linkedin.com/in/saurav-mishra1710/">Linkedin</a> or connect via <a href="mailto:saurav.mishra@live.com">email</a>.</p>
 
 ## Portfolio Sections
