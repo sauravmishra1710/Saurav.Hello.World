@@ -208,7 +208,7 @@ const lightBoxCaptions = [
   <p>
     The Paniyaram with Peanut Chutney - A traditional South Indian breakfast
     dish that are crispy on the outside and soft on the inside, with a tangy
-    flavor server with a spicy peanut tomato chutney...
+    flavor served with a spicy peanut tomato chutney...
   </p>,
 ];
 
