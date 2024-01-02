@@ -91,26 +91,9 @@ The page will reload if you make edits.
 ## Project Dependencies
 
 The following npm packages have been used to build the UI components - 
-
-- ["@emailjs/browser": "^3.10.0"](https://www.npmjs.com/package/@emailjs/browser),
-- ["@emotion/react": "^11.11.1"](https://www.npmjs.com/package/@emotion/react),
-- ["@emotion/styled": "^11.11.0"](https://www.npmjs.com/package/@emotion/styled),
-- ["@mui/icons-material": "^5.14.6"](https://www.npmjs.com/package/@mui/icons-material),
-- ["@mui/lab": "^5.0.0-alpha.146"](https://www.npmjs.com/package/@mui/lab),
-- ["@mui/material": "^5.14.11"](https://www.npmjs.com/package/@mui/material),
-- ["bootstrap": "^5.1.3"](https://www.npmjs.com/package/bootstrap),
-- ["react": "^18.2.0"](https://www.npmjs.com/package/react),
-- ["react-bootstrap": "^2.2.3"](https://www.npmjs.com/package/react-bootstrap),
-- ["react-dom": "^18.2.0"](https://www.npmjs.com/package/react-dom),
-- ["react-icons": "^4.7.1"](https://www.npmjs.com/package/react-icons),
-- ["react-image-lightbox": "^5.1.4"](https://www.npmjs.com/package/react-image-lightbox),
-- ["react-router-dom": "^6.15.0"](https://www.npmjs.com/package/react-router-dom),
-- ["react-scripts": "^5.0.0"](https://www.npmjs.com/package/react-scripts),
-- ["@iconify/icons-logos": "^1.2.36"](https://www.npmjs.com/package/@iconify-icons/logos),
-- ["@iconify/react": "^4.1.1"](https://www.npmjs.com/package/@iconify/react),
-- ["material-react-table": "^1.15.1"](https://www.npmjs.com/package/material-react-table),
-- ["react-reveal": "^1.2.2"](https://www.npmjs.com/package/react-reveal),
-- ["typewriter-effect": "^2.21.0"](https://www.npmjs.com/package/typewriter-effect)
+|||
+| ------------- | ------------- |
+| 1. ["@emailjs/browser": "^3.10.0"](https://www.npmjs.com/package/@emailjs/browser) <br> 2. ["@emotion/react": "^11.11.1"](https://www.npmjs.com/package/@emotion/react)<br> 3. ["@emotion/styled": "^11.11.0"](https://www.npmjs.com/package/@emotion/styled)<br> 4. ["@mui/icons-material": "^5.14.6"](https://www.npmjs.com/package/@mui/icons-material)<br> 5. ["@mui/lab": "^5.0.0-alpha.146"](https://www.npmjs.com/package/@mui/lab)<br> 6.["@mui/material": "^5.14.11"](https://www.npmjs.com/package/@mui/material)<br> 7. ["bootstrap": "^5.1.3"](https://www.npmjs.com/package/bootstrap)<br> 8. ["react": "^18.2.0"](https://www.npmjs.com/package/react)<br> 9. ["react-bootstrap": "^2.2.3"](https://www.npmjs.com/package/react-bootstrap)<br> 10. ["react-dom": "^18.2.0"](https://www.npmjs.com/package/react-dom)<br> | 11. ["react-icons": "^4.7.1"](https://www.npmjs.com/package/react-icons) <br>12. ["react-image-lightbox": "^5.1.4"](https://www.npmjs.com/package/react-image-lightbox) <br>13. ["react-router-dom": "^6.15.0"](https://www.npmjs.com/package/react-router-dom) <br>14. ["react-scripts": "^5.0.0"](https://www.npmjs.com/package/react-scripts) <br>15. ["@iconify/icons-logos": "^1.2.36"](https://www.npmjs.com/package/@iconify-icons/logos) <br>16. ["@iconify/react": "^4.1.1"](https://www.npmjs.com/package/@iconify/react) <br>17. ["material-react-table": "^1.15.1"](https://www.npmjs.com/package/material-react-table) <br>18. ["react-reveal": "^1.2.2"](https://www.npmjs.com/package/react-reveal) <br>19. ["typewriter-effect": "^2.21.0"](https://www.npmjs.com/package/typewriter-effect) |
 
 ## Deployment
 The web app is deployed using netlify and the most recent depplument can be viewed @ https://saurav-hello-world.netlify.app/
@@ -140,38 +123,9 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 https://github.com/sauravmishra1710/Saurav.Hello.World/assets/42633345/252f8434-e8c2-4380-a2f3-32d61ce7e30c
 
 
-
 ## References
 
-Attributions for a few of the images used in this project and have been downloaded from freepik.
-<a href="https://www.freepik.com/free-photo/documents-paperwork-business-strategy-concept_16442635.htm#page=3&query=digital%20publications&position=15&from_view=search&track=ais&uuid=8d17f520-95c1-42d2-9631-b051e29a9ab7">Image by rawpixel.com</a> on Freepik
-
-<a href="https://www.freepik.com/free-vector/tiny-content-writers-creating-web-articles-flat-illustration_13146666.htm#page=6&query=digital%20publications&position=31&from_view=search&track=ais&uuid=aebc27b5-9e28-4e2e-8623-cf099259e8d4">Image by pch.vector</a> on Freepik
-
-<a href="https://www.freepik.com/free-vector/tiny-male-author-screenwriter-writing-story-movie-script-screenplay-writer-vintage-typewriter-with-paper-flat-vector-illustration-creativity-journalism-concept-banner-landing-web-page_28480871.htm#page=7&query=digital%20publications&position=48&from_view=search&track=ais&uuid=6db26ec2-b2e8-47af-9f3a-fd6c8fa9691a">Image by pch.vector</a> on Freepik
-
-<a href="https://www.freepik.com/free-vector/cooking-as-hobby-composition-with-man-enjoying-culinary-experience-tasting-dishes-his-kitchen_14658237.htm#page=2&query=cooking&position=9&from_view=search&track=sph&uuid=155eb9a9-94bd-4777-baa4-619f203f61cd">Image by macrovector</a> on Freepik
-
-<a href="https://www.freepik.com/free-ai-image/3d-digital-render-boy-with-camera-isolated-white-background_65674906.htm#page=2&query=photography&position=14&from_view=search&track=sph&uuid=892372e8-8766-443a-8b38-e8423cab3d87">Image By flatart</a>
-
-<a href="https://www.freepik.com/free-ai-image/3d-render-little-boy-with-chef-s-hat-cooking_65677440.htm#fromView=search&term=cooking+coding&page=1&position=41&track=ais_ai_generated&regularType=ai">Image By flatart</a>
-
-<a href="https://www.freepik.com/free-ai-image/3d-illustration-cartoon-character-with-camera-backpack_65675242.htm#fromView=search&term=photographer&page=1&position=18&track=ais_ai_generated&regularType=ai">Image By flatart</a>
-
-<a href="https://www.freepik.com/free-ai-image/3d-render-little-boy-with-glasses-tie-white-background_65675794.htm#fromView=search&term=programmer+toon&page=1&position=23&track=ais_ai_generated&regularType=ai">Image By flatart</a>
-
-<a href="https://www.freepik.com/free-ai-image/3d-portrait-people_66108324.htm#fromView=search&term=coding+toon&page=1&position=0&track=ais_ai_generated&regularType=ai&uuid=1f5fbf31-a1bd-4212-881a-d2100972ea69">Image By freepik</a>
-
-<a href="https://www.freepik.com/free-ai-image/view-3d-man-dish-washing_59992327.htm#fromView=search&term=cooking+toon&page=1&position=14&track=ais_ai_generated&regularType=ai&uuid=1ae07e54-7149-4d19-a7e4-ad8d4263f6b7">Image By freepik</a>
-
-<a href="https://www.freepik.com/free-vector/hand-drawn-teamwork-concept_20224953.htm#query=collaborate%20toon&position=7&from_view=search&track=ais&uuid=fb02762c-96d5-4ff6-9e14-7de5cd8538f4">Image by pikisuperstar</a> on Freepik
-
-<a href="https://www.freepik.com/free-vector/children-with-word-thank-you_30978983.htm#query=thanks%20toon&position=34&from_view=search&track=ais&uuid=f02076c5-25ae-4e5b-8514-98d8fb07ff06">Image by brgfx</a> on Freepik
-
-<a href="https://storyset.com/communication">Communication illustrations by Storyset</a>
-
-<a href="https://www.freepik.com/free-ai-image/3d-illustration-cartoon-boy-with-camera-his-shoulder_89263424.htm#fromView=search&term=nature+photographer&page=2&position=24&track=ais_ai_generated&regularType=ai&uuid=42744f4b-f80b-4cc3-9f31-4ca9ec41dc80">Image By flatart</a>
-
-<a href="https://storyset.com/work">Work illustrations by Storyset</a>
-
-<a href="https://www.freepik.com/free-vector/watercolour-background-with-leaves_15206849.htm#query=old%20paper&position=0&from_view=keyword&track=ais&uuid=b617e034-55fc-45d9-a8ab-625e6005af89">Image by VecMes</a> on Freepik
+Attributions for a few of the images used in this project and have been downloaded from freepik -
+|||
+| ------------- | ------------- |
+<a href="https://www.freepik.com/free-photo/documents-paperwork-business-strategy-concept_16442635.htm#page=3&query=digital%20publications&position=15&from_view=search&track=ais&uuid=8d17f520-95c1-42d2-9631-b051e29a9ab7">Image by rawpixel.com</a> on Freepik <br><a href="https://www.freepik.com/free-vector/tiny-content-writers-creating-web-articles-flat-illustration_13146666.htm#page=6&query=digital%20publications&position=31&from_view=search&track=ais&uuid=aebc27b5-9e28-4e2e-8623-cf099259e8d4">Image by pch.vector</a> on Freepik <br><a href="https://www.freepik.com/free-vector/tiny-male-author-screenwriter-writing-story-movie-script-screenplay-writer-vintage-typewriter-with-paper-flat-vector-illustration-creativity-journalism-concept-banner-landing-web-page_28480871.htm#page=7&query=digital%20publications&position=48&from_view=search&track=ais&uuid=6db26ec2-b2e8-47af-9f3a-fd6c8fa9691a">Image by pch.vector</a> on Freepik <br><a href="https://www.freepik.com/free-vector/cooking-as-hobby-composition-with-man-enjoying-culinary-experience-tasting-dishes-his-kitchen_14658237.htm#page=2&query=cooking&position=9&from_view=search&track=sph&uuid=155eb9a9-94bd-4777-baa4-619f203f61cd">Image by macrovector</a> on Freepik <br><a href="https://www.freepik.com/free-ai-image/3d-digital-render-boy-with-camera-isolated-white-background_65674906.htm#page=2&query=photography&position=14&from_view=search&track=sph&uuid=892372e8-8766-443a-8b38-e8423cab3d87">Image By flatart</a> <br><a href="https://www.freepik.com/free-ai-image/3d-render-little-boy-with-chef-s-hat-cooking_65677440.htm#fromView=search&term=cooking+coding&page=1&position=41&track=ais_ai_generated&regularType=ai">Image By flatart</a> <br><a href="https://www.freepik.com/free-ai-image/3d-illustration-cartoon-character-with-camera-backpack_65675242.htm#fromView=search&term=photographer&page=1&position=18&track=ais_ai_generated&regularType=ai">Image By flatart</a> <br><a href="https://www.freepik.com/free-ai-image/3d-render-little-boy-with-glasses-tie-white-background_65675794.htm#fromView=search&term=programmer+toon&page=1&position=23&track=ais_ai_generated&regularType=ai">Image By flatart</a> <br><br> | <a href="https://www.freepik.com/free-ai-image/3d-portrait-people_66108324.htm#fromView=search&term=coding+toon&page=1&position=0&track=ais_ai_generated&regularType=ai&uuid=1f5fbf31-a1bd-4212-881a-d2100972ea69">Image By freepik</a><br><a href="https://www.freepik.com/free-ai-image/view-3d-man-dish-washing_59992327.htm#fromView=search&term=cooking+toon&page=1&position=14&track=ais_ai_generated&regularType=ai&uuid=1ae07e54-7149-4d19-a7e4-ad8d4263f6b7">Image By freepik</a><br><a href="https://www.freepik.com/free-vector/hand-drawn-teamwork-concept_20224953.htm#query=collaborate%20toon&position=7&from_view=search&track=ais&uuid=fb02762c-96d5-4ff6-9e14-7de5cd8538f4">Image by pikisuperstar</a> on Freepik<br><a href="https://www.freepik.com/free-vector/children-with-word-thank-you_30978983.htm#query=thanks%20toon&position=34&from_view=search&track=ais&uuid=f02076c5-25ae-4e5b-8514-98d8fb07ff06">Image by brgfx</a> on Freepik<br><a href="https://storyset.com/communication">Communication illustrations by Storyset</a><br><a href="https://www.freepik.com/free-ai-image/3d-illustration-cartoon-boy-with-camera-his-shoulder_89263424.htm#fromView=search&term=nature+photographer&page=2&position=24&track=ais_ai_generated&regularType=ai&uuid=42744f4b-f80b-4cc3-9f31-4ca9ec41dc80">Image By flatart</a><br><a href="https://storyset.com/work">Work illustrations by Storyset</a> <br><a href="https://www.freepik.com/free-vector/watercolour-background-with-leaves_15206849.htm#query=old%20paper&position=0&from_view=keyword&track=ais&uuid=b617e034-55fc-45d9-a8ab-625e6005af89">Image by VecMes</a> on Freepik <br>|
