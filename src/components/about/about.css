@@ -8,10 +8,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 30px;
-  margin-top: "50px";
+  margin-top: 50px;
   flex-direction: column;
-  justify-content: "center";
-  align-items: "center";
+  justify-content: center;
+  align-items: center;
 }
 
 .about-text {
