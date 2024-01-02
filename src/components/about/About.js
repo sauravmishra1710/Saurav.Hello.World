@@ -32,7 +32,6 @@ const About = () => {
           <div
             style={{
               padding: "10px",
-              marginTop: "60px",
               width: "90%",
             }}
           >
@@ -52,7 +51,7 @@ const About = () => {
                       </Bounce>
                     </Col>
                     <Col lg={6} xs={3}>
-                      <Bounce right duration={1000}>
+                      <Bounce left duration={1000}>
                         <div>
                           <img
                             src={programmer_toon}
