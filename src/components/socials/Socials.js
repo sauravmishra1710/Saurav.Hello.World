@@ -11,7 +11,7 @@ const Socials = () => {
   return (
     <>
       <div style={{marginBottom: "40px",display: "flex",flexDirection:"column",justifyContent: "center",alignItems: "center"}}>
-        <Row style={{ margin: "100px 10px 20px 25px" }}>
+        <Row style={{ margin: "100px 20px 20px 25px" }}>
           <Col md={9}>
             <h1 className="purple heading">My Stories from behind the Lens</h1>
             <div className="socials-text">

@@ -31,7 +31,7 @@ const Projects = () => {
           <Col md={5}>
             <div
               className="col-lg-8"
-              style={{ marginTop: "80px", marginLeft: "25px" }}
+              style={{ marginTop: "60px", marginLeft: "25px", marginRight: "20px" }}
             >
                 <h1 className="purple heading">
                   Projects
