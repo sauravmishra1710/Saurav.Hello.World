@@ -151,7 +151,7 @@ function Contact() {
                   <p>&nbsp;</p>
                   <Row>
                     <Col>
-                      <Bounce right>
+                      <Bounce top>
                         <li>
                           <div className="social-icons-container">
                             <a
@@ -241,7 +241,7 @@ function Contact() {
                     </Col>
 
                     <Col>
-                      <Bounce left>
+                      <Bounce bottom>
                         <li>
                           <div className="social-icons-container">
                             <a
@@ -313,7 +313,7 @@ function Contact() {
               </div>
             </Col>
             <Col md={6}>
-              <Fade right>
+              <Fade top>
                 <div className="col-lg-6">
                   <img src={contactImgs} alt="" height={800} width={1000} id="collabImg" className="contactImgs"/>
                 </div>
@@ -329,7 +329,7 @@ function Contact() {
 
             <div className="contact-div">
               <div id="emailImg">
-                <Bounce right>
+                <Bounce left>
                   <div>
                     <img src={emailImg} alt="" height={300} width={400} />
                   </div>
