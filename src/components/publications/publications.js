@@ -156,7 +156,7 @@ const Publications = () => {
       <Container fluid>
         <Row>
           <Col md={6}>
-            <div className="col-lg-10" style={{ marginTop: "60px", marginLeft: "25px" }}>
+            <div className="col-lg-10" style={{ marginTop: "60px", marginLeft: "25px", marginRight: "20px" }}>
               <h1 className="purple heading">Peer Reviewed Publications</h1>
               <div className="publications-text">
                 <p>
