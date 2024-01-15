@@ -6,9 +6,9 @@
 
 <p align="center">
   </br>
-  <a href="https://app.netlify.com/sites/saurav-hello-world/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/28e7b6b5-700f-4f3d-b6e1-dfe925e05ba1/deploy-status?style=flat-square" /></a>
-  </br>
-  View Deployment: https://saurav-hello-world.netlify.app
+    <a href="https://app.netlify.com/sites/saurav-hello-world/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/28e7b6b5-700f-4f3d-b6e1-dfe925e05ba1/deploy-status?style=flat-square" /></a>
+  </br></br>
+  <a href="https://saurav-hello-world.netlify.app"><img src="https://github.com/sauravmishra1710/Saurav.Hello.World/blob/0014828caa1b6beedc52e7a41520c6fb903bec37/src/img/readme%20_resources/view-deployment--saurav.hello.world.svg"/</a>
 </p>
 </br>
 <p align="center">
@@ -16,9 +16,8 @@
   <a href="https://nodejs.org/en/blog/release/v12.13.0/"><img alt="NodeJS" src="https://img.shields.io/badge/node-12.22.12-important?style=flat-square" /></a>
   <a href="https://www.npmjs.com/package/npm/v/6.13.4"><img alt="NPM" src="https://img.shields.io/badge/npm-6.14.16-blueviolet?style=flat-square" /></a>
   <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
-  <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square?style=flat-square" /></a>
   <br/>
-  <a href="http://badges.mit-license.org/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
+  <a ><img alt="License" src="https://img.shields.io/badge/no-copyright-issues" /></a>
   <a href="https://github.com/sauravmishra1710/Saurav.Hello.World/commits/main/"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
   <a href="http://badges.mit-license.org/"><img alt="Website" src="https://img.shields.io/badge/website-up-yellow?style=flat-square" /></a>
   <a href="https://saurav-hello-world.netlify.app/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
@@ -36,10 +35,22 @@
   <a href="https://forthebadge.com"><img alt="License" src="https://img.shields.io/github/forks/sauravmishra1710/Saurav.Hello.World?color=red&logo=github&style=for-the-badge" /></a> &nbsp;
 </p>
 
+<h3 align="center">
+    <a href="https://github.com/sauravmishra1710/Saurav.Hello.World/issues"><img src="https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/readme%20_resources/report-a-bug.svg"/></a> &nbsp; &nbsp;
+    <a href="https://github.com/sauravmishra1710/Saurav.Hello.World/issues"><img src="https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/readme%20_resources/request-a-feature.svg"/></a>
+</h3>
+
+
 <p align="center">
   <img src="https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/readme%20_resources/SplashScreen.jpg" width="350" height="450">
 </p>
 <p align="center">If you want to discuss about something, you can ask on my <a href="https://www.linkedin.com/in/saurav-mishra1710/">Linkedin</a> or connect via <a href="mailto:saurav.mishra@live.com">email</a>.</p>
+
+## Fork & Use
+<p>
+  Feel free to fork this repo to modify the template, make changes for your own space. No Copyright Issues. However, I request to give proper credit and attribution by linking back to 
+  <a href="https://github.com/sauravmishra1710/Saurav.Hello.World/">Saurav.Hello.World</a> </br></br> Thanks!
+</p>
 
 ## Portfolio Sections
 - ✔️ Home page<br>
@@ -122,7 +133,6 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 
 #### Play Full Video
 https://github.com/sauravmishra1710/Saurav.Hello.World/assets/42633345/252f8434-e8c2-4380-a2f3-32d61ce7e30c
-
 
 ## References
 
