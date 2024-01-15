@@ -331,7 +331,7 @@ function Contact() {
               <div id="emailImg">
                 <Bounce left>
                   <div>
-                    <img src={emailImg} alt="" height={300} width={400} />
+                    <img src={emailImg} alt="" height={300} width={345} />
                   </div>
                 </Bounce>
               </div>
