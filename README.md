@@ -36,6 +36,16 @@
   <a href="https://forthebadge.com"><img alt="License" src="https://img.shields.io/github/forks/sauravmishra1710/Saurav.Hello.World?color=red&logo=github&style=for-the-badge" /></a> &nbsp;
 </p>
 
+<h3 align="center">
+    🔹
+    <a href="https://github.com/sauravmishra1710/Saurav.Hello.World/issues">Report a Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/sauravmishra1710/Saurav.Hello.World/issues">Request a Feature</a>
+
+  [![forthebadge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTkuMDc4MTYzMTQ2OTcyNjYiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAxOTkuMDc4MTYzMTQ2OTcyNjYgMzUiPjxyZWN0IHdpZHRoPSIxMDYuNDUzMTQ3ODg4MTgzNiIgaGVpZ2h0PSIzNSIgZmlsbD0iIzMxQzRGMyIvPjxyZWN0IHg9IjEwNi40NTMxNDc4ODgxODM2IiB3aWR0aD0iOTIuNjI1MDE1MjU4Nzg5MDYiIGhlaWdodD0iMzUiIGZpbGw9IiNlYjJhMGIiLz48dGV4dCB4PSI1My4yMjY1NzM5NDQwOTE4IiB5PSIxNy41IiBmb250LXNpemU9IjEyIiBmb250LWZhbWlseT0iJ1JvYm90bycsIHNhbnMtc2VyaWYiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGFsaWdubWVudC1iYXNlbGluZT0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMiI+UkVRVUVTVCBBPC90ZXh0Pjx0ZXh0IHg9IjE1Mi43NjU2NTU1MTc1NzgxMiIgeT0iMTcuNSIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IidNb250c2VycmF0Jywgc2Fucy1zZXJpZiIgZmlsbD0iI0ZGRkZGRiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjkwMCIgYWxpZ25tZW50LWJhc2VsaW5lPSJtaWRkbGUiIGxldHRlci1zcGFjaW5nPSIyIj5GRUFUVVJFPC90ZXh0Pjwvc3ZnPg==)](https://forthebadge.com)
+</h3>
+
+
 <p align="center">
   <img src="https://github.com/sauravmishra1710/Saurav.Hello.World/blob/dev/src/img/readme%20_resources/SplashScreen.jpg" width="350" height="450">
 </p>
