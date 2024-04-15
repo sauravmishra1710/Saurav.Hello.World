@@ -33,7 +33,7 @@ function CertificationStack() {
           />
 
           <CertificationCard
-            course_title="Oracle Machine Learning using Autonomous Database Certified Associate"
+            course_title="OCI ML using Autonomous Database Associate"
             course_org="Oracle University"
             course_org_link="https://education.oracle.com/oracle-machine-learning-using-autonomous-database-2023-associate/pexam_1Z0-1096-23"
             course_logo={OMLADB2023CA}
