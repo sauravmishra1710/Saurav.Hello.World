@@ -119,7 +119,7 @@ const Projects = () => {
                   "Perform a survival analysis based on the time-to-event (death event) for the subjects to assess the likelihood of a death and severity of the heart failure condition.",
                   "Key technologies: Python 3.8.8, Numpy, Pandas, Matplotlib, Plotly, Kaplan-Meier estimates, Cox regression models XGBoost, and LightGBM ",
                 ]}
-                miscDescription="View Paper"
+                miscDescription="Read Paper"
                 image={heartAnalysisImg}
               />
 
@@ -131,7 +131,7 @@ const Projects = () => {
                   "This study aims to build a time efficient system by applying snapshot ensemble techniques based on deep learning to automate the detection of the parasite using whole slide images of thin blood smears.",
                   "Key technologies: Python, Tensorflow, OpenCV, Scikit-image, Matplotlib, Numpy, Pandas",
                 ]}
-                miscDescription="Journal Publication"
+                miscDescription="Read Paper"
                 image={malaria}
               />
 
