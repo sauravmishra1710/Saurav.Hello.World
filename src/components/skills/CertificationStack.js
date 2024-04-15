@@ -8,11 +8,12 @@ import NR_Observability_Foundations from "../../img/certifications/NR_Observabil
 import NR_Full_Stack_Observability_Practitioner from "../../img/certifications/NR_Full_Stack_Observability_Practitioner.png";
 import OpevCV_DeepLearning from "../../img/certifications/OpevCV_DeepLearning.jpeg";
 import DeepLearningAI from "../../img/certifications/DeepLearningAI.png";
-import PythonBootcamp from "../../img/certifications/PythonBootcamp.png";
+import OCIDSP2023OPN from "../../img/certifications/OCIDSP2023OPN.png";
 import PySimpleGui from "../../img/certifications/pysimplegui.png";
-import Tensorflow_With_Python from "../../img/certifications/Tensorflow_With_Python.png";
+import OCI23AIFCA from "../../img/certifications/OCI23AIFCA.png";
 import OpenCV from "../../img/certifications/OpenCV.png";
-import EnsembleLearning from "../../img/certifications/EnsembleLearning.png";
+import OMLADB2023CA from "../../img/certifications/OMLADB2023CA.png";
+import OCIF2023CA from "../../img/certifications/OCIF2023CA.png";
 
 function CertificationStack() {
   return (
@@ -22,6 +23,42 @@ function CertificationStack() {
           Certifications & Badges
         </h2>
         <div className="all-skills-container">
+          <CertificationCard
+            course_title="OCI Certified Data Science Professional"
+            course_org="Oracle University"
+            course_org_link="https://education.oracle.com/oracle-cloud-infrastructure-data-science-2023-certified-professional/trackp_OCIDSP2023OPN"
+            course_logo={OCIDSP2023OPN}
+            certificate_link="https://catalog-education.oracle.com/pls/certview/sharebadge?id=1D3D588E4877E8A8A66DE1BA9DFBCB332A4488207BEE9FBCAA56A47A60F76B60"
+            certificate_color_code="#d29f5e"
+          />
+
+          <CertificationCard
+            course_title="Oracle Machine Learning using Autonomous Database Certified Associate"
+            course_org="Oracle University"
+            course_org_link="https://education.oracle.com/oracle-machine-learning-using-autonomous-database-2023-associate/pexam_1Z0-1096-23"
+            course_logo={OMLADB2023CA}
+            certificate_link="https://catalog-education.oracle.com/pls/certview/sharebadge?id=EB3492006DC2DEC001B2DFE8D40F61699C22921F1F3549A5B5CD6F8FAC415C4B"
+            certificate_color_code="#d9e0ed"
+          />
+
+          <CertificationCard
+            course_title="OCI AI Certified Foundations Associate"
+            course_org="Oracle University"
+            course_org_link="https://mylearn.oracle.com/ou/learning-path/become-an-oci-ai-foundations-associate-2023/127177"
+            course_logo={OCI23AIFCA}
+            certificate_link="https://catalog-education.oracle.com/pls/certview/sharebadge?id=E2C8645D7E5B1D381282E2961DED6EBE67CAD5C5D6FDA25EA6C8483819224CD5"
+            certificate_color_code="#ad795e"
+          />
+
+          <CertificationCard
+            course_title="OCI Certified Foundations Associate"
+            course_org="Oracle University"
+            course_org_link="https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2023/122043"
+            course_logo={OCIF2023CA}
+            certificate_link="https://catalog-education.oracle.com/pls/certview/sharebadge?id=4DBEF6FEA727973AD7E30CEE7B2F23DE44E08FBC67A30ED3985736CD4F4165BC"
+            certificate_color_code="#9b5734"
+          />
+
           <CertificationCard
             course_title="New Relic Observability Practitioner Badge"
             course_org="New Relic University"
@@ -59,48 +96,12 @@ function CertificationStack() {
           />
 
           <CertificationCard
-            course_title="AI for Medical Diagnosis"
-            course_org="DeepLearning.AI"
-            course_org_link="https://www.coursera.org/learn/ai-for-medical-diagnosis"
-            course_logo={DeepLearningAI}
-            certificate_link="https://www.coursera.org/account/accomplishments/verify/6S66A6AVQRZ7"
-            certificate_color_code="#477E96"
-          />
-
-          <CertificationCard
-            course_title="AI for Medical Prognosis"
-            course_org="DeepLearning.AI"
-            course_org_link="https://www.coursera.org/learn/ai-for-medical-prognosis"
-            course_logo={DeepLearningAI}
-            certificate_link="https://www.coursera.org/account/accomplishments/verify/P9EMJ7E2MMQF"
-            certificate_color_code="#76FBC6"
-          />
-
-          <CertificationCard
-            course_title="AI for Medical Treatment"
-            course_org="DeepLearning.AI"
-            course_org_link="https://www.coursera.org/learn/ai-for-medical-treatment"
-            course_logo={DeepLearningAI}
-            certificate_link="https://www.coursera.org/account/accomplishments/verify/3HT5E53TQZQE"
-            certificate_color_code="#EC8590"
-          />
-
-          <CertificationCard
             course_title="AI for Medicine Specialization"
             course_org="DeepLearning.AI"
             course_org_link="https://www.deeplearning.ai/courses/ai-for-medicine-specialization/"
             course_logo={DeepLearningAI}
             certificate_link="https://www.coursera.org/account/accomplishments/specialization/KQD3MKQFMMYS"
             certificate_color_code="#3C7AE4"
-          />
-
-          <CertificationCard
-            course_title="The Complete Python Bootcamp From Zero to Hero in Python"
-            course_org="Ûdemy"
-            course_org_link="https://www.udemy.com/course/complete-python-bootcamp/"
-            course_logo={PythonBootcamp}
-            certificate_link="https://www.udemy.com/certificate/UC-98C1HHE3/"
-            certificate_color_code="#F7D35D"
           />
 
           <CertificationCard
@@ -113,30 +114,12 @@ function CertificationStack() {
           />
 
           <CertificationCard
-            course_title="Complete Guide to TensorFlow for Deep Learning with Python"
-            course_org="Ûdemy"
-            course_org_link="https://www.udemy.com/course/complete-guide-to-tensorflow-for-deep-learning-with-python/"
-            course_logo={Tensorflow_With_Python}
-            certificate_link="https://www.udemy.com/certificate/UC-6ce00d32-51c0-476a-8c1b-df4510f989ad/"
-            certificate_color_code="#E8963E"
-          />
-
-          <CertificationCard
             course_title="Python for Computer Vision with OpenCV and Deep Learning"
             course_org="Ûdemy"
             course_org_link="https://www.udemy.com/course/python-for-computer-vision-with-opencv-and-deep-learning/"
             course_logo={OpenCV}
             certificate_link="https://www.udemy.com/certificate/UC-6a34b9c2-0090-47da-a054-02fc528530b7/"
             certificate_color_code="#E4EBF7"
-          />
-
-          <CertificationCard
-            course_title="Ensemble Machine Learning in Python: Random Forest, AdaBoost"
-            course_org="Ûdemy"
-            course_org_link="https://www.udemy.com/course/machine-learning-in-python-random-forest-adaboost/"
-            course_logo={EnsembleLearning}
-            certificate_link="https://www.udemy.com/certificate/UC-9e020524-b603-4d21-9101-a008cf5e4908/"
-            certificate_color_code="#D4FDA8"
           />
         </div>
       </div>
