@@ -20,6 +20,7 @@ const CertificationCard = ({course_title, course_org, course_org_link, course_lo
                 <img
                   className="logo_img"
                   src={course_logo}
+                  aria-label="Certification Logo"
                 />
               </div>
               <div className="content-details fadeIn-top">
