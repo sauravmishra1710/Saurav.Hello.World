@@ -512,7 +512,7 @@ const About = () => {
                       </span>
                       ,{" "}
                       <span style={{ color: "red" }}>
-                        <b>Royan Challengers Bangalore</b>
+                        <b>Royal Challengers Bangalore</b>
                       </span>
                       , or just have a{" "}
                       <span className="purple">
