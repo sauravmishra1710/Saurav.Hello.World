@@ -402,7 +402,7 @@ const About = () => {
                       sunny day or a coludy rainy day, photography is worth any
                       kind of conditions and environment. It’s about being at
                       the right place at the right time. Sometimes you get
-                      lucky, and sometimes times it's about waiting for that
+                      lucky, and sometimes it's about waiting for that
                       right moment and the right place to get the right click.
                       Whatever it be like,{" "}
                       <span className="purple">
