@@ -521,11 +521,16 @@ const About = () => {
                         </b>
                       </span>{" "}
                       I'm always ready. I am available in almost every social
-                      platform and my inbox is open for all. I am just a{" "}
-                      <span className="purple">
-                        <b>request away</b>
-                      </span>{" "}
-                      to collaborate.
+                      platform and my inbox is open for all.
+                      <p>
+                        <br></br>
+                        I am just a{" "}
+                        <span className="purple">
+                          <b>request away</b>
+                        </span>{" "}
+                        to collaborate.
+                        
+                      </p>
                     </p>
                   </div>
                 </Col>
