@@ -87,15 +87,6 @@ function CertificationStack() {
           />
 
           <CertificationCard
-            course_title="Introduction to Deep Learning with OpenCV"
-            course_org="LinkedIn Learning"
-            course_org_link="https://www.linkedin.com/learning/introduction-to-deep-learning-with-opencv"
-            course_logo={OpevCV_DeepLearning}
-            certificate_link="https://www.linkedin.com/learning/certificates/cdc38890e3f1ac4f3ac362b49480363b14e63069359b1915531836780d04dc99?trk=backfilled_certificate&accountId=42751868&u=42751868&success=true&authUUID=nw95o0sjRAiNFAMttjj2YQ%3D%3D"
-            certificate_color_code="#E0E0E0"
-          />
-
-          <CertificationCard
             course_title="AI for Medicine Specialization"
             course_org="DeepLearning.AI"
             course_org_link="https://www.deeplearning.ai/courses/ai-for-medicine-specialization/"
@@ -111,15 +102,6 @@ function CertificationStack() {
             course_logo={PySimpleGui}
             certificate_link="https://www.udemy.com/certificate/UC-5e397ce4-0666-4963-b142-6850142842bd/"
             certificate_color_code="#282828"
-          />
-
-          <CertificationCard
-            course_title="Python for Computer Vision with OpenCV and Deep Learning"
-            course_org="Ûdemy"
-            course_org_link="https://www.udemy.com/course/python-for-computer-vision-with-opencv-and-deep-learning/"
-            course_logo={OpenCV}
-            certificate_link="https://www.udemy.com/certificate/UC-6a34b9c2-0090-47da-a054-02fc528530b7/"
-            certificate_color_code="#E4EBF7"
           />
         </div>
       </div>
