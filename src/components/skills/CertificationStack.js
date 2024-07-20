@@ -6,14 +6,14 @@ import "./skills.css";
 import NR_Observability_Practitioner from "../../img/certifications/NR_Observability_Practitioner.png";
 import NR_Observability_Foundations from "../../img/certifications/NR_Observability_Foundations.png";
 import NR_Full_Stack_Observability_Practitioner from "../../img/certifications/NR_Full_Stack_Observability_Practitioner.png";
-import OpevCV_DeepLearning from "../../img/certifications/OpevCV_DeepLearning.jpeg";
 import DeepLearningAI from "../../img/certifications/DeepLearningAI.png";
 import OCIDSP2023OPN from "../../img/certifications/OCIDSP2023OPN.png";
 import PySimpleGui from "../../img/certifications/pysimplegui.png";
 import OCI23AIFCA from "../../img/certifications/OCI23AIFCA.png";
-import OpenCV from "../../img/certifications/OpenCV.png";
 import OMLADB2023CA from "../../img/certifications/OMLADB2023CA.png";
 import OCIF2023CA from "../../img/certifications/OCIF2023CA.png";
+import OCI2024GAIOCP from "../../img/certifications/OCI2024GAIOCP.png";
+
 
 function CertificationStack() {
   return (
@@ -23,10 +23,19 @@ function CertificationStack() {
           Certifications & Badges
         </h2>
         <div className="all-skills-container">
+        <CertificationCard
+            course_title="OCI 2024 Generative AI Certified Professional"
+            course_org="Oracle University"
+            course_org_link="https://education.oracle.com/oracle-cloud-infrastructure-2024-generative-ai-professional/pexam_1Z0-1127-24"
+            course_logo={OCI2024GAIOCP}
+            certificate_link="https://catalog-education.oracle.com/pls/certview/sharebadge?id=F9F58B80B8146F7515260AF4A40D60B067C91059E8CAB00DB4C8979A8F9E792A"
+            certificate_color_code="#d29f5e"
+          />
+
           <CertificationCard
             course_title="OCI Certified Data Science Professional"
             course_org="Oracle University"
-            course_org_link="https://education.oracle.com/oracle-cloud-infrastructure-data-science-2023-certified-professional/trackp_OCIDSP2023OPN"
+            course_org_link="https://education.oracle.com/oracle-cloud-infrastructure-2024-data-science-professional/pexam_1Z0-1110-24"
             course_logo={OCIDSP2023OPN}
             certificate_link="https://catalog-education.oracle.com/pls/certview/sharebadge?id=1D3D588E4877E8A8A66DE1BA9DFBCB332A4488207BEE9FBCAA56A47A60F76B60"
             certificate_color_code="#d29f5e"
