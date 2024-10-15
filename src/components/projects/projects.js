@@ -21,6 +21,10 @@ import imageviewer from "../../img/projects/PyImageViewer.jpg";
 import covid19Analysis from "../../img/projects/covid19_analysis.jpg";
 import facemask from "../../img/projects/FaceMask.jpg";
 import healthcareAI from "../../img/projects/HealthcareAI.jpg";
+import dynamic_search from "../../img/projects/dynamic_search.gif";
+import PaginationControlled from "../../img/projects/PaginationControlled.png";
+import PaginationWithBookmark from "../../img/projects/PaginationWithBookmark.png";
+
 
 const Projects = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -51,14 +55,13 @@ const Projects = () => {
                     <span className="purple">
                       <b>
                         {" "}
-                        my learnings into practical solutions to gain much
-                        needed hands-on experience
+                        my learnings into practical solutions to create something useful
                       </b>
                     </span>
                     .
                   </p>
                 <p></p>
-                  <p>Here are a few projects I have worked on...</p>
+                  <p>Here are the projects I have worked on...</p>
               </div>
             </div>
           </Col>
@@ -99,17 +102,6 @@ const Projects = () => {
                 justifyContent: "space-evenly",
               }}
             >
-              <Card
-                title="Image Classification with React and Tensorflow JS"
-                srcLink="https://github.com/sauravmishra1710/Image-Classification-with-React-and-Tensorflow-js/"
-                miscLink="https://sauravmishra1710.github.io/Image-Classification-with-React-and-Tensorflow-js/"
-                description={[
-                  "A simple image classification app created using tensorflow-js and react. The app uses the pre-built MobileNet v2 model for image classification without going through any additional training process.",
-                  "Key Technologies Used: ReactJS, TensorflowJS, and hosted on github pages.",
-                ]}
-                miscDescription="Demo"
-                image={imgClassification}
-              />
 
               <Card
                 title="Heart Failure Condition And Survival Analysis"
@@ -206,6 +198,70 @@ const Projects = () => {
                 miscDescription="Demo"
                 image={covid19Analysis}
               />
+            </div>
+          </div>
+        </Row>
+        
+        {/* Web Apps */}
+        <Row>
+          <div
+            style={{
+              padding: "10px",
+              display: "flex",
+              justifyContent: "center",
+              flexDirection: "column",
+              alignItems: "center",
+              // color: theme ? "white" : "black"
+            }}
+            id="projectSection"
+          >
+              <h1 id="projectHeading" className="purple">
+                Web Apps - React JS & Ruby
+              </h1>
+            <div
+              style={{
+                padding: "10px",
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "space-evenly",
+              }}
+            >
+              <Card
+                title="Dynamic Search Filter"
+                srcLink="https://github.com/sauravmishra1710/Dynamic-Search-Filter"
+                miscLink="https://dynamic-search-filter.netlify.app/"
+                description={[
+                  "A search filter for a list of items, such as a list of products or contacts. The filter updates the displayed items based on the search input in real-time.",
+                  "Key Technologies Used: ReactJS and hosted on netlify.",
+                ]}
+                miscDescription="Demo"
+                image={dynamic_search}
+              />
+
+              <Card
+                title="Pagination Component"
+                srcLink="https://github.com/sauravmishra1710/Pagination-Component"
+                miscLink="https://react-pagination-component.netlify.app/"
+                description={[
+                  "Creates a pagination component for a list of items fetched from an API. User navigates between pages, and ensure the data is displayed correctly using the Progressive & COntrolled ways of pagination",
+                  "Key Technologies Used: ReactJS and hosted on netlify.",
+                ]}
+                miscDescription="Demo"
+                image={PaginationControlled}
+              />
+
+              <Card
+                title="Pagination witn Bookmark"
+                srcLink="https://github.com/sauravmishra1710/Pagination-with-Bookmark"
+                miscLink="https://pagination-with-bookmark.netlify.app/"
+                description={[
+                  "A pagination component with ability to bookmark items in the paginated list & able to navigate to the bookmarked item on click of the corresponding bookmark reference.",
+                  "Key Technologies Used: ReactJS and hosted on netlify.",
+                ]}
+                miscDescription="Demo"
+                image={PaginationWithBookmark}
+              />
+
             </div>
           </div>
         </Row>
